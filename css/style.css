@@ -2,15 +2,15 @@
    Brand: Warriors black / red / gold, with the team's blue for "us" in every chart. */
 :root {
   color-scheme: dark;
-  --page: #090d13;
-  --surface: #111821;
-  --surface-2: #18212d;
-  --surface-3: #212c3b;
+  --page: #061024;
+  --surface: #0b1a36;
+  --surface-2: #102344;
+  --surface-3: #172d55;
   --ink: #eef2f7;
   --ink-2: #b6c0cd;
   --muted: #8995a7;          /* 5.6:1 on --surface */
-  --grid: #222d3c;
-  --axis: #3a4a5f;
+  --grid: #1a2c4e;
+  --axis: #34496f;
   --border: rgba(255, 255, 255, 0.08);
   --border-2: rgba(255, 255, 255, 0.16);
   --us: #3d8bff;             /* our team (blue)  - categorical slot 1 */
@@ -18,13 +18,13 @@
   --us-wash: rgba(61, 139, 255, 0.26);
   --them-wash: rgba(255, 138, 71, 0.22);
   --neutral-zone: #5a6575;
-  --red: #d6202c;            /* Warriors red */
-  --red-hi: #ff3e4a;
-  --gold: #f2b705;           /* Warriors gold */
-  --gold-ink: #1b1400;
+  --red: #c8283c;            /* Warriors red (logo) */
+  --red-hi: #ff4a5e;
+  --gold: #f4f6fb;           /* Warriors white: highlight accent */
+  --gold-ink: #0a1e43;
   --accent: #7db6ff;         /* links */
   --accent-ink: #06101f;
-  --focus: #f2b705;
+  --focus: #ffffff;
   --warn-bg: #2c2410;
   --warn-ink: #ffe3a3;
   --radius: 14px;
@@ -67,7 +67,7 @@ button { font-family: inherit; }
 }
 .site-header .wrap, .site-header .wrap-wide { display: flex; align-items: center; gap: 12px; padding-top: 10px; padding-bottom: 10px; }
 .brand { display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none; min-width: 0; }
-.brand .crest { flex: none; width: 46px; height: auto; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, .5)); }
+.brand .crest { flex: none; width: 52px; height: auto; filter: drop-shadow(0 2px 6px rgba(0, 0, 0, .5)); }
 .brand-text { display: flex; flex-direction: column; min-width: 0; line-height: 1; }
 .brand-team { font: 800 26px/1 var(--display); text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; }
 .brand-sub { font: 600 12px/1.2 var(--display); text-transform: uppercase; letter-spacing: .14em; color: var(--gold); margin-top: 4px; white-space: nowrap; }
@@ -78,7 +78,7 @@ button { font-family: inherit; }
 .nav a[aria-current="page"] { color: #fff; box-shadow: inset 0 -3px 0 var(--red); border-radius: 8px 8px 0 0; }
 @media (max-width: 520px) {
   .brand { gap: 8px; }
-  .brand .crest { width: 36px; }
+  .brand .crest { width: 40px; }
   .brand-team { font-size: 20px; }
   .brand-sub { font-size: 10.5px; letter-spacing: .1em; }
   .nav a { padding: 8px 7px; font-size: 13px; letter-spacing: .05em; }
@@ -303,7 +303,7 @@ kbd { font: 600 11px/1 var(--font); border: 1px solid var(--axis); border-bottom
 .period-head .pj:hover { color: #fff; }
 .ev { position: relative; display: grid; grid-template-columns: 50px 22px minmax(0, 1fr) auto; gap: 2px 8px; align-items: center; width: 100%; text-align: left; font: inherit; color: inherit; background: transparent; border: 0; border-bottom: 1px solid var(--border); padding: 9px 14px; cursor: pointer; }
 .ev:hover { background: var(--surface-2); }
-.ev.active { background: linear-gradient(90deg, rgba(242, 183, 5, .16), rgba(242, 183, 5, .04)); }
+.ev.active { background: linear-gradient(90deg, rgba(200, 40, 60, .22), rgba(200, 40, 60, .05)); }
 .ev.active::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--gold); }
 .ev.goal .what b { color: #fff; }
 .ev .time { font: 700 16px/1 var(--display); letter-spacing: .02em; color: var(--ink-2); }

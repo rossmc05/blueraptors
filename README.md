@@ -115,4 +115,4 @@ Keyboard: <kbd>Space</kbd>/<kbd>K</kbd> play/pause, <kbd>←</kbd>/<kbd>→</kbd
 
 The site uses a dark "arena" theme in Northwest Warriors black, red and gold, with the team's blue for "us" in every chart. Fonts are Barlow and Barlow Condensed from Google Fonts.
 
-`img/nw-warriors-logo.svg` is a **placeholder** crest. To use the association's official logo, save it as `img/nw-warriors-logo.png` and replace `nw-warriors-logo.svg` with `nw-warriors-logo.png` in `index.html`, `game.html` and `season.html` (header, footer and favicon).
+`img/nw-warriors-logo.png` is the Northwest Warriors logo (header and footer); `img/favicon.png` is the tab icon. `img/nw-warriors-logo.svg` is an unused placeholder.
