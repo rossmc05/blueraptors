@@ -18,10 +18,10 @@
     return Promise.all(games.map(function (g) {
       return H.loadGame(g.id).then(function (d) { return { game: g, stats: H.computeStats(g, d) }; },
         function () { return { game: g, stats: null }; });
-    })).then(function (rows) { render(rows); });
+    })).then(function (rows) { render(rows, index); });
   }).catch(function (e) { H.fail(gamesBox, e.message); });
 
-  function render(rows) {
+  function render(rows, index) {
     var gf = 0, ga = 0, sf = 0, sa = 0, att = 0, attN = 0;
     rows.forEach(function (r) {
       if (!r.stats) return;
@@ -37,25 +37,30 @@
 
     gamesBox.textContent = '';
     if (!rows.length) { gamesBox.appendChild(el('p', { class: 'empty', text: 'No games yet.' })); return; }
+    var us = (index.team && index.team.name) || 'Us';
     rows.forEach(function (r) {
-      var g = r.game, s = r.stats;
-      var card = el('a', { class: 'card game-card', href: 'game.html?id=' + encodeURIComponent(g.id) }, [
-        el('div', { class: 'top' }, [
-          el('span', { class: 'date', text: H.fmtDate(g.date) }),
+      var g = r.game, s = r.stats, gl = s && s.total.goals;
+      var row = function (team, name, n, win) {
+        return el('div', { class: 'gc-row ' + team + (win ? ' win' : '') }, [el('i', { class: 'bar', 'aria-hidden': 'true' }),
+          el('span', { class: 'name', text: name, title: name }), el('b', { class: 'num tnum' + (s ? '' : ' dim'), text: s ? String(n) : '–' })]);
+      };
+      var card = el('a', { class: 'card game-card', href: 'game.html?id=' + encodeURIComponent(g.id),
+        'aria-label': 'Watch ' + us + ' vs ' + (g.opponent || 'Opponent') + ', ' + H.fmtDate(g.date) + (s ? ', score ' + gl.us + ' to ' + gl.them : ', video only') }, [
+        el('div', { class: 'gc-top' }, [
+          el('span', { text: H.fmtDate(g.date) }),
+          el('span', { class: 'status' + (s ? '' : ' video'), text: s ? 'Final' : 'Video only' })
+        ]),
+        el('div', { class: 'gc-board' }, [
+          row('us', us, s && gl.us, s && gl.us > gl.them),
+          row('them', g.opponent || 'Opponent', s && gl.them, s && gl.them > gl.us)
+        ]),
+        el('div', { class: 'gc-meta' }, [
+          s ? el('span', { class: 'pill', text: 'Shots ' + s.total.shots.us + '–' + s.total.shots.them }) : null,
+          s && s.zones.total ? el('span', { class: 'pill', text: H.pct(s.zones.total.theirEnd) + ' in their end' }) : null,
           el('span', { class: 'pill', text: (g.periods || []).length + ' periods · ' + H.fmtTime(g.duration) })
         ]),
-        el('div', { class: 'opp', text: 'vs ' + (g.opponent || 'Opponent') }),
-        s ? el('div', { class: 'scoreline' }, [
-          el('span', { class: 'score', 'aria-label': 'Goals: us ' + s.total.goals.us + ', them ' + s.total.goals.them }, [
-            el('i', { class: 'key us', 'aria-hidden': 'true' }), String(s.total.goals.us),
-            el('span', { class: 'dash', text: '–' }),
-            String(s.total.goals.them), el('i', { class: 'key them', 'aria-hidden': 'true', style: 'margin:0 0 0 6px' })
-          ]),
-          el('span', { class: 'meta', text: 'Shots ' + s.total.shots.us + '–' + s.total.shots.them +
-            (s.zones.total ? ' · ' + H.pct(s.zones.total.theirEnd) + ' in their end' : '') })
-        ]) : el('div', { class: 'meta', text: 'Stats not available yet' }),
-        g.summary ? el('div', { class: 'meta', text: g.summary }) : null,
-        el('div', { class: 'go', text: 'Watch game →' })
+        g.summary ? el('p', { class: 'gc-sum', text: g.summary }) : null,
+        el('div', { class: 'gc-go' }, [el('span', { text: '▶ Watch game' })])
       ]);
       gamesBox.appendChild(card);
     });

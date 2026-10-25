@@ -3,17 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>Blue Raptors · Season</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='20' rx='12' ry='5' fill='%230d366b'/%3E%3Crect x='4' y='14' width='24' height='6' fill='%230d366b'/%3E%3Cellipse cx='16' cy='14' rx='12' ry='5' fill='%232a78d6'/%3E%3C/svg%3E">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07090d">
+<title>Season · Blue Raptors</title>
+<link rel="icon" type="image/svg+xml" href="img/nw-warriors-logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&amp;family=Barlow:wght@400;500;600;700&amp;display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-season">
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="./">
-      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="20" rx="12" ry="5" fill="#fff" opacity=".35"/><rect x="4" y="14" width="24" height="6" fill="#fff" opacity=".35"/><ellipse cx="16" cy="14" rx="12" ry="5" fill="#fff"/></svg>
-      <span data-team-name>U9 Hockey</span>
+      <img class="crest" src="img/nw-warriors-logo.svg" alt="Northwest Warriors" width="46" height="54">
+      <span class="brand-text">
+        <span class="brand-team" data-team-name>Blue Raptors</span>
+        <span class="brand-sub">U9<span class="dot">&middot;</span>Northwest Warriors</span>
+      </span>
     </a>
     <nav class="nav" aria-label="Main">
       <a href="./">Games</a>
@@ -22,12 +29,18 @@
   </div>
 </header>
 <main class="wrap" id="main">
-  <p class="kicker">Season 2026-27</p>
-  <h1>Season</h1>
-  <p class="lede">Game-by-game numbers and trends. <span class="legend" style="display:inline-flex;margin:0 0 0 4px"><span><i class="key us"></i>Us</span><span><i class="key them"></i>Opponent</span></span></p>
+  <section class="hero">
+    <p class="kicker">Season 2026-27 &middot; Northwest Warriors U9</p>
+    <h1>Season</h1>
+    <p class="lede">Game-by-game numbers and trends. <span class="legend" style="display:inline-flex;margin:0 0 0 4px"><span><i class="key us"></i>Us</span><span><i class="key them"></i>Opponent</span></span></p>
+  </section>
   <div id="season"><p class="empty">Loading...</p></div>
 </main>
-<footer class="footer wrap">Stats are detected from the rink camera and are approximate. U9 does not keep official scores.</footer>
+<footer class="footer">
+  <img src="img/nw-warriors-logo.svg" alt="" width="34" height="40">
+  <span>Blue Raptors &middot; U9 &middot; Northwest Warriors Minor Hockey, Calgary</span>
+  <span>Stats are detected from the rink camera and are approximate. U9 does not keep official scores.</span>
+</footer>
 <script src="js/common.js"></script>
 <script src="js/season.js"></script>
 </body>

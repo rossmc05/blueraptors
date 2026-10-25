@@ -11,6 +11,7 @@ js/common.js      data loading, stats and helpers (shared)
 js/home.js, js/game.js, js/season.js
 data/games.json   the list of games
 data/games/<id>.json   events and activity for one game
+img/              logo (placeholder crest)
 videos/           video files (optional: see videoBase)
 .nojekyll         stops GitHub Pages from running Jekyll
 ```
@@ -101,4 +102,17 @@ Refresh the page to see the new game. Nothing needs to be rebuilt.
 - Pressure chart = `theirEnd − ourEnd` for each bin, as a 30-second rolling average. Up means attacking, down means defending.
 - Highlights play each `goal`/`shot`/`save`/`chance` that matches the current filters, from 6 s before to 4 s after. Clips that overlap are merged.
 
-Keyboard on the game page: <kbd>J</kbd> back 10 s, <kbd>K</kbd> play/pause, <kbd>L</kbd> forward 10 s.
+## Game page
+
+- The video has one control bar attached under the picture (nothing covers or dims the video on hover): play/pause, back/forward 10 s, time and period, a seek bar with a tick for every key play (gold dots are goals, hatched parts are breaks), previous/next key play, speed (1×, 1.5×, 2×), theatre mode and full screen.
+- Key plays sit beside the video on desktop and scroll on their own; the current play is highlighted. On phones the player sticks to the top of the screen and the list scrolls under it.
+- The game picker, highlights button and "Share moment" (copies a link with `&t=` for the current time) are in the bar above the video.
+- Each browser remembers where the viewer stopped in each game (in `localStorage`) and offers to start over. A `?t=` link always wins.
+
+Keyboard: <kbd>Space</kbd>/<kbd>K</kbd> play/pause, <kbd>←</kbd>/<kbd>→</kbd> 5 s, <kbd>J</kbd>/<kbd>L</kbd> 10 s, <kbd>N</kbd>/<kbd>P</kbd> next/previous key play, <kbd>H</kbd> highlights, <kbd>F</kbd> full screen, <kbd>T</kbd> theatre, <kbd>M</kbd> mute, <kbd>Esc</kbd> exit highlights.
+
+## Branding
+
+The site uses a dark "arena" theme in Northwest Warriors black, red and gold, with the team's blue for "us" in every chart. Fonts are Barlow and Barlow Condensed from Google Fonts.
+
+`img/nw-warriors-logo.svg` is a **placeholder** crest. To use the association's official logo, save it as `img/nw-warriors-logo.png` and replace `nw-warriors-logo.svg` with `nw-warriors-logo.png` in `index.html`, `game.html` and `season.html` (header, footer and favicon).

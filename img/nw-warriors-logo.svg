@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="Northwest Warriors">
+  <!-- Placeholder crest for the Northwest Warriors. Replace with the association's official logo. -->
+  <path d="M60 3 113 17v53c0 35-24 57-53 67C31 127 7 105 7 70V17z" fill="#f2b705"/>
+  <path d="M60 9 107 21.5V70c0 31.5-21.5 51.5-47 60.6C34.5 121.5 13 101.5 13 70V21.5z" fill="#0c0e13"/>
+  <path d="M60 15 101 26v44c0 27.5-18.5 45.5-41 54-22.5-8.5-41-26.5-41-54V26z" fill="none" stroke="#d6202c" stroke-width="3"/>
+  <path d="M35 27h50l-25 7z" fill="#f2b705"/>
+  <g transform="translate(3.9 6.2) scale(.89)">
+    <path d="M22 86V36h11l15 29V36h10v50H47L32 57v29z" fill="#d6202c" transform="translate(2.5 2.5)"/>
+    <path d="M60 36h10.5l3.5 33 5-22h6.5l5 22 3.5-33H104l-8 50H85.5L82 69l-3.5 17H68z" fill="#d6202c" transform="translate(2.5 2.5)"/>
+    <path d="M22 86V36h11l15 29V36h10v50H47L32 57v29z" fill="#fff"/>
+    <path d="M60 36h10.5l3.5 33 5-22h6.5l5 22 3.5-33H104l-8 50H85.5L82 69l-3.5 17H68z" fill="#fff"/>
+  </g>
+  <path d="M8 95h104l-6 9 6 9H8l6-9z" fill="#d6202c" stroke="#f2b705" stroke-width="2"/>
+  <text x="60" y="108.5" text-anchor="middle" fill="#fff" font-family="'Arial Black','Arial Narrow',Impact,Helvetica,sans-serif" font-weight="900" font-size="13" textLength="78" lengthAdjust="spacingAndGlyphs" letter-spacing="1">WARRIORS</text>
+  <path d="m60 117 2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.6-4.8 2.6.9-5.4-3.9-3.8 5.4-.8z" fill="#f2b705"/>
+</svg>

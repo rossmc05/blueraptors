@@ -3,17 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>Blue Raptors · Game</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='20' rx='12' ry='5' fill='%230d366b'/%3E%3Crect x='4' y='14' width='24' height='6' fill='%230d366b'/%3E%3Cellipse cx='16' cy='14' rx='12' ry='5' fill='%232a78d6'/%3E%3C/svg%3E">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07090d">
+<title>Game · Blue Raptors</title>
+<link rel="icon" type="image/svg+xml" href="img/nw-warriors-logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&amp;family=Barlow:wght@400;500;600;700&amp;display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-game">
 <header class="site-header">
-  <div class="wrap">
+  <div class="wrap-wide">
     <a class="brand" href="./">
-      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="20" rx="12" ry="5" fill="#fff" opacity=".35"/><rect x="4" y="14" width="24" height="6" fill="#fff" opacity=".35"/><ellipse cx="16" cy="14" rx="12" ry="5" fill="#fff"/></svg>
-      <span data-team-name>U9 Hockey</span>
+      <img class="crest" src="img/nw-warriors-logo.svg" alt="Northwest Warriors" width="46" height="54">
+      <span class="brand-text">
+        <span class="brand-team" data-team-name>Blue Raptors</span>
+        <span class="brand-sub">U9<span class="dot">&middot;</span>Northwest Warriors</span>
+      </span>
     </a>
     <nav class="nav" aria-label="Main">
       <a href="./">Games</a>
@@ -21,71 +28,91 @@
     </nav>
   </div>
 </header>
-<main class="wrap" id="main">
-  <p class="kicker"><a href="./">&larr; All games</a></p>
-  <h1 id="game-title">Game</h1>
-  <p class="lede" id="game-sub"></p>
-  <div id="game-root">
-    <div class="stage">
-      <div id="player-box"></div>
-      <div class="controls" id="controls">
-        <button class="btn primary" id="btn-hl" type="button">&#9654; Play highlights</button>
-        <button class="btn" id="btn-back" type="button" aria-label="Back 10 seconds">&minus;10s</button>
-        <button class="btn" id="btn-play" type="button" aria-label="Play or pause">Play</button>
-        <button class="btn" id="btn-fwd" type="button" aria-label="Forward 10 seconds">+10s</button>
-        <span class="now tnum" id="now" aria-live="off">0:00</span>
-      </div>
-      <div class="hl-bar" id="hl-bar" role="region" aria-label="Highlights">
-        <div class="hl-text" id="hl-text" aria-live="polite"></div>
-        <button class="btn" id="hl-prev" type="button">&lsaquo; Prev</button>
-        <button class="btn" id="hl-next" type="button">Next &rsaquo;</button>
-        <button class="btn primary" id="hl-stop" type="button">Back to full game</button>
-        <div class="hl-progress"><i id="hl-prog"></i></div>
-      </div>
-      <p class="kbd-hint">Keys: <kbd>J</kbd> back 10s &middot; <kbd>K</kbd> play/pause &middot; <kbd>L</kbd> forward 10s &middot; <kbd>Esc</kbd> exit highlights</p>
+<main id="main" class="game-main">
+  <h1 class="sr-only" id="game-title">Game</h1>
+  <div class="gamebar wrap-wide">
+    <a class="back" href="./">&lsaquo; All games</a>
+    <div class="scorebug" id="scorebug" aria-label="Score"></div>
+    <div class="gamebar-actions">
+      <label class="picker"><span class="sr-only">Choose a game</span><select id="game-pick"></select></label>
+      <button class="btn gold" id="btn-hl" type="button"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5v13L14 8z" fill="currentColor"/></svg><span><span class="t-long">Play </span>highlights</span></button>
+      <button class="btn" id="btn-share" type="button" title="Copy a link to this moment"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 9.5l3-3M7 4.5l1.5-1.5a2.8 2.8 0 014 4L11 8.5M9 11.5L7.5 13a2.8 2.8 0 01-4-4L5 7.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="t-long">Share moment</span><span class="sr-only">Share this moment</span></button>
     </div>
-    <div class="game-layout">
-      <div class="primary">
-
+  </div>
+  <div id="game-root">
+    <div class="wrap-wide stage-wrap">
+      <div class="stage" id="stage">
+        <div class="stage-main" id="stage-main">
+          <div id="player-box"></div>
+          <div class="hl-bar" id="hl-bar" role="region" aria-label="Highlights">
+            <div class="hl-text" id="hl-text" aria-live="polite"></div>
+            <button class="btn" id="hl-prev" type="button">&lsaquo; Prev</button>
+            <button class="btn" id="hl-next" type="button">Next &rsaquo;</button>
+            <button class="btn gold" id="hl-stop" type="button">Back to full game</button>
+            <div class="hl-progress"><i id="hl-prog"></i></div>
+          </div>
+        </div>
+        <aside class="plays" aria-labelledby="ev-h">
+          <div class="plays-inner">
+            <div class="plays-head">
+              <h2 id="ev-h">Key plays <span class="pill" id="ev-count"></span></h2>
+              <details class="filter-pop" id="filter-pop"><summary>Filter <i class="dotf"></i></summary><div class="filters" id="filters"></div></details>
+            </div>
+            <div class="event-scroll" id="events"></div>
+          </div>
+        </aside>
+      </div>
+      <div class="stage-foot">
+        <div class="jumps" id="jumps"></div>
+        <p class="kbd-hint"><kbd>Space</kbd> play/pause &middot; <kbd>&larr;</kbd><kbd>&rarr;</kbd> 5s &middot; <kbd>J</kbd><kbd>L</kbd> 10s &middot; <kbd>N</kbd><kbd>P</kbd> next/prev play &middot; <kbd>F</kbd> full screen &middot; <kbd>T</kbd> theatre &middot; <kbd>Esc</kbd> exit highlights</p>
+      </div>
+    </div>
+    <div class="wrap-wide">
+      <section class="card section summary-card" aria-labelledby="sum-h">
+        <h2 id="sum-h">Game summary</h2>
+        <div class="tiles analytics" id="sum-tiles"></div>
+        <p class="summary-text" id="game-sub"></p>
+      </section>
+      <div class="analytics">
         <section class="card section" aria-labelledby="tl-h">
           <h2 id="tl-h">Timeline</h2>
-          <div class="filters" id="filters"></div>
+          <div class="legend"><span><i class="key us"></i>Us (top lane)</span><span><i class="key them"></i>Opponent (bottom lane)</span><span>Click anywhere to jump the video there</span></div>
           <div class="timeline-wrap">
             <div class="timeline" id="timeline" aria-label="Game timeline. Click to jump."></div>
             <div class="timeline-axis tnum" id="timeline-axis" aria-hidden="true"></div>
           </div>
         </section>
-
-        <section class="card section" aria-labelledby="pr-h">
-          <h2 id="pr-h">Pressure</h2>
-          <div class="legend"><span><i class="key us"></i>Up: we're in their end</span><span><i class="key them"></i>Down: they're in our end</span></div>
-          <div class="chart" id="pressure"></div>
-          <p class="chart-note">30-second rolling average of where the play is. Click to jump the video there.</p>
-          <details class="data-table"><summary>Show as table (5-minute blocks)</summary><div class="table-scroll" id="pressure-table"></div></details>
-        </section>
+        <div class="game-layout section">
+          <div class="col">
+            <section class="card" aria-labelledby="pr-h">
+              <h2 id="pr-h">Pressure</h2>
+              <div class="legend"><span><i class="key us"></i>Up: we're in their end</span><span><i class="key them"></i>Down: they're in our end</span></div>
+              <div class="chart" id="pressure"></div>
+              <p class="chart-note">30-second rolling average of where the play is. Click to jump the video there.</p>
+              <details class="data-table"><summary>Show as table (5-minute blocks)</summary><div class="table-scroll" id="pressure-table"></div></details>
+            </section>
+            <section class="card" aria-labelledby="zn-h">
+              <h2 id="zn-h">Zone time</h2>
+              <div class="legend"><span><i class="key us"></i>Their end (we attack)</span><span><i class="key neutral"></i>Neutral</span><span><i class="key them"></i>Our end (we defend)</span></div>
+              <div id="zones"></div>
+            </section>
+          </div>
+          <section class="card" aria-labelledby="st-h">
+            <h2 id="st-h">Game stats</h2>
+            <div class="table-scroll" id="stats"></div>
+            <p class="chart-note">Shots include goals. Saves are credited to the team whose goalie made them.</p>
+          </section>
+        </div>
       </div>
-      <aside class="side">
-        <section class="card" aria-labelledby="ev-h">
-          <h2 id="ev-h">Events <span class="pill" id="ev-count"></span></h2>
-          <div class="event-scroll" id="events"></div>
-        </section>
-      </aside>
-    </div>
-    <div class="grid-2 section">
-      <section class="card" aria-labelledby="st-h">
-        <h2 id="st-h">Game stats</h2>
-        <div class="table-scroll" id="stats"></div>
-        <p class="chart-note">Shots include goals. Saves are credited to the team whose goalie made them.</p>
-      </section>
-      <section class="card" aria-labelledby="zn-h">
-        <h2 id="zn-h">Zone time</h2>
-        <div class="legend"><span><i class="key us"></i>Their end (we attack)</span><span><i class="key neutral"></i>Neutral</span><span><i class="key them"></i>Our end (we defend)</span></div>
-        <div id="zones"></div>
-      </section>
     </div>
   </div>
 </main>
-<footer class="footer wrap">Stats are detected from the rink camera and are approximate. U9 does not keep official scores.</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<footer class="footer">
+  <img src="img/nw-warriors-logo.svg" alt="" width="34" height="40">
+  <span>Blue Raptors &middot; U9 &middot; Northwest Warriors Minor Hockey, Calgary</span>
+  <span>Stats are detected from the rink camera and are approximate. U9 does not keep official scores.</span>
+</footer>
 <script src="js/common.js"></script>
 <script src="js/game.js"></script>
 </body>
