@@ -42,24 +42,14 @@
    "key": true
   },
   {
-   "t": 92.5,
-   "type": "chance",
-   "team": "them",
-   "player": null,
-   "note": "Scramble in front, our goalie down; cleared",
-   "confidence": "low",
-   "period": 1,
-   "key": false
-  },
-  {
-   "t": 102.5,
-   "type": "chance",
+   "t": 101.1,
+   "type": "goal",
    "team": "us",
-   "player": "#15",
-   "note": "#15 crashes the crease in a goalmouth scramble, white goalie down; no clear shot seen",
-   "confidence": "medium",
    "period": 1,
-   "key": false
+   "player": null,
+   "note": "Goal at the near net (found from the referee whistle, confirmed)",
+   "confidence": "high",
+   "key": true
   },
   {
    "t": 111.5,
@@ -332,6 +322,16 @@
    "key": false
   },
   {
+   "t": 722.1,
+   "type": "goal",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Goal at the near net (found from the referee whistle, confirmed)",
+   "confidence": "high",
+   "key": true
+  },
+  {
    "t": 725.6,
    "type": "chance",
    "team": "us",
@@ -422,34 +422,14 @@
    "key": true
   },
   {
-   "t": 890.2,
-   "type": "chance",
-   "team": "them",
-   "player": null,
-   "note": "White skater jams at the post, our goalie #29 drops and seals it",
-   "confidence": "low",
-   "period": 1,
-   "key": false
-  },
-  {
-   "t": 899.6,
-   "type": "shot",
+   "t": 899.0,
+   "type": "goal",
    "team": "us",
-   "player": null,
-   "note": "Shot on the white goalie, who drops to his knees and stops it; rebound loose in front",
-   "confidence": "medium",
    "period": 1,
+   "player": null,
+   "note": "Goal at the near net (found from the referee whistle, confirmed)",
+   "confidence": "high",
    "key": true
-  },
-  {
-   "t": 901.6,
-   "type": "chance",
-   "team": "us",
-   "player": null,
-   "note": "Goalie sprawled, loose puck sits on the goal line at the near post; navy players jab at it but it's cleared, no goal",
-   "confidence": "medium",
-   "period": 1,
-   "key": false
   },
   {
    "t": 926.5,
@@ -522,14 +502,14 @@
    "key": false
   },
   {
-   "t": 1030.7,
-   "type": "shot",
+   "t": 1028.8,
+   "type": "goal",
    "team": "us",
-   "player": null,
-   "note": "Puck flipped up high around the crossbar / near post; white goalie blocks it and play carries on (no goal, no celebration)",
-   "confidence": "low",
    "period": 1,
-   "key": false
+   "player": null,
+   "note": "Goal at the near net (found from the referee whistle, confirmed)",
+   "confidence": "high",
+   "key": true
   },
   {
    "t": 1038.4,
@@ -812,23 +792,13 @@
    "key": false
   },
   {
-   "t": 1598.4,
-   "type": "chance",
+   "t": 1601.0,
+   "type": "goal",
    "team": "them",
-   "player": "#18",
-   "note": "#18 carries the puck to the front of our net; crowd in the crease, goalie holds",
-   "confidence": "low",
    "period": 2,
-   "key": false
-  },
-  {
-   "t": 1602.4,
-   "type": "shot",
-   "team": "us",
    "player": null,
-   "note": "Shot along the ice; the goalie drops and stops it with the pads",
-   "confidence": "medium",
-   "period": 2,
+   "note": "Goal at the far net (found from the referee whistle, confirmed)",
+   "confidence": "high",
    "key": true
   },
   {
@@ -899,7 +869,7 @@
    "note": "Shot from the slot kicked away by the sprawling goalie, with a crash at the net after",
    "confidence": "medium",
    "period": 2,
-   "key": true
+   "key": false
   },
   {
    "t": 1709.4,
@@ -1009,7 +979,7 @@
    "note": "#6 cuts in from the side and shoots; our goalie drops to make the save",
    "confidence": "medium",
    "period": 2,
-   "key": true
+   "key": false
   },
   {
    "t": 1885.6,
@@ -1049,7 +1019,7 @@
    "note": "Shot from the left side; the goalie drops and blocks it at the post",
    "confidence": "medium",
    "period": 2,
-   "key": true
+   "key": false
   },
   {
    "t": 1935.6,
@@ -1069,7 +1039,7 @@
    "note": "Low shot that the goalie stops with a butterfly drop, rebound cleared",
    "confidence": "medium",
    "period": 2,
-   "key": true
+   "key": false
   },
   {
    "t": 1962.4,
@@ -1142,14 +1112,14 @@
    "key": false
   },
   {
-   "t": 2090.8,
-   "type": "chance",
+   "t": 2089.3,
+   "type": "goal",
    "team": "them",
-   "player": null,
-   "note": "Our goalie sprawls; loose puck slides across the crease but nobody gets a stick on it",
-   "confidence": "medium",
    "period": 2,
-   "key": false
+   "player": null,
+   "note": "Goal at the far net (found from the referee whistle, confirmed)",
+   "confidence": "high",
+   "key": true
   },
   {
    "t": 2118.0,
@@ -1159,7 +1129,7 @@
    "note": "Shot comes in high near the post; goalie drops to stop it",
    "confidence": "medium",
    "period": 2,
-   "key": true
+   "key": false
   },
   {
    "t": 2126.8,
@@ -1189,7 +1159,7 @@
    "note": "Shot along the ice from the right, goalie pad save and sprawls",
    "confidence": "medium",
    "period": 2,
-   "key": true
+   "key": false
   },
   {
    "t": 2155.6,
@@ -1199,37 +1169,17 @@
    "note": "Low shot along the ice into our goalie's pads, he drops and stops it",
    "confidence": "medium",
    "period": 2,
-   "key": true
-  },
-  {
-   "t": 2157.5,
-   "type": "chance",
-   "team": "them",
-   "player": null,
-   "note": "Crowd in our crease right after the save, our skaters help clear it",
-   "confidence": "low",
-   "period": 2,
    "key": false
   },
   {
    "t": 2165.6,
-   "type": "shot",
+   "type": "goal",
    "team": "us",
+   "period": 2,
    "player": null,
-   "note": "Shot from the right pops off the goalie's body",
-   "confidence": "medium",
-   "period": 2,
+   "note": "Goal at the near net (found from the referee whistle, confirmed)",
+   "confidence": "high",
    "key": true
-  },
-  {
-   "t": 2167.6,
-   "type": "chance",
-   "team": "us",
-   "player": "#10",
-   "note": "#10 crashes the crease on the rebound; goalie down, scramble cleared",
-   "confidence": "medium",
-   "period": 2,
-   "key": false
   },
   {
    "t": 2211.8,
@@ -1362,34 +1312,14 @@
    "key": false
   },
   {
-   "t": 2425.8,
-   "type": "chance",
-   "team": "us",
-   "player": "#19",
-   "note": "#19 tries a wraparound at the near post",
-   "confidence": "low",
-   "period": 2,
-   "key": false
-  },
-  {
-   "t": 2430.8,
-   "type": "shot",
+   "t": 2431.3,
+   "type": "goal",
    "team": "them",
-   "player": null,
-   "note": "Low shot from the left; our goalie drops into the butterfly and the puck comes out in front",
-   "confidence": "medium",
    "period": 2,
-   "key": false
-  },
-  {
-   "t": 2433.8,
-   "type": "chance",
-   "team": "them",
    "player": null,
-   "note": "Rebound scramble with TW Red #4 and #12 at the crease while our goalie is down; our team clears",
-   "confidence": "medium",
-   "period": 2,
-   "key": false
+   "note": "Goal at the far net (found from the referee whistle, confirmed)",
+   "confidence": "high",
+   "key": true
   },
   {
    "t": 2466.5,
@@ -1402,14 +1332,14 @@
    "key": false
   },
   {
-   "t": 2508.0,
-   "type": "chance",
-   "team": "us",
-   "player": null,
-   "note": "Navy forward jabs at the puck at the side of the net, goalie seals the post",
-   "confidence": "low",
+   "t": 2516.0,
+   "type": "goal",
+   "team": "them",
    "period": 2,
-   "key": false
+   "player": null,
+   "note": "Goal at the far net (found from the referee whistle, confirmed)",
+   "confidence": "high",
+   "key": true
   },
   {
    "t": 2520.2,
@@ -1592,14 +1522,14 @@
    "key": false
   },
   {
-   "t": 2962.3,
-   "type": "chance",
+   "t": 2961.1,
+   "type": "goal",
    "team": "them",
-   "player": "#16",
-   "note": "TW Red #16 pokes at a loose puck in our crease with our goalie down; our #8 helps clear",
-   "confidence": "low",
    "period": 2,
-   "key": false
+   "player": null,
+   "note": "Goal at the far net (found from the referee whistle, confirmed)",
+   "confidence": "high",
+   "key": true
   },
   {
    "t": 2976.3,
