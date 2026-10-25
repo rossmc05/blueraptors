@@ -56,10 +56,24 @@
     var src = H.videoUrl(state.index, game);
     if (!src) { showMissing(null); return; }
     // No crossOrigin attribute: plain cross-origin playback needs no CORS.
-    var v = el('video', { controls: '', preload: 'metadata', playsinline: '', id: 'video' });
+    // Our own control bar sits below the picture, so hovering never dims the video
+    // the way the browser's built-in controls do.
+    var v = el('video', { preload: 'metadata', playsinline: '', id: 'video' });
     v.src = src;
-    var wrap = el('div', { class: 'player' }, [v]);
+    var scrub = el('input', { type: 'range', class: 'scrub', id: 'scrub', min: '0', max: String(state.duration), step: '0.1', value: '0', 'aria-label': 'Video position' });
+    var fs = el('button', { class: 'vbtn', type: 'button', id: 'btn-fs', 'aria-label': 'Full screen', text: '\u26F6' });
+    var bar = el('div', { class: 'vbar' }, [scrub, fs]);
+    var wrap = el('div', { class: 'player' }, [v, bar]);
     box.appendChild(wrap);
+    v.addEventListener('click', togglePlay);
+    scrub.addEventListener('input', function () { seek(+scrub.value, false); });
+    scrub.addEventListener('pointerdown', function () { state.scrubbing = true; });
+    window.addEventListener('pointerup', function () { state.scrubbing = false; });
+    fs.onclick = function () {
+      if (document.fullscreenElement) return document.exitFullscreen();
+      if (wrap.requestFullscreen) wrap.requestFullscreen();
+      else if (v.webkitEnterFullscreen) v.webkitEnterFullscreen(); // iPhone: native player
+    };
     state.video = v; state.videoOk = true;
     v.addEventListener('error', function () { showMissing(src); });
     v.addEventListener('timeupdate', tick);
@@ -120,6 +134,8 @@
     var ph = $('tl-playhead'), pg = $('tl-progress');
     if (ph) ph.style.left = x + '%';
     if (pg) pg.style.width = x + '%';
+    var sc = $('scrub');
+    if (sc && !state.scrubbing) { sc.value = t; sc.style.setProperty('--p', x + '%'); }
     var pl = document.querySelector('#pressure .playhead');
     if (pl && state.prX) { var px = state.prX(t); pl.setAttribute('x1', px); pl.setAttribute('x2', px); }
     $('now').textContent = H.fmtTime(t) + ' / ' + H.fmtTime(state.duration) + ' · P' + H.periodOf(state.game, t);
