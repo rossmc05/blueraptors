@@ -1,0 +1,3869 @@
+{
+ "id": "2026-10-24-vs-tw-red",
+ "events": [
+  {
+   "t": 50,
+   "type": "goal",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Scramble at the white goalie's crease; puck visible over the goal line with #31 sitting in the crease, then celebration (navy #19 arm raised) and cheering behind the boards",
+   "confidence": "medium"
+  },
+  {
+   "t": 60,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "White players crowd our net early on, goalie holds the post",
+   "confidence": "low"
+  },
+  {
+   "t": 104,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Bodies pile up in front of the white goalie, puck loose in the crease",
+   "confidence": "low"
+  },
+  {
+   "t": 112,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Rush to our net, our goalie goes down to block",
+   "confidence": "low"
+  },
+  {
+   "t": 128,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Long spell of pressure in our end, goalie down in the crease during a scramble",
+   "confidence": "medium"
+  },
+  {
+   "t": 128,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie smothers it on the ice during a goal-mouth scramble",
+   "confidence": "low"
+  },
+  {
+   "t": 160,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Crowd of white jerseys around our crease",
+   "confidence": "low"
+  },
+  {
+   "t": 168,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Navy attackers drive the net, white goalie goes down to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 196,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble at the side of our net",
+   "confidence": "low"
+  },
+  {
+   "t": 232,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot on our net, goalie drops to make the stop",
+   "confidence": "low"
+  },
+  {
+   "t": 290,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Shot from the slot, white goalie sprawls and the puck stays just outside the post; shooter raises stick",
+   "confidence": "medium"
+  },
+  {
+   "t": 290,
+   "type": "save",
+   "team": "them",
+   "period": 1,
+   "player": "#31",
+   "note": "Sprawling pad save by the white goalie",
+   "confidence": "medium"
+  },
+  {
+   "t": 340,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Pile-up in our crease with our goalie down; referee points and play is whistled",
+   "confidence": "medium"
+  },
+  {
+   "t": 340,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie covers up under a crowd in the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 360,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Navy players crash the net, white goalie down making stops on a scramble",
+   "confidence": "medium"
+  },
+  {
+   "t": 396,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Pressure at the white net, goalie down on a jam play",
+   "confidence": "medium"
+  },
+  {
+   "t": 437,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble in front of our net, goalie down; referee signals a stoppage",
+   "confidence": "medium"
+  },
+  {
+   "t": 437,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie freezes the puck in a crowded crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 447,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Puck in tight on the white goalie, who goes down",
+   "confidence": "low"
+  },
+  {
+   "t": 453,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Quick chance at our net, goalie down to stop it",
+   "confidence": "low"
+  },
+  {
+   "t": 459,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": "#10",
+   "note": "Navy #10 sets up at the side of the white net",
+   "confidence": "low"
+  },
+  {
+   "t": 491,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble at our net with players falling in front",
+   "confidence": "low"
+  },
+  {
+   "t": 513,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": "#14",
+   "note": "Sustained pressure from white #14 and #9; our goalie down repeatedly",
+   "confidence": "medium"
+  },
+  {
+   "t": 515,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie makes a string of stops on the ice; play carries on",
+   "confidence": "medium"
+  },
+  {
+   "t": 535,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "More traffic in front of our net",
+   "confidence": "low"
+  },
+  {
+   "t": 563,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "White attackers swarm our crease",
+   "confidence": "low"
+  },
+  {
+   "t": 571,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Navy attack at the white net, goalie down and sticks flying",
+   "confidence": "medium"
+  },
+  {
+   "t": 633,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "White goalie does the splits to stop a navy shot",
+   "confidence": "medium"
+  },
+  {
+   "t": 633,
+   "type": "save",
+   "team": "them",
+   "period": 1,
+   "player": "#31",
+   "note": "Splits save by the white goalie",
+   "confidence": "medium"
+  },
+  {
+   "t": 687,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Heavy pressure on our net, goalie down",
+   "confidence": "medium"
+  },
+  {
+   "t": 693,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie down again and holds the fort",
+   "confidence": "low"
+  },
+  {
+   "t": 701,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Another scramble at our net",
+   "confidence": "low"
+  },
+  {
+   "t": 725,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Crash on the white net, goalie knocked down",
+   "confidence": "medium"
+  },
+  {
+   "t": 735,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot at our net, goalie down",
+   "confidence": "low"
+  },
+  {
+   "t": 767,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Crowd in front of our net",
+   "confidence": "low"
+  },
+  {
+   "t": 787,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble in front of our net, our goalie goes down and the pile clears",
+   "confidence": "medium"
+  },
+  {
+   "t": 811,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot from in close at the post, our goalie drops to block it",
+   "confidence": "medium"
+  },
+  {
+   "t": 811,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie down at the post to stop a close-in shot",
+   "confidence": "low"
+  },
+  {
+   "t": 821,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Red-helmet forward crashes the crease, #31 drops to his knees to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 839,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot through traffic, our goalie goes down",
+   "confidence": "low"
+  },
+  {
+   "t": 853,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": "#19",
+   "note": "Our #19 carries in on the right side toward the white net",
+   "confidence": "low"
+  },
+  {
+   "t": 883,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Shot from the slot, #31 goes down and the rebound sits in front",
+   "confidence": "medium"
+  },
+  {
+   "t": 891,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble at our net, our goalie down to cover",
+   "confidence": "medium"
+  },
+  {
+   "t": 891,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie sprawls to stop a scramble in the crease",
+   "confidence": "low"
+  },
+  {
+   "t": 901,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Hard crash on the white net, #31 sprawled and stays down through the scramble",
+   "confidence": "medium"
+  },
+  {
+   "t": 901,
+   "type": "save",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "White goalie #31 sprawls across the crease to deny a crash play",
+   "confidence": "medium"
+  },
+  {
+   "t": 938,
+   "type": "goal",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Big pile-up on our goalie; ref points at the net and a white skater raises his stick while two teammates hug. Likely goal against (no centre-ice reset, play restarted near our net)",
+   "confidence": "medium"
+  },
+  {
+   "t": 963,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Shot from the right side, #31 goes down to make the stop",
+   "confidence": "medium"
+  },
+  {
+   "t": 1010,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble at our net with players falling at the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 1018,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Players crash the white net, #31 stretched out at the post",
+   "confidence": "low"
+  },
+  {
+   "t": 1045,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Start of a long push in their end; #31 goes down on a shot from in tight",
+   "confidence": "medium"
+  },
+  {
+   "t": 1051,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Another jam play at the crease with bodies in the blue paint",
+   "confidence": "medium"
+  },
+  {
+   "t": 1053,
+   "type": "save",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "#31 holds the post through a sustained scramble",
+   "confidence": "low"
+  },
+  {
+   "t": 1063,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Quick chance at our net, our goalie goes down",
+   "confidence": "low"
+  },
+  {
+   "t": 1078,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Shot from close range, #31 drops to his knees",
+   "confidence": "medium"
+  },
+  {
+   "t": 1087,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Another shot on #31, who stays down on one knee",
+   "confidence": "low"
+  },
+  {
+   "t": 1098,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble at our crease, our goalie sprawls",
+   "confidence": "medium"
+  },
+  {
+   "t": 1098,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie down in the crease to smother a scramble",
+   "confidence": "low"
+  },
+  {
+   "t": 1118,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Pile in front of our net, goalie down, puck cleared",
+   "confidence": "medium"
+  },
+  {
+   "t": 1130,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot on our goalie, who goes down to stop it",
+   "confidence": "low"
+  },
+  {
+   "t": 1153,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Long scramble at our net with several players in the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 1155,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie stays down and covers through a long goalmouth scramble",
+   "confidence": "low"
+  },
+  {
+   "t": 1177,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "More pressure at our net, players falling near the crease",
+   "confidence": "low"
+  },
+  {
+   "t": 1189,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot through bodies, our goalie down",
+   "confidence": "low"
+  },
+  {
+   "t": 1203,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Red-helmet forward cuts across the front, #31 sprawls to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 1203,
+   "type": "save",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "#31 makes a sprawling stop on a cut across the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 1208,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Follow-up scramble around the white net, everyone at the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 1228,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Scramble at our net, our goalie sprawls",
+   "confidence": "medium"
+  },
+  {
+   "t": 1228,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie sprawls to stop a scramble in the crease",
+   "confidence": "low"
+  },
+  {
+   "t": 1245,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Wraparound try on the white net",
+   "confidence": "low"
+  },
+  {
+   "t": 1260,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Players crowd our crease",
+   "confidence": "low"
+  },
+  {
+   "t": 1269,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Crash on the white net, #31 down with bodies sprawled in front",
+   "confidence": "medium"
+  },
+  {
+   "t": 1302,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our #15 and #10 jam at the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 1304,
+   "type": "shot",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Shot from the crease, #31 goes down to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 1328,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot through traffic, our goalie down with players sprawled in front",
+   "confidence": "medium"
+  },
+  {
+   "t": 1339,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Goalmouth scramble at our net; the ref points at the net (could be a goal, but no clear celebration and play restarts nearby)",
+   "confidence": "low"
+  },
+  {
+   "t": 1358,
+   "type": "chance",
+   "team": "us",
+   "period": 1,
+   "player": "#10",
+   "note": "Our #10 jams at the white crease",
+   "confidence": "low"
+  },
+  {
+   "t": 1370,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot at our net, goalie down in a scramble",
+   "confidence": "low"
+  },
+  {
+   "t": 1386,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot from in tight, our goalie sprawls",
+   "confidence": "medium"
+  },
+  {
+   "t": 1386,
+   "type": "save",
+   "team": "us",
+   "period": 1,
+   "player": null,
+   "note": "Our goalie makes a sprawling stop",
+   "confidence": "low"
+  },
+  {
+   "t": 1400,
+   "type": "shot",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Shot on our goalie, who goes down",
+   "confidence": "low"
+  },
+  {
+   "t": 1420,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Pile-up in front of our net, our goalie down",
+   "confidence": "medium"
+  },
+  {
+   "t": 1449,
+   "type": "chance",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "Late-period scramble at our net, our goalie down covering",
+   "confidence": "medium"
+  },
+  {
+   "t": 1472,
+   "type": "stoppage",
+   "team": "them",
+   "period": 1,
+   "player": null,
+   "note": "End of 1st period, then intermission; white team swaps goalie #31 for #1. Period 2 faceoff around 1588 s, same ends",
+   "confidence": "high"
+  },
+  {
+   "t": 1599,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Early TW Red rush to our net right after the period 2 opening faceoff, cleared away",
+   "confidence": "low"
+  },
+  {
+   "t": 1604,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue jams at the side of the net, the white goalie drops to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 1604,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie down in the butterfly to seal the post",
+   "confidence": "medium"
+  },
+  {
+   "t": 1615,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Scramble in front of our net; our goalie goes down to smother it",
+   "confidence": "medium"
+  },
+  {
+   "t": 1615,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie stays down through a goalmouth scramble",
+   "confidence": "medium"
+  },
+  {
+   "t": 1640,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue attacker cuts in from the side and the white goalie sprawls to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 1644,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie down and scrambling, kicks the rebound out to the slot",
+   "confidence": "medium"
+  },
+  {
+   "t": 1660,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red crowd our crease, lots of bodies around our goalie",
+   "confidence": "medium"
+  },
+  {
+   "t": 1668,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Close-range shot in traffic, our goalie goes down to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 1668,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie drops and covers in a crowd",
+   "confidence": "medium"
+  },
+  {
+   "t": 1681,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue pressure at the white net, goalie goes down",
+   "confidence": "medium"
+  },
+  {
+   "t": 1686,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Second Blue whack at it, a Blue player tumbles into the crease as the goalie sprawls",
+   "confidence": "medium"
+  },
+  {
+   "t": 1686,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie sprawls to stop back-to-back Blue chances",
+   "confidence": "medium"
+  },
+  {
+   "t": 1711,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red jam at our net with the puck loose in the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 1726,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue player drops to a knee to fire from the slot, white goalie goes down",
+   "confidence": "medium"
+  },
+  {
+   "t": 1726,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie butterfly save on the slot shot",
+   "confidence": "medium"
+  },
+  {
+   "t": 1783,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red scramble in our crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 1800,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie down to stop a shot from the outside",
+   "confidence": "low"
+  },
+  {
+   "t": 1800,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Outside shot on our goalie",
+   "confidence": "low"
+  },
+  {
+   "t": 1815,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Pile of players at our net",
+   "confidence": "low"
+  },
+  {
+   "t": 1830,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Long Blue push in the TW Red zone; wraparound try at the post, goalie down",
+   "confidence": "medium"
+  },
+  {
+   "t": 1830,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie hugs the post on the wraparound",
+   "confidence": "medium"
+  },
+  {
+   "t": 1847,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red attacker in tight, our goalie sprawls",
+   "confidence": "medium"
+  },
+  {
+   "t": 1847,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie sprawling stop in close",
+   "confidence": "medium"
+  },
+  {
+   "t": 1886,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Big pile-up in our crease, goalie down under bodies",
+   "confidence": "medium"
+  },
+  {
+   "t": 1886,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie holds the fort in a goalmouth pile-up",
+   "confidence": "medium"
+  },
+  {
+   "t": 1899,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Another TW Red wave crowds our net",
+   "confidence": "medium"
+  },
+  {
+   "t": 1907,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie down again as TW Red keep the pressure on",
+   "confidence": "low"
+  },
+  {
+   "t": 1923,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue crash the white net, goalie goes down at the post",
+   "confidence": "medium"
+  },
+  {
+   "t": 1923,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie down to block the jam play",
+   "confidence": "medium"
+  },
+  {
+   "t": 1945,
+   "type": "chance",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue scramble at the white goalie's crease, puck loose",
+   "confidence": "medium"
+  },
+  {
+   "t": 1962,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red shot from in front, our goalie in the butterfly",
+   "confidence": "medium"
+  },
+  {
+   "t": 1962,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Butterfly save by our goalie in traffic",
+   "confidence": "medium"
+  },
+  {
+   "t": 2008,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue shot, a Blue player crashes into the crease as the white goalie sprawls",
+   "confidence": "medium"
+  },
+  {
+   "t": 2008,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie flat out to stop Blue",
+   "confidence": "medium"
+  },
+  {
+   "t": 2034,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red crowd our net, our goalie drops to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 2034,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie down in the scramble",
+   "confidence": "medium"
+  },
+  {
+   "t": 2059,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Scramble at our net with our goalie down",
+   "confidence": "medium"
+  },
+  {
+   "t": 2071,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red attacker tries from the side of our net, goalie down to seal it",
+   "confidence": "medium"
+  },
+  {
+   "t": 2071,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie seals the post",
+   "confidence": "medium"
+  },
+  {
+   "t": 2092,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Shot in close, our goalie sprawls, then a pile-up in the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 2092,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Sprawling save by our goalie under a pile of bodies",
+   "confidence": "medium"
+  },
+  {
+   "t": 2124,
+   "type": "chance",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue keep pressure around the white net with wraparound tries",
+   "confidence": "medium"
+  },
+  {
+   "t": 2142,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue #10 shoots from the slot, scramble in the crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 2158,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red jam play in front of our net",
+   "confidence": "low"
+  },
+  {
+   "t": 2168,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue #10 drives the net, white goalie goes down",
+   "confidence": "medium"
+  },
+  {
+   "t": 2170,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie down to stop the drive to the net",
+   "confidence": "medium"
+  },
+  {
+   "t": 2213,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red attacker at the post, our goalie sprawls across",
+   "confidence": "medium"
+  },
+  {
+   "t": 2213,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie sprawling stop at the post",
+   "confidence": "medium"
+  },
+  {
+   "t": 2243,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Big Blue scramble in the white crease, goalie down under bodies",
+   "confidence": "medium"
+  },
+  {
+   "t": 2243,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie survives a goalmouth scramble",
+   "confidence": "medium"
+  },
+  {
+   "t": 2252,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red shot from the slot, our goalie in the butterfly",
+   "confidence": "medium"
+  },
+  {
+   "t": 2252,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Butterfly save by our goalie",
+   "confidence": "medium"
+  },
+  {
+   "t": 2264,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue shot from the slot, white goalie goes down and stays down",
+   "confidence": "medium"
+  },
+  {
+   "t": 2266,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White goalie down for several seconds to cover it",
+   "confidence": "medium"
+  },
+  {
+   "t": 2290,
+   "type": "chance",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Blue swarm the white net, puck around the crease",
+   "confidence": "low"
+  },
+  {
+   "t": 2323,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "TW Red shot in close, our goalie goes down",
+   "confidence": "low"
+  },
+  {
+   "t": 2347,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White forwards crash our net off the rush, our goalie holds the post",
+   "confidence": "low"
+  },
+  {
+   "t": 2353,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Puck jammed at the near post, their goalie sprawls to block it",
+   "confidence": "medium"
+  },
+  {
+   "t": 2353,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Their goalie stretches out across the crease to keep it out",
+   "confidence": "medium"
+  },
+  {
+   "t": 2379,
+   "type": "chance",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Crowd in front of their net, puck bouncing around the crease",
+   "confidence": "low"
+  },
+  {
+   "t": 2387,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White players work the puck to our crease",
+   "confidence": "low"
+  },
+  {
+   "t": 2409,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our forward drops to a knee and jams at the post after a loose puck",
+   "confidence": "medium"
+  },
+  {
+   "t": 2409,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Their goalie goes down and seals the post",
+   "confidence": "medium"
+  },
+  {
+   "t": 2431,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Shot from in close, our goalie drops and a scramble follows",
+   "confidence": "medium"
+  },
+  {
+   "t": 2431,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie goes down to stop it, then the crease gets crowded",
+   "confidence": "medium"
+  },
+  {
+   "t": 2469,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Goalmouth scramble at our net with several white players",
+   "confidence": "medium"
+  },
+  {
+   "t": 2469,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie down in the scramble and keeps it out",
+   "confidence": "medium"
+  },
+  {
+   "t": 2493,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Two white forwards right at our crease",
+   "confidence": "low"
+  },
+  {
+   "t": 2531,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Quick chance at our net, our goalie drops to block it",
+   "confidence": "low"
+  },
+  {
+   "t": 2535,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Scramble at their net, puck loose in the blue paint",
+   "confidence": "medium"
+  },
+  {
+   "t": 2535,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Their goalie down, smothering the loose puck",
+   "confidence": "medium"
+  },
+  {
+   "t": 2549,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Low shot, their goalie kicks it out to the slot",
+   "confidence": "medium"
+  },
+  {
+   "t": 2567,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Long spell of white pressure in our end",
+   "confidence": "low"
+  },
+  {
+   "t": 2591,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Drive to the net, their goalie ends up sprawled on the ice",
+   "confidence": "low"
+  },
+  {
+   "t": 2601,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White players swarm our crease on the counter",
+   "confidence": "low"
+  },
+  {
+   "t": 2633,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Shot through traffic, our goalie down with a crowd in front",
+   "confidence": "low"
+  },
+  {
+   "t": 2667,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Shot in tight, our goalie goes down with players piled in front",
+   "confidence": "medium"
+  },
+  {
+   "t": 2667,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie stays big in a crowded crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 2687,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Pressure at our net, goalie down through a scramble",
+   "confidence": "medium"
+  },
+  {
+   "t": 2711,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our forward dives at the puck in front, big goalmouth scramble follows",
+   "confidence": "medium"
+  },
+  {
+   "t": 2714,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Their goalie covers up under a pile of players",
+   "confidence": "medium"
+  },
+  {
+   "t": 2722,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White shot from close range, our goalie drops",
+   "confidence": "low"
+  },
+  {
+   "t": 2736,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "White players crowd our net",
+   "confidence": "low"
+  },
+  {
+   "t": 2762,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Scramble beside our net",
+   "confidence": "low"
+  },
+  {
+   "t": 2786,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie drops to stop a shot",
+   "confidence": "low"
+  },
+  {
+   "t": 2806,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Pressure in front of our net",
+   "confidence": "low"
+  },
+  {
+   "t": 2833,
+   "type": "chance",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our player dives for a loose puck at their crease",
+   "confidence": "low"
+  },
+  {
+   "t": 2840,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie goes down on a shot",
+   "confidence": "low"
+  },
+  {
+   "t": 2862,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Chance at the left post, their goalie goes down",
+   "confidence": "low"
+  },
+  {
+   "t": 2874,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Scramble at our net, our goalie down",
+   "confidence": "low"
+  },
+  {
+   "t": 2894,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Shot through a crowd at our net, goalie down",
+   "confidence": "low"
+  },
+  {
+   "t": 2929,
+   "type": "chance",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our forwards in on their crease",
+   "confidence": "low"
+  },
+  {
+   "t": 2964,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Shot in tight, our goalie down with players on top",
+   "confidence": "medium"
+  },
+  {
+   "t": 2964,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie smothers it in the crease",
+   "confidence": "low"
+  },
+  {
+   "t": 2972,
+   "type": "shot",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our forward shoots from the slot, their goalie drops",
+   "confidence": "medium"
+  },
+  {
+   "t": 2972,
+   "type": "save",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Their goalie down to stop it",
+   "confidence": "medium"
+  },
+  {
+   "t": 2978,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Another shot from close, our goalie down",
+   "confidence": "low"
+  },
+  {
+   "t": 2998,
+   "type": "chance",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Scramble at their net",
+   "confidence": "low"
+  },
+  {
+   "t": 3010,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Late push, white players swarm our crease",
+   "confidence": "medium"
+  },
+  {
+   "t": 3016,
+   "type": "shot",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Another shot in the late pressure, our goalie down",
+   "confidence": "medium"
+  },
+  {
+   "t": 3016,
+   "type": "save",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Our goalie holds off the late push",
+   "confidence": "medium"
+  },
+  {
+   "t": 3030,
+   "type": "chance",
+   "team": "them",
+   "period": 2,
+   "player": null,
+   "note": "Last white rush at our net",
+   "confidence": "low"
+  },
+  {
+   "t": 3037,
+   "type": "stoppage",
+   "team": "us",
+   "period": 2,
+   "player": null,
+   "note": "Final buzzer. Both teams mob their goalies",
+   "confidence": "high"
+  }
+ ],
+ "activity": [
+  {
+   "t": 0,
+   "ourEnd": 0.297,
+   "neutral": 0.568,
+   "theirEnd": 0.135,
+   "intensity": 0.617
+  },
+  {
+   "t": 10,
+   "ourEnd": 0.324,
+   "neutral": 0.568,
+   "theirEnd": 0.108,
+   "intensity": 0.617
+  },
+  {
+   "t": 20,
+   "ourEnd": 0.382,
+   "neutral": 0.559,
+   "theirEnd": 0.059,
+   "intensity": 0.567
+  },
+  {
+   "t": 30,
+   "ourEnd": 0.361,
+   "neutral": 0.472,
+   "theirEnd": 0.167,
+   "intensity": 0.6
+  },
+  {
+   "t": 40,
+   "ourEnd": 0.436,
+   "neutral": 0.385,
+   "theirEnd": 0.179,
+   "intensity": 0.65
+  },
+  {
+   "t": 50,
+   "ourEnd": 0.343,
+   "neutral": 0.314,
+   "theirEnd": 0.343,
+   "intensity": 0.583
+  },
+  {
+   "t": 60,
+   "ourEnd": 0.536,
+   "neutral": 0.286,
+   "theirEnd": 0.179,
+   "intensity": 0.467
+  },
+  {
+   "t": 70,
+   "ourEnd": 0.667,
+   "neutral": 0.111,
+   "theirEnd": 0.222,
+   "intensity": 0.3
+  },
+  {
+   "t": 80,
+   "ourEnd": 0.625,
+   "neutral": 0.208,
+   "theirEnd": 0.167,
+   "intensity": 0.4
+  },
+  {
+   "t": 90,
+   "ourEnd": 0.244,
+   "neutral": 0.585,
+   "theirEnd": 0.171,
+   "intensity": 0.683
+  },
+  {
+   "t": 100,
+   "ourEnd": 0.194,
+   "neutral": 0.25,
+   "theirEnd": 0.556,
+   "intensity": 0.6
+  },
+  {
+   "t": 110,
+   "ourEnd": 0.605,
+   "neutral": 0.289,
+   "theirEnd": 0.105,
+   "intensity": 0.633
+  },
+  {
+   "t": 120,
+   "ourEnd": 0.556,
+   "neutral": 0.361,
+   "theirEnd": 0.083,
+   "intensity": 0.6
+  },
+  {
+   "t": 130,
+   "ourEnd": 0.65,
+   "neutral": 0.2,
+   "theirEnd": 0.15,
+   "intensity": 0.333
+  },
+  {
+   "t": 140,
+   "ourEnd": 0.614,
+   "neutral": 0.386,
+   "theirEnd": 0.0,
+   "intensity": 0.733
+  },
+  {
+   "t": 150,
+   "ourEnd": 0.583,
+   "neutral": 0.167,
+   "theirEnd": 0.25,
+   "intensity": 0.4
+  },
+  {
+   "t": 160,
+   "ourEnd": 0.324,
+   "neutral": 0.297,
+   "theirEnd": 0.378,
+   "intensity": 0.617
+  },
+  {
+   "t": 170,
+   "ourEnd": 0.12,
+   "neutral": 0.36,
+   "theirEnd": 0.52,
+   "intensity": 0.417
+  },
+  {
+   "t": 180,
+   "ourEnd": 0.238,
+   "neutral": 0.5,
+   "theirEnd": 0.262,
+   "intensity": 0.7
+  },
+  {
+   "t": 190,
+   "ourEnd": 0.412,
+   "neutral": 0.412,
+   "theirEnd": 0.176,
+   "intensity": 0.567
+  },
+  {
+   "t": 200,
+   "ourEnd": 0.6,
+   "neutral": 0.314,
+   "theirEnd": 0.086,
+   "intensity": 0.583
+  },
+  {
+   "t": 210,
+   "ourEnd": 0.217,
+   "neutral": 0.435,
+   "theirEnd": 0.348,
+   "intensity": 0.767
+  },
+  {
+   "t": 220,
+   "ourEnd": 0.323,
+   "neutral": 0.484,
+   "theirEnd": 0.194,
+   "intensity": 0.517
+  },
+  {
+   "t": 230,
+   "ourEnd": 0.324,
+   "neutral": 0.353,
+   "theirEnd": 0.324,
+   "intensity": 0.567
+  },
+  {
+   "t": 240,
+   "ourEnd": 0.167,
+   "neutral": 0.381,
+   "theirEnd": 0.452,
+   "intensity": 0.7
+  },
+  {
+   "t": 250,
+   "ourEnd": 0.392,
+   "neutral": 0.392,
+   "theirEnd": 0.216,
+   "intensity": 0.85
+  },
+  {
+   "t": 260,
+   "ourEnd": 0.263,
+   "neutral": 0.553,
+   "theirEnd": 0.184,
+   "intensity": 0.633
+  },
+  {
+   "t": 270,
+   "ourEnd": 0.394,
+   "neutral": 0.455,
+   "theirEnd": 0.152,
+   "intensity": 0.55
+  },
+  {
+   "t": 280,
+   "ourEnd": 0.209,
+   "neutral": 0.605,
+   "theirEnd": 0.186,
+   "intensity": 0.717
+  },
+  {
+   "t": 290,
+   "ourEnd": 0.174,
+   "neutral": 0.391,
+   "theirEnd": 0.435,
+   "intensity": 0.767
+  },
+  {
+   "t": 300,
+   "ourEnd": 0.396,
+   "neutral": 0.458,
+   "theirEnd": 0.146,
+   "intensity": 0.8
+  },
+  {
+   "t": 310,
+   "ourEnd": 0.387,
+   "neutral": 0.387,
+   "theirEnd": 0.226,
+   "intensity": 0.517
+  },
+  {
+   "t": 320,
+   "ourEnd": 0.186,
+   "neutral": 0.419,
+   "theirEnd": 0.395,
+   "intensity": 0.717
+  },
+  {
+   "t": 330,
+   "ourEnd": 0.229,
+   "neutral": 0.457,
+   "theirEnd": 0.314,
+   "intensity": 0.583
+  },
+  {
+   "t": 340,
+   "ourEnd": 0.571,
+   "neutral": 0.257,
+   "theirEnd": 0.171,
+   "intensity": 0.583
+  },
+  {
+   "t": 350,
+   "ourEnd": 0.3,
+   "neutral": 0.38,
+   "theirEnd": 0.32,
+   "intensity": 0.833
+  },
+  {
+   "t": 360,
+   "ourEnd": 0.082,
+   "neutral": 0.51,
+   "theirEnd": 0.408,
+   "intensity": 0.817
+  },
+  {
+   "t": 370,
+   "ourEnd": 0.04,
+   "neutral": 0.48,
+   "theirEnd": 0.48,
+   "intensity": 0.833
+  },
+  {
+   "t": 380,
+   "ourEnd": 0.528,
+   "neutral": 0.194,
+   "theirEnd": 0.278,
+   "intensity": 0.6
+  },
+  {
+   "t": 390,
+   "ourEnd": 0.172,
+   "neutral": 0.414,
+   "theirEnd": 0.414,
+   "intensity": 0.483
+  },
+  {
+   "t": 400,
+   "ourEnd": 0.103,
+   "neutral": 0.414,
+   "theirEnd": 0.483,
+   "intensity": 0.483
+  },
+  {
+   "t": 410,
+   "ourEnd": 0.093,
+   "neutral": 0.488,
+   "theirEnd": 0.419,
+   "intensity": 0.717
+  },
+  {
+   "t": 420,
+   "ourEnd": 0.161,
+   "neutral": 0.323,
+   "theirEnd": 0.516,
+   "intensity": 0.517
+  },
+  {
+   "t": 430,
+   "ourEnd": 0.607,
+   "neutral": 0.25,
+   "theirEnd": 0.143,
+   "intensity": 0.467
+  },
+  {
+   "t": 440,
+   "ourEnd": 0.238,
+   "neutral": 0.524,
+   "theirEnd": 0.238,
+   "intensity": 0.7
+  },
+  {
+   "t": 450,
+   "ourEnd": 0.417,
+   "neutral": 0.333,
+   "theirEnd": 0.25,
+   "intensity": 0.6
+  },
+  {
+   "t": 460,
+   "ourEnd": 0.0,
+   "neutral": 0.233,
+   "theirEnd": 0.767,
+   "intensity": 0.5
+  },
+  {
+   "t": 470,
+   "ourEnd": 0.059,
+   "neutral": 0.353,
+   "theirEnd": 0.588,
+   "intensity": 0.567
+  },
+  {
+   "t": 480,
+   "ourEnd": 0.4,
+   "neutral": 0.367,
+   "theirEnd": 0.233,
+   "intensity": 0.5
+  },
+  {
+   "t": 490,
+   "ourEnd": 0.293,
+   "neutral": 0.61,
+   "theirEnd": 0.098,
+   "intensity": 0.683
+  },
+  {
+   "t": 500,
+   "ourEnd": 0.535,
+   "neutral": 0.326,
+   "theirEnd": 0.14,
+   "intensity": 0.717
+  },
+  {
+   "t": 510,
+   "ourEnd": 0.767,
+   "neutral": 0.1,
+   "theirEnd": 0.133,
+   "intensity": 0.5
+  },
+  {
+   "t": 520,
+   "ourEnd": 0.256,
+   "neutral": 0.385,
+   "theirEnd": 0.359,
+   "intensity": 0.65
+  },
+  {
+   "t": 530,
+   "ourEnd": 0.538,
+   "neutral": 0.269,
+   "theirEnd": 0.192,
+   "intensity": 0.433
+  },
+  {
+   "t": 540,
+   "ourEnd": 0.333,
+   "neutral": 0.4,
+   "theirEnd": 0.267,
+   "intensity": 0.75
+  },
+  {
+   "t": 550,
+   "ourEnd": 0.209,
+   "neutral": 0.558,
+   "theirEnd": 0.233,
+   "intensity": 0.717
+  },
+  {
+   "t": 560,
+   "ourEnd": 0.429,
+   "neutral": 0.31,
+   "theirEnd": 0.262,
+   "intensity": 0.7
+  },
+  {
+   "t": 570,
+   "ourEnd": 0.106,
+   "neutral": 0.298,
+   "theirEnd": 0.596,
+   "intensity": 0.783
+  },
+  {
+   "t": 580,
+   "ourEnd": 0.379,
+   "neutral": 0.448,
+   "theirEnd": 0.172,
+   "intensity": 0.483
+  },
+  {
+   "t": 590,
+   "ourEnd": 0.093,
+   "neutral": 0.395,
+   "theirEnd": 0.512,
+   "intensity": 0.717
+  },
+  {
+   "t": 600,
+   "ourEnd": 0.077,
+   "neutral": 0.385,
+   "theirEnd": 0.538,
+   "intensity": 0.65
+  },
+  {
+   "t": 610,
+   "ourEnd": 0.441,
+   "neutral": 0.265,
+   "theirEnd": 0.294,
+   "intensity": 0.567
+  },
+  {
+   "t": 620,
+   "ourEnd": 0.0,
+   "neutral": 0.12,
+   "theirEnd": 0.88,
+   "intensity": 0.417
+  },
+  {
+   "t": 630,
+   "ourEnd": 0.114,
+   "neutral": 0.341,
+   "theirEnd": 0.545,
+   "intensity": 0.733
+  },
+  {
+   "t": 640,
+   "ourEnd": 0.256,
+   "neutral": 0.279,
+   "theirEnd": 0.465,
+   "intensity": 0.717
+  },
+  {
+   "t": 650,
+   "ourEnd": 0.255,
+   "neutral": 0.468,
+   "theirEnd": 0.277,
+   "intensity": 0.783
+  },
+  {
+   "t": 660,
+   "ourEnd": 0.283,
+   "neutral": 0.435,
+   "theirEnd": 0.283,
+   "intensity": 0.767
+  },
+  {
+   "t": 670,
+   "ourEnd": 0.486,
+   "neutral": 0.351,
+   "theirEnd": 0.162,
+   "intensity": 0.617
+  },
+  {
+   "t": 680,
+   "ourEnd": 0.677,
+   "neutral": 0.097,
+   "theirEnd": 0.226,
+   "intensity": 0.517
+  },
+  {
+   "t": 690,
+   "ourEnd": 0.759,
+   "neutral": 0.069,
+   "theirEnd": 0.172,
+   "intensity": 0.483
+  },
+  {
+   "t": 700,
+   "ourEnd": 0.448,
+   "neutral": 0.241,
+   "theirEnd": 0.31,
+   "intensity": 0.483
+  },
+  {
+   "t": 710,
+   "ourEnd": 0.114,
+   "neutral": 0.2,
+   "theirEnd": 0.686,
+   "intensity": 0.583
+  },
+  {
+   "t": 720,
+   "ourEnd": 0.195,
+   "neutral": 0.366,
+   "theirEnd": 0.439,
+   "intensity": 0.683
+  },
+  {
+   "t": 730,
+   "ourEnd": 0.645,
+   "neutral": 0.194,
+   "theirEnd": 0.161,
+   "intensity": 0.517
+  },
+  {
+   "t": 740,
+   "ourEnd": 0.567,
+   "neutral": 0.333,
+   "theirEnd": 0.1,
+   "intensity": 0.5
+  },
+  {
+   "t": 750,
+   "ourEnd": 0.512,
+   "neutral": 0.395,
+   "theirEnd": 0.093,
+   "intensity": 0.717
+  },
+  {
+   "t": 760,
+   "ourEnd": 0.55,
+   "neutral": 0.35,
+   "theirEnd": 0.1,
+   "intensity": 0.333
+  },
+  {
+   "t": 770,
+   "ourEnd": 0.593,
+   "neutral": 0.407,
+   "theirEnd": 0.0,
+   "intensity": 0.45
+  },
+  {
+   "t": 780,
+   "ourEnd": 0.76,
+   "neutral": 0.04,
+   "theirEnd": 0.2,
+   "intensity": 0.417
+  },
+  {
+   "t": 790,
+   "ourEnd": 0.349,
+   "neutral": 0.326,
+   "theirEnd": 0.326,
+   "intensity": 0.717
+  },
+  {
+   "t": 800,
+   "ourEnd": 0.118,
+   "neutral": 0.471,
+   "theirEnd": 0.412,
+   "intensity": 0.85
+  },
+  {
+   "t": 810,
+   "ourEnd": 0.367,
+   "neutral": 0.267,
+   "theirEnd": 0.367,
+   "intensity": 0.5
+  },
+  {
+   "t": 820,
+   "ourEnd": 0.103,
+   "neutral": 0.462,
+   "theirEnd": 0.436,
+   "intensity": 0.65
+  },
+  {
+   "t": 830,
+   "ourEnd": 0.405,
+   "neutral": 0.405,
+   "theirEnd": 0.19,
+   "intensity": 0.7
+  },
+  {
+   "t": 840,
+   "ourEnd": 0.245,
+   "neutral": 0.585,
+   "theirEnd": 0.17,
+   "intensity": 0.883
+  },
+  {
+   "t": 850,
+   "ourEnd": 0.0,
+   "neutral": 0.143,
+   "theirEnd": 0.857,
+   "intensity": 0.467
+  },
+  {
+   "t": 860,
+   "ourEnd": 0.073,
+   "neutral": 0.439,
+   "theirEnd": 0.488,
+   "intensity": 0.683
+  },
+  {
+   "t": 870,
+   "ourEnd": 0.265,
+   "neutral": 0.588,
+   "theirEnd": 0.147,
+   "intensity": 0.567
+  },
+  {
+   "t": 880,
+   "ourEnd": 0.091,
+   "neutral": 0.318,
+   "theirEnd": 0.591,
+   "intensity": 0.733
+  },
+  {
+   "t": 890,
+   "ourEnd": 0.306,
+   "neutral": 0.444,
+   "theirEnd": 0.25,
+   "intensity": 0.6
+  },
+  {
+   "t": 900,
+   "ourEnd": 0.171,
+   "neutral": 0.343,
+   "theirEnd": 0.486,
+   "intensity": 0.583
+  },
+  {
+   "t": 910,
+   "ourEnd": 0.286,
+   "neutral": 0.357,
+   "theirEnd": 0.357,
+   "intensity": 0.7
+  },
+  {
+   "t": 920,
+   "ourEnd": 0.415,
+   "neutral": 0.39,
+   "theirEnd": 0.195,
+   "intensity": 0.683
+  },
+  {
+   "t": 930,
+   "ourEnd": 0.5,
+   "neutral": 0.333,
+   "theirEnd": 0.167,
+   "intensity": 0.8
+  },
+  {
+   "t": 940,
+   "ourEnd": 0.405,
+   "neutral": 0.432,
+   "theirEnd": 0.162,
+   "intensity": 0.617
+  },
+  {
+   "t": 950,
+   "ourEnd": 0.667,
+   "neutral": 0.111,
+   "theirEnd": 0.222,
+   "intensity": 0.45
+  },
+  {
+   "t": 960,
+   "ourEnd": 0.116,
+   "neutral": 0.326,
+   "theirEnd": 0.558,
+   "intensity": 0.717
+  },
+  {
+   "t": 970,
+   "ourEnd": 0.39,
+   "neutral": 0.512,
+   "theirEnd": 0.098,
+   "intensity": 0.683
+  },
+  {
+   "t": 980,
+   "ourEnd": 0.786,
+   "neutral": 0.179,
+   "theirEnd": 0.036,
+   "intensity": 0.467
+  },
+  {
+   "t": 990,
+   "ourEnd": 0.389,
+   "neutral": 0.389,
+   "theirEnd": 0.222,
+   "intensity": 0.6
+  },
+  {
+   "t": 1000,
+   "ourEnd": 0.39,
+   "neutral": 0.439,
+   "theirEnd": 0.171,
+   "intensity": 0.683
+  },
+  {
+   "t": 1010,
+   "ourEnd": 0.349,
+   "neutral": 0.326,
+   "theirEnd": 0.326,
+   "intensity": 0.717
+  },
+  {
+   "t": 1020,
+   "ourEnd": 0.118,
+   "neutral": 0.235,
+   "theirEnd": 0.647,
+   "intensity": 0.567
+  },
+  {
+   "t": 1030,
+   "ourEnd": 0.256,
+   "neutral": 0.333,
+   "theirEnd": 0.41,
+   "intensity": 0.65
+  },
+  {
+   "t": 1040,
+   "ourEnd": 0.259,
+   "neutral": 0.259,
+   "theirEnd": 0.481,
+   "intensity": 0.45
+  },
+  {
+   "t": 1050,
+   "ourEnd": 0.282,
+   "neutral": 0.41,
+   "theirEnd": 0.308,
+   "intensity": 0.65
+  },
+  {
+   "t": 1060,
+   "ourEnd": 0.654,
+   "neutral": 0.192,
+   "theirEnd": 0.154,
+   "intensity": 0.433
+  },
+  {
+   "t": 1070,
+   "ourEnd": 0.116,
+   "neutral": 0.326,
+   "theirEnd": 0.558,
+   "intensity": 0.717
+  },
+  {
+   "t": 1080,
+   "ourEnd": 0.068,
+   "neutral": 0.386,
+   "theirEnd": 0.545,
+   "intensity": 0.733
+  },
+  {
+   "t": 1090,
+   "ourEnd": 0.282,
+   "neutral": 0.385,
+   "theirEnd": 0.333,
+   "intensity": 0.65
+  },
+  {
+   "t": 1100,
+   "ourEnd": 0.471,
+   "neutral": 0.353,
+   "theirEnd": 0.176,
+   "intensity": 0.567
+  },
+  {
+   "t": 1110,
+   "ourEnd": 0.261,
+   "neutral": 0.457,
+   "theirEnd": 0.283,
+   "intensity": 0.767
+  },
+  {
+   "t": 1120,
+   "ourEnd": 0.733,
+   "neutral": 0.067,
+   "theirEnd": 0.2,
+   "intensity": 0.5
+  },
+  {
+   "t": 1130,
+   "ourEnd": 0.174,
+   "neutral": 0.587,
+   "theirEnd": 0.239,
+   "intensity": 0.767
+  },
+  {
+   "t": 1140,
+   "ourEnd": 0.233,
+   "neutral": 0.279,
+   "theirEnd": 0.488,
+   "intensity": 0.717
+  },
+  {
+   "t": 1150,
+   "ourEnd": 0.821,
+   "neutral": 0.0,
+   "theirEnd": 0.179,
+   "intensity": 0.467
+  },
+  {
+   "t": 1160,
+   "ourEnd": 0.837,
+   "neutral": 0.163,
+   "theirEnd": 0.0,
+   "intensity": 0.717
+  },
+  {
+   "t": 1170,
+   "ourEnd": 0.778,
+   "neutral": 0.222,
+   "theirEnd": 0.0,
+   "intensity": 0.6
+  },
+  {
+   "t": 1180,
+   "ourEnd": 0.545,
+   "neutral": 0.424,
+   "theirEnd": 0.03,
+   "intensity": 0.55
+  },
+  {
+   "t": 1190,
+   "ourEnd": 0.283,
+   "neutral": 0.453,
+   "theirEnd": 0.264,
+   "intensity": 0.883
+  },
+  {
+   "t": 1200,
+   "ourEnd": 0.185,
+   "neutral": 0.222,
+   "theirEnd": 0.593,
+   "intensity": 0.45
+  },
+  {
+   "t": 1210,
+   "ourEnd": 0.327,
+   "neutral": 0.423,
+   "theirEnd": 0.25,
+   "intensity": 0.867
+  },
+  {
+   "t": 1220,
+   "ourEnd": 0.357,
+   "neutral": 0.5,
+   "theirEnd": 0.143,
+   "intensity": 0.7
+  },
+  {
+   "t": 1230,
+   "ourEnd": 0.75,
+   "neutral": 0.179,
+   "theirEnd": 0.071,
+   "intensity": 0.467
+  },
+  {
+   "t": 1240,
+   "ourEnd": 0.209,
+   "neutral": 0.419,
+   "theirEnd": 0.372,
+   "intensity": 0.717
+  },
+  {
+   "t": 1250,
+   "ourEnd": 0.214,
+   "neutral": 0.357,
+   "theirEnd": 0.429,
+   "intensity": 0.7
+  },
+  {
+   "t": 1260,
+   "ourEnd": 0.297,
+   "neutral": 0.378,
+   "theirEnd": 0.324,
+   "intensity": 0.617
+  },
+  {
+   "t": 1270,
+   "ourEnd": 0.175,
+   "neutral": 0.6,
+   "theirEnd": 0.225,
+   "intensity": 0.667
+  },
+  {
+   "t": 1280,
+   "ourEnd": 0.448,
+   "neutral": 0.241,
+   "theirEnd": 0.31,
+   "intensity": 0.483
+  },
+  {
+   "t": 1290,
+   "ourEnd": 0.472,
+   "neutral": 0.25,
+   "theirEnd": 0.278,
+   "intensity": 0.6
+  },
+  {
+   "t": 1300,
+   "ourEnd": 0.171,
+   "neutral": 0.268,
+   "theirEnd": 0.561,
+   "intensity": 0.683
+  },
+  {
+   "t": 1310,
+   "ourEnd": 0.3,
+   "neutral": 0.475,
+   "theirEnd": 0.225,
+   "intensity": 0.667
+  },
+  {
+   "t": 1320,
+   "ourEnd": 0.452,
+   "neutral": 0.31,
+   "theirEnd": 0.238,
+   "intensity": 0.7
+  },
+  {
+   "t": 1330,
+   "ourEnd": 0.478,
+   "neutral": 0.304,
+   "theirEnd": 0.217,
+   "intensity": 0.767
+  },
+  {
+   "t": 1340,
+   "ourEnd": 0.318,
+   "neutral": 0.386,
+   "theirEnd": 0.295,
+   "intensity": 0.733
+  },
+  {
+   "t": 1350,
+   "ourEnd": 0.231,
+   "neutral": 0.256,
+   "theirEnd": 0.513,
+   "intensity": 0.65
+  },
+  {
+   "t": 1360,
+   "ourEnd": 0.325,
+   "neutral": 0.325,
+   "theirEnd": 0.35,
+   "intensity": 0.667
+  },
+  {
+   "t": 1370,
+   "ourEnd": 0.295,
+   "neutral": 0.25,
+   "theirEnd": 0.455,
+   "intensity": 0.733
+  },
+  {
+   "t": 1380,
+   "ourEnd": 0.476,
+   "neutral": 0.238,
+   "theirEnd": 0.286,
+   "intensity": 0.7
+  },
+  {
+   "t": 1390,
+   "ourEnd": 0.219,
+   "neutral": 0.531,
+   "theirEnd": 0.25,
+   "intensity": 0.533
+  },
+  {
+   "t": 1400,
+   "ourEnd": 0.121,
+   "neutral": 0.364,
+   "theirEnd": 0.515,
+   "intensity": 0.55
+  },
+  {
+   "t": 1410,
+   "ourEnd": 0.211,
+   "neutral": 0.474,
+   "theirEnd": 0.316,
+   "intensity": 0.633
+  },
+  {
+   "t": 1420,
+   "ourEnd": 0.417,
+   "neutral": 0.361,
+   "theirEnd": 0.222,
+   "intensity": 0.6
+  },
+  {
+   "t": 1430,
+   "ourEnd": 0.484,
+   "neutral": 0.355,
+   "theirEnd": 0.161,
+   "intensity": 0.517
+  },
+  {
+   "t": 1440,
+   "ourEnd": 0.462,
+   "neutral": 0.436,
+   "theirEnd": 0.103,
+   "intensity": 0.65
+  },
+  {
+   "t": 1450,
+   "ourEnd": 0.406,
+   "neutral": 0.344,
+   "theirEnd": 0.25,
+   "intensity": 0.533
+  },
+  {
+   "t": 1460,
+   "ourEnd": 0.109,
+   "neutral": 0.5,
+   "theirEnd": 0.391,
+   "intensity": 0.767
+  },
+  {
+   "t": 1470,
+   "ourEnd": 0.294,
+   "neutral": 0.294,
+   "theirEnd": 0.412,
+   "intensity": 0.283
+  },
+  {
+   "t": 1480,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1490,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1500,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1510,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1520,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1530,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1540,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1550,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1560,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1570,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1580,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 1590,
+   "ourEnd": 0.4,
+   "neutral": 0.4,
+   "theirEnd": 0.2,
+   "intensity": 0.417
+  },
+  {
+   "t": 1600,
+   "ourEnd": 0.321,
+   "neutral": 0.34,
+   "theirEnd": 0.34,
+   "intensity": 0.883
+  },
+  {
+   "t": 1610,
+   "ourEnd": 0.697,
+   "neutral": 0.121,
+   "theirEnd": 0.182,
+   "intensity": 0.55
+  },
+  {
+   "t": 1620,
+   "ourEnd": 0.25,
+   "neutral": 0.25,
+   "theirEnd": 0.5,
+   "intensity": 0.467
+  },
+  {
+   "t": 1630,
+   "ourEnd": 0.2,
+   "neutral": 0.475,
+   "theirEnd": 0.325,
+   "intensity": 0.667
+  },
+  {
+   "t": 1640,
+   "ourEnd": 0.133,
+   "neutral": 0.422,
+   "theirEnd": 0.444,
+   "intensity": 0.75
+  },
+  {
+   "t": 1650,
+   "ourEnd": 0.412,
+   "neutral": 0.412,
+   "theirEnd": 0.176,
+   "intensity": 0.567
+  },
+  {
+   "t": 1660,
+   "ourEnd": 0.65,
+   "neutral": 0.05,
+   "theirEnd": 0.3,
+   "intensity": 0.333
+  },
+  {
+   "t": 1670,
+   "ourEnd": 0.206,
+   "neutral": 0.441,
+   "theirEnd": 0.353,
+   "intensity": 0.567
+  },
+  {
+   "t": 1680,
+   "ourEnd": 0.103,
+   "neutral": 0.282,
+   "theirEnd": 0.615,
+   "intensity": 0.65
+  },
+  {
+   "t": 1690,
+   "ourEnd": 0.391,
+   "neutral": 0.283,
+   "theirEnd": 0.326,
+   "intensity": 0.767
+  },
+  {
+   "t": 1700,
+   "ourEnd": 0.191,
+   "neutral": 0.447,
+   "theirEnd": 0.362,
+   "intensity": 0.783
+  },
+  {
+   "t": 1710,
+   "ourEnd": 0.417,
+   "neutral": 0.333,
+   "theirEnd": 0.25,
+   "intensity": 0.6
+  },
+  {
+   "t": 1720,
+   "ourEnd": 0.217,
+   "neutral": 0.413,
+   "theirEnd": 0.37,
+   "intensity": 0.767
+  },
+  {
+   "t": 1730,
+   "ourEnd": 0.26,
+   "neutral": 0.42,
+   "theirEnd": 0.32,
+   "intensity": 0.833
+  },
+  {
+   "t": 1740,
+   "ourEnd": 0.35,
+   "neutral": 0.425,
+   "theirEnd": 0.225,
+   "intensity": 0.667
+  },
+  {
+   "t": 1750,
+   "ourEnd": 0.325,
+   "neutral": 0.45,
+   "theirEnd": 0.225,
+   "intensity": 0.667
+  },
+  {
+   "t": 1760,
+   "ourEnd": 0.189,
+   "neutral": 0.415,
+   "theirEnd": 0.396,
+   "intensity": 0.883
+  },
+  {
+   "t": 1770,
+   "ourEnd": 0.475,
+   "neutral": 0.375,
+   "theirEnd": 0.15,
+   "intensity": 0.667
+  },
+  {
+   "t": 1780,
+   "ourEnd": 0.613,
+   "neutral": 0.226,
+   "theirEnd": 0.161,
+   "intensity": 0.517
+  },
+  {
+   "t": 1790,
+   "ourEnd": 0.385,
+   "neutral": 0.359,
+   "theirEnd": 0.256,
+   "intensity": 0.65
+  },
+  {
+   "t": 1800,
+   "ourEnd": 0.0,
+   "neutral": 0.185,
+   "theirEnd": 0.815,
+   "intensity": 0.45
+  },
+  {
+   "t": 1810,
+   "ourEnd": 0.731,
+   "neutral": 0.269,
+   "theirEnd": 0.0,
+   "intensity": 0.433
+  },
+  {
+   "t": 1820,
+   "ourEnd": 0.205,
+   "neutral": 0.295,
+   "theirEnd": 0.5,
+   "intensity": 0.733
+  },
+  {
+   "t": 1830,
+   "ourEnd": 0.0,
+   "neutral": 0.317,
+   "theirEnd": 0.683,
+   "intensity": 0.683
+  },
+  {
+   "t": 1840,
+   "ourEnd": 0.189,
+   "neutral": 0.432,
+   "theirEnd": 0.378,
+   "intensity": 0.617
+  },
+  {
+   "t": 1850,
+   "ourEnd": 0.255,
+   "neutral": 0.447,
+   "theirEnd": 0.298,
+   "intensity": 0.783
+  },
+  {
+   "t": 1860,
+   "ourEnd": 0.519,
+   "neutral": 0.308,
+   "theirEnd": 0.173,
+   "intensity": 0.867
+  },
+  {
+   "t": 1870,
+   "ourEnd": 0.346,
+   "neutral": 0.308,
+   "theirEnd": 0.346,
+   "intensity": 0.867
+  },
+  {
+   "t": 1880,
+   "ourEnd": 0.395,
+   "neutral": 0.316,
+   "theirEnd": 0.289,
+   "intensity": 0.633
+  },
+  {
+   "t": 1890,
+   "ourEnd": 0.5,
+   "neutral": 0.219,
+   "theirEnd": 0.281,
+   "intensity": 0.533
+  },
+  {
+   "t": 1900,
+   "ourEnd": 0.429,
+   "neutral": 0.4,
+   "theirEnd": 0.171,
+   "intensity": 0.583
+  },
+  {
+   "t": 1910,
+   "ourEnd": 0.375,
+   "neutral": 0.475,
+   "theirEnd": 0.15,
+   "intensity": 0.667
+  },
+  {
+   "t": 1920,
+   "ourEnd": 0.053,
+   "neutral": 0.342,
+   "theirEnd": 0.605,
+   "intensity": 0.633
+  },
+  {
+   "t": 1930,
+   "ourEnd": 0.319,
+   "neutral": 0.404,
+   "theirEnd": 0.277,
+   "intensity": 0.783
+  },
+  {
+   "t": 1940,
+   "ourEnd": 0.227,
+   "neutral": 0.205,
+   "theirEnd": 0.568,
+   "intensity": 0.733
+  },
+  {
+   "t": 1950,
+   "ourEnd": 0.314,
+   "neutral": 0.429,
+   "theirEnd": 0.257,
+   "intensity": 0.583
+  },
+  {
+   "t": 1960,
+   "ourEnd": 0.239,
+   "neutral": 0.413,
+   "theirEnd": 0.348,
+   "intensity": 0.767
+  },
+  {
+   "t": 1970,
+   "ourEnd": 0.156,
+   "neutral": 0.219,
+   "theirEnd": 0.625,
+   "intensity": 0.533
+  },
+  {
+   "t": 1980,
+   "ourEnd": 0.407,
+   "neutral": 0.444,
+   "theirEnd": 0.148,
+   "intensity": 0.9
+  },
+  {
+   "t": 1990,
+   "ourEnd": 0.607,
+   "neutral": 0.393,
+   "theirEnd": 0.0,
+   "intensity": 0.467
+  },
+  {
+   "t": 2000,
+   "ourEnd": 0.074,
+   "neutral": 0.407,
+   "theirEnd": 0.519,
+   "intensity": 0.9
+  },
+  {
+   "t": 2010,
+   "ourEnd": 0.318,
+   "neutral": 0.455,
+   "theirEnd": 0.227,
+   "intensity": 0.733
+  },
+  {
+   "t": 2020,
+   "ourEnd": 0.255,
+   "neutral": 0.473,
+   "theirEnd": 0.273,
+   "intensity": 0.917
+  },
+  {
+   "t": 2030,
+   "ourEnd": 0.333,
+   "neutral": 0.5,
+   "theirEnd": 0.167,
+   "intensity": 0.7
+  },
+  {
+   "t": 2040,
+   "ourEnd": 0.127,
+   "neutral": 0.291,
+   "theirEnd": 0.582,
+   "intensity": 0.917
+  },
+  {
+   "t": 2050,
+   "ourEnd": 0.302,
+   "neutral": 0.372,
+   "theirEnd": 0.326,
+   "intensity": 0.717
+  },
+  {
+   "t": 2060,
+   "ourEnd": 0.463,
+   "neutral": 0.415,
+   "theirEnd": 0.122,
+   "intensity": 0.683
+  },
+  {
+   "t": 2070,
+   "ourEnd": 0.302,
+   "neutral": 0.488,
+   "theirEnd": 0.209,
+   "intensity": 0.717
+  },
+  {
+   "t": 2080,
+   "ourEnd": 0.349,
+   "neutral": 0.349,
+   "theirEnd": 0.302,
+   "intensity": 0.717
+  },
+  {
+   "t": 2090,
+   "ourEnd": 0.356,
+   "neutral": 0.444,
+   "theirEnd": 0.2,
+   "intensity": 0.75
+  },
+  {
+   "t": 2100,
+   "ourEnd": 0.163,
+   "neutral": 0.367,
+   "theirEnd": 0.469,
+   "intensity": 0.817
+  },
+  {
+   "t": 2110,
+   "ourEnd": 0.286,
+   "neutral": 0.314,
+   "theirEnd": 0.4,
+   "intensity": 0.583
+  },
+  {
+   "t": 2120,
+   "ourEnd": 0.0,
+   "neutral": 0.231,
+   "theirEnd": 0.769,
+   "intensity": 0.433
+  },
+  {
+   "t": 2130,
+   "ourEnd": 0.133,
+   "neutral": 0.367,
+   "theirEnd": 0.5,
+   "intensity": 1.0
+  },
+  {
+   "t": 2140,
+   "ourEnd": 0.128,
+   "neutral": 0.234,
+   "theirEnd": 0.638,
+   "intensity": 0.783
+  },
+  {
+   "t": 2150,
+   "ourEnd": 0.41,
+   "neutral": 0.282,
+   "theirEnd": 0.308,
+   "intensity": 0.65
+  },
+  {
+   "t": 2160,
+   "ourEnd": 0.188,
+   "neutral": 0.469,
+   "theirEnd": 0.344,
+   "intensity": 0.533
+  },
+  {
+   "t": 2170,
+   "ourEnd": 0.224,
+   "neutral": 0.449,
+   "theirEnd": 0.327,
+   "intensity": 0.817
+  },
+  {
+   "t": 2180,
+   "ourEnd": 0.222,
+   "neutral": 0.444,
+   "theirEnd": 0.333,
+   "intensity": 0.75
+  },
+  {
+   "t": 2190,
+   "ourEnd": 0.317,
+   "neutral": 0.463,
+   "theirEnd": 0.22,
+   "intensity": 0.683
+  },
+  {
+   "t": 2200,
+   "ourEnd": 0.289,
+   "neutral": 0.444,
+   "theirEnd": 0.267,
+   "intensity": 0.75
+  },
+  {
+   "t": 2210,
+   "ourEnd": 0.457,
+   "neutral": 0.4,
+   "theirEnd": 0.143,
+   "intensity": 0.583
+  },
+  {
+   "t": 2220,
+   "ourEnd": 0.111,
+   "neutral": 0.489,
+   "theirEnd": 0.4,
+   "intensity": 0.75
+  },
+  {
+   "t": 2230,
+   "ourEnd": 0.107,
+   "neutral": 0.464,
+   "theirEnd": 0.429,
+   "intensity": 0.467
+  },
+  {
+   "t": 2240,
+   "ourEnd": 0.08,
+   "neutral": 0.36,
+   "theirEnd": 0.56,
+   "intensity": 0.417
+  },
+  {
+   "t": 2250,
+   "ourEnd": 0.649,
+   "neutral": 0.297,
+   "theirEnd": 0.054,
+   "intensity": 0.617
+  },
+  {
+   "t": 2260,
+   "ourEnd": 0.14,
+   "neutral": 0.349,
+   "theirEnd": 0.512,
+   "intensity": 0.717
+  },
+  {
+   "t": 2270,
+   "ourEnd": 0.163,
+   "neutral": 0.408,
+   "theirEnd": 0.429,
+   "intensity": 0.817
+  },
+  {
+   "t": 2280,
+   "ourEnd": 0.333,
+   "neutral": 0.333,
+   "theirEnd": 0.333,
+   "intensity": 0.55
+  },
+  {
+   "t": 2290,
+   "ourEnd": 0.133,
+   "neutral": 0.333,
+   "theirEnd": 0.533,
+   "intensity": 0.5
+  },
+  {
+   "t": 2300,
+   "ourEnd": 0.419,
+   "neutral": 0.387,
+   "theirEnd": 0.194,
+   "intensity": 0.517
+  },
+  {
+   "t": 2310,
+   "ourEnd": 0.458,
+   "neutral": 0.167,
+   "theirEnd": 0.375,
+   "intensity": 0.4
+  },
+  {
+   "t": 2320,
+   "ourEnd": 0.5,
+   "neutral": 0.214,
+   "theirEnd": 0.286,
+   "intensity": 0.7
+  },
+  {
+   "t": 2330,
+   "ourEnd": 0.273,
+   "neutral": 0.364,
+   "theirEnd": 0.364,
+   "intensity": 0.733
+  },
+  {
+   "t": 2340,
+   "ourEnd": 0.375,
+   "neutral": 0.4,
+   "theirEnd": 0.225,
+   "intensity": 0.667
+  },
+  {
+   "t": 2350,
+   "ourEnd": 0.114,
+   "neutral": 0.455,
+   "theirEnd": 0.432,
+   "intensity": 0.733
+  },
+  {
+   "t": 2360,
+   "ourEnd": 0.027,
+   "neutral": 0.189,
+   "theirEnd": 0.784,
+   "intensity": 0.617
+  },
+  {
+   "t": 2370,
+   "ourEnd": 0.209,
+   "neutral": 0.186,
+   "theirEnd": 0.605,
+   "intensity": 0.717
+  },
+  {
+   "t": 2380,
+   "ourEnd": 0.378,
+   "neutral": 0.244,
+   "theirEnd": 0.378,
+   "intensity": 0.75
+  },
+  {
+   "t": 2390,
+   "ourEnd": 0.226,
+   "neutral": 0.226,
+   "theirEnd": 0.547,
+   "intensity": 0.883
+  },
+  {
+   "t": 2400,
+   "ourEnd": 0.188,
+   "neutral": 0.417,
+   "theirEnd": 0.396,
+   "intensity": 0.8
+  },
+  {
+   "t": 2410,
+   "ourEnd": 0.242,
+   "neutral": 0.333,
+   "theirEnd": 0.424,
+   "intensity": 0.55
+  },
+  {
+   "t": 2420,
+   "ourEnd": 0.162,
+   "neutral": 0.432,
+   "theirEnd": 0.405,
+   "intensity": 0.617
+  },
+  {
+   "t": 2430,
+   "ourEnd": 0.383,
+   "neutral": 0.468,
+   "theirEnd": 0.149,
+   "intensity": 0.783
+  },
+  {
+   "t": 2440,
+   "ourEnd": 0.098,
+   "neutral": 0.415,
+   "theirEnd": 0.488,
+   "intensity": 0.683
+  },
+  {
+   "t": 2450,
+   "ourEnd": 0.559,
+   "neutral": 0.294,
+   "theirEnd": 0.147,
+   "intensity": 0.567
+  },
+  {
+   "t": 2460,
+   "ourEnd": 0.529,
+   "neutral": 0.265,
+   "theirEnd": 0.206,
+   "intensity": 0.567
+  },
+  {
+   "t": 2470,
+   "ourEnd": 0.306,
+   "neutral": 0.449,
+   "theirEnd": 0.245,
+   "intensity": 0.817
+  },
+  {
+   "t": 2480,
+   "ourEnd": 0.226,
+   "neutral": 0.194,
+   "theirEnd": 0.581,
+   "intensity": 0.517
+  },
+  {
+   "t": 2490,
+   "ourEnd": 0.396,
+   "neutral": 0.479,
+   "theirEnd": 0.125,
+   "intensity": 0.8
+  },
+  {
+   "t": 2500,
+   "ourEnd": 0.245,
+   "neutral": 0.302,
+   "theirEnd": 0.453,
+   "intensity": 0.883
+  },
+  {
+   "t": 2510,
+   "ourEnd": 0.262,
+   "neutral": 0.357,
+   "theirEnd": 0.381,
+   "intensity": 0.7
+  },
+  {
+   "t": 2520,
+   "ourEnd": 0.271,
+   "neutral": 0.438,
+   "theirEnd": 0.292,
+   "intensity": 0.8
+  },
+  {
+   "t": 2530,
+   "ourEnd": 0.108,
+   "neutral": 0.297,
+   "theirEnd": 0.595,
+   "intensity": 0.617
+  },
+  {
+   "t": 2540,
+   "ourEnd": 0.16,
+   "neutral": 0.34,
+   "theirEnd": 0.5,
+   "intensity": 0.833
+  },
+  {
+   "t": 2550,
+   "ourEnd": 0.286,
+   "neutral": 0.381,
+   "theirEnd": 0.333,
+   "intensity": 0.7
+  },
+  {
+   "t": 2560,
+   "ourEnd": 0.346,
+   "neutral": 0.462,
+   "theirEnd": 0.192,
+   "intensity": 0.433
+  },
+  {
+   "t": 2570,
+   "ourEnd": 0.5,
+   "neutral": 0.231,
+   "theirEnd": 0.269,
+   "intensity": 0.433
+  },
+  {
+   "t": 2580,
+   "ourEnd": 0.263,
+   "neutral": 0.263,
+   "theirEnd": 0.474,
+   "intensity": 0.317
+  },
+  {
+   "t": 2590,
+   "ourEnd": 0.292,
+   "neutral": 0.354,
+   "theirEnd": 0.354,
+   "intensity": 0.8
+  },
+  {
+   "t": 2600,
+   "ourEnd": 0.189,
+   "neutral": 0.432,
+   "theirEnd": 0.378,
+   "intensity": 0.617
+  },
+  {
+   "t": 2610,
+   "ourEnd": 0.189,
+   "neutral": 0.378,
+   "theirEnd": 0.432,
+   "intensity": 0.617
+  },
+  {
+   "t": 2620,
+   "ourEnd": 0.362,
+   "neutral": 0.383,
+   "theirEnd": 0.255,
+   "intensity": 0.783
+  },
+  {
+   "t": 2630,
+   "ourEnd": 0.421,
+   "neutral": 0.289,
+   "theirEnd": 0.289,
+   "intensity": 0.633
+  },
+  {
+   "t": 2640,
+   "ourEnd": 0.25,
+   "neutral": 0.55,
+   "theirEnd": 0.2,
+   "intensity": 0.667
+  },
+  {
+   "t": 2650,
+   "ourEnd": 0.481,
+   "neutral": 0.296,
+   "theirEnd": 0.222,
+   "intensity": 0.45
+  },
+  {
+   "t": 2660,
+   "ourEnd": 0.467,
+   "neutral": 0.267,
+   "theirEnd": 0.267,
+   "intensity": 0.5
+  },
+  {
+   "t": 2670,
+   "ourEnd": 0.529,
+   "neutral": 0.235,
+   "theirEnd": 0.235,
+   "intensity": 0.567
+  },
+  {
+   "t": 2680,
+   "ourEnd": 0.595,
+   "neutral": 0.216,
+   "theirEnd": 0.189,
+   "intensity": 0.617
+  },
+  {
+   "t": 2690,
+   "ourEnd": 0.667,
+   "neutral": 0.0,
+   "theirEnd": 0.333,
+   "intensity": 0.3
+  },
+  {
+   "t": 2700,
+   "ourEnd": 0.32,
+   "neutral": 0.44,
+   "theirEnd": 0.24,
+   "intensity": 0.417
+  },
+  {
+   "t": 2710,
+   "ourEnd": 0.125,
+   "neutral": 0.375,
+   "theirEnd": 0.5,
+   "intensity": 0.4
+  },
+  {
+   "t": 2720,
+   "ourEnd": 0.425,
+   "neutral": 0.4,
+   "theirEnd": 0.175,
+   "intensity": 0.667
+  },
+  {
+   "t": 2730,
+   "ourEnd": 0.472,
+   "neutral": 0.306,
+   "theirEnd": 0.222,
+   "intensity": 0.6
+  },
+  {
+   "t": 2740,
+   "ourEnd": 0.083,
+   "neutral": 0.354,
+   "theirEnd": 0.562,
+   "intensity": 0.8
+  },
+  {
+   "t": 2750,
+   "ourEnd": 0.111,
+   "neutral": 0.333,
+   "theirEnd": 0.556,
+   "intensity": 0.75
+  },
+  {
+   "t": 2760,
+   "ourEnd": 0.375,
+   "neutral": 0.417,
+   "theirEnd": 0.208,
+   "intensity": 0.4
+  },
+  {
+   "t": 2770,
+   "ourEnd": 0.205,
+   "neutral": 0.41,
+   "theirEnd": 0.385,
+   "intensity": 0.65
+  },
+  {
+   "t": 2780,
+   "ourEnd": 0.268,
+   "neutral": 0.415,
+   "theirEnd": 0.317,
+   "intensity": 0.683
+  },
+  {
+   "t": 2790,
+   "ourEnd": 0.359,
+   "neutral": 0.436,
+   "theirEnd": 0.205,
+   "intensity": 0.65
+  },
+  {
+   "t": 2800,
+   "ourEnd": 0.444,
+   "neutral": 0.361,
+   "theirEnd": 0.194,
+   "intensity": 0.6
+  },
+  {
+   "t": 2810,
+   "ourEnd": 0.186,
+   "neutral": 0.512,
+   "theirEnd": 0.302,
+   "intensity": 0.717
+  },
+  {
+   "t": 2820,
+   "ourEnd": 0.341,
+   "neutral": 0.477,
+   "theirEnd": 0.182,
+   "intensity": 0.733
+  },
+  {
+   "t": 2830,
+   "ourEnd": 0.114,
+   "neutral": 0.343,
+   "theirEnd": 0.543,
+   "intensity": 0.583
+  },
+  {
+   "t": 2840,
+   "ourEnd": 0.5,
+   "neutral": 0.348,
+   "theirEnd": 0.152,
+   "intensity": 0.767
+  },
+  {
+   "t": 2850,
+   "ourEnd": 0.282,
+   "neutral": 0.59,
+   "theirEnd": 0.128,
+   "intensity": 0.65
+  },
+  {
+   "t": 2860,
+   "ourEnd": 0.028,
+   "neutral": 0.361,
+   "theirEnd": 0.611,
+   "intensity": 0.6
+  },
+  {
+   "t": 2870,
+   "ourEnd": 0.538,
+   "neutral": 0.282,
+   "theirEnd": 0.179,
+   "intensity": 0.65
+  },
+  {
+   "t": 2880,
+   "ourEnd": 0.042,
+   "neutral": 0.521,
+   "theirEnd": 0.438,
+   "intensity": 0.8
+  },
+  {
+   "t": 2890,
+   "ourEnd": 0.6,
+   "neutral": 0.12,
+   "theirEnd": 0.28,
+   "intensity": 0.417
+  },
+  {
+   "t": 2900,
+   "ourEnd": 0.31,
+   "neutral": 0.357,
+   "theirEnd": 0.333,
+   "intensity": 0.7
+  },
+  {
+   "t": 2910,
+   "ourEnd": 0.308,
+   "neutral": 0.256,
+   "theirEnd": 0.436,
+   "intensity": 0.65
+  },
+  {
+   "t": 2920,
+   "ourEnd": 0.314,
+   "neutral": 0.429,
+   "theirEnd": 0.257,
+   "intensity": 0.583
+  },
+  {
+   "t": 2930,
+   "ourEnd": 0.273,
+   "neutral": 0.394,
+   "theirEnd": 0.333,
+   "intensity": 0.55
+  },
+  {
+   "t": 2940,
+   "ourEnd": 0.047,
+   "neutral": 0.488,
+   "theirEnd": 0.465,
+   "intensity": 0.717
+  },
+  {
+   "t": 2950,
+   "ourEnd": 0.28,
+   "neutral": 0.52,
+   "theirEnd": 0.2,
+   "intensity": 0.833
+  },
+  {
+   "t": 2960,
+   "ourEnd": 0.452,
+   "neutral": 0.333,
+   "theirEnd": 0.214,
+   "intensity": 0.7
+  },
+  {
+   "t": 2970,
+   "ourEnd": 0.278,
+   "neutral": 0.463,
+   "theirEnd": 0.259,
+   "intensity": 0.9
+  },
+  {
+   "t": 2980,
+   "ourEnd": 0.356,
+   "neutral": 0.467,
+   "theirEnd": 0.178,
+   "intensity": 0.75
+  },
+  {
+   "t": 2990,
+   "ourEnd": 0.467,
+   "neutral": 0.367,
+   "theirEnd": 0.167,
+   "intensity": 0.5
+  },
+  {
+   "t": 3000,
+   "ourEnd": 0.429,
+   "neutral": 0.31,
+   "theirEnd": 0.262,
+   "intensity": 0.7
+  },
+  {
+   "t": 3010,
+   "ourEnd": 0.778,
+   "neutral": 0.074,
+   "theirEnd": 0.148,
+   "intensity": 0.45
+  },
+  {
+   "t": 3020,
+   "ourEnd": 0.385,
+   "neutral": 0.487,
+   "theirEnd": 0.128,
+   "intensity": 0.65
+  },
+  {
+   "t": 3030,
+   "ourEnd": 0.6,
+   "neutral": 0.1,
+   "theirEnd": 0.3,
+   "intensity": 0.333
+  },
+  {
+   "t": 3040,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 3050,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 3060,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 3070,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 3080,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  },
+  {
+   "t": 3090,
+   "ourEnd": 0.33,
+   "neutral": 0.34,
+   "theirEnd": 0.33,
+   "intensity": 0
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "team": {
+    "name": "Blue Raptors",
+    "color": "blue"
+  },
+  "videoBase": "",
+  "games": [
+    {
+      "id": "2026-10-24-vs-tw-red",
+      "date": "2026-10-24",
+      "opponent": "TW Red",
+      "video": "videos/2026-10-24-vs-tw-red.mp4",
+      "duration": 3097,
+      "periods": [
+        {
+          "n": 1,
+          "start": 0,
+          "end": 1472
+        },
+        {
+          "n": 2,
+          "start": 1586,
+          "end": 3037
+        }
+      ],
+      "summary": "A tight one that finished about 1\u20131. Blue struck first 50 seconds in after a scramble at the TW Red net; TW Red tied it midway through the 1st off a pile-up in front of our goalie. TW Red carried more of the play in the 2nd, and our goalie was busy. Events were picked out by Claude from the rink camera, so treat them as close, not official."
+    }
+  ]
+}

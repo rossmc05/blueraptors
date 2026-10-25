@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Blue Raptors</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='20' rx='12' ry='5' fill='%230d366b'/%3E%3Crect x='4' y='14' width='24' height='6' fill='%230d366b'/%3E%3Cellipse cx='16' cy='14' rx='12' ry='5' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="20" rx="12" ry="5" fill="#fff" opacity=".35"/><rect x="4" y="14" width="24" height="6" fill="#fff" opacity=".35"/><ellipse cx="16" cy="14" rx="12" ry="5" fill="#fff"/></svg>
+      <span data-team-name>U9 Hockey</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="./" aria-current="page">Games</a>
+      <a href="season.html">Season</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="main">
+  <p class="kicker">Season 2026-27</p>
+  <h1 data-team-name>U9 Hockey</h1>
+  <p class="lede">Game video and stats for team families. Pick a game to watch it with an interactive timeline.</p>
+  <section aria-labelledby="totals-h">
+    <h2 id="totals-h" class="sr-only">Season totals</h2>
+    <div class="tiles" id="totals"></div>
+  </section>
+  <section class="section" aria-labelledby="games-h">
+    <h2 id="games-h">Games</h2>
+    <div class="games" id="games"><p class="empty">Loading games...</p></div>
+  </section>
+</main>
+<footer class="footer wrap">Stats are detected from the rink camera and are approximate. U9 does not keep official scores.</footer>
+<script src="js/common.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
