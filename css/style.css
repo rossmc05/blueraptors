@@ -257,3 +257,5 @@ body { overflow-x: clip; }
 .stage .player { aspect-ratio: 1920 / 932; max-height: 84vh; margin: 0 auto; }
 .stage .player video { object-fit: contain; }
 .stage .video-missing { aspect-ratio: 1920 / 932; }
+.stage.hl-mode .player { outline: 3px solid var(--us); outline-offset: 2px; }
+.stage.hl-mode .player::before { content: "HIGHLIGHTS"; position: absolute; z-index: 2; top: 10px; left: 10px; padding: 3px 8px; border-radius: 6px; background: var(--us); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .06em; pointer-events: none; }

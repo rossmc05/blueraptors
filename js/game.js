@@ -63,16 +63,18 @@
     state.video = v; state.videoOk = true;
     v.addEventListener('error', function () { showMissing(src); });
     v.addEventListener('timeupdate', tick);
-    v.addEventListener('seeked', tick);
+    v.addEventListener('seeked', function () { state.hlSeeking = false; tick(); });
+    // Scrubbing the video's own seek bar during highlights means "I want the full game".
+    v.addEventListener('seeking', function () { if (state.hl && !state.hlSeeking) exitHighlights(); });
     v.addEventListener('play', syncPlayBtn);
     v.addEventListener('pause', syncPlayBtn);
     $('btn-play').onclick = togglePlay;
     $('btn-back').onclick = function () { nudge(-10); };
     $('btn-fwd').onclick = function () { nudge(10); };
-    $('btn-hl').onclick = startHighlights;
+    $('btn-hl').onclick = function () { if (state.hl) exitHighlights(); else startHighlights(); };
     $('hl-prev').onclick = function () { gotoClip(state.hl ? state.hl.i - 1 : 0); };
     $('hl-next').onclick = function () { gotoClip(state.hl ? state.hl.i + 1 : 0); };
-    $('hl-stop').onclick = stopHighlights;
+    $('hl-stop').onclick = exitHighlights;
   }
 
   function showMissing(src) {
@@ -287,12 +289,14 @@
     if (!clips.length) return;
     state.hl = { clips: clips, i: -1 };
     $('hl-bar').classList.add('on');
+    $('player-box').parentNode.classList.add('hl-mode');
+    $('btn-hl').innerHTML = '&#10005; Exit highlights';
     gotoClip(0);
   }
   function gotoClip(i) {
     var hl = state.hl; if (!hl) return;
     if (i < 0) i = 0;
-    if (i >= hl.clips.length) { stopHighlights(); return; }
+    if (i >= hl.clips.length) { stopHighlights(); return; } // reel finished: pause
     hl.i = i;
     var c = hl.clips[i], main = c.events.filter(function (e) { return e.type === 'goal'; })[0] || c.events[0];
     document.body.dataset.hlIndex = String(i);
@@ -302,6 +306,7 @@
     txt.appendChild(el('span', { text: H.fmtTime(main.t) + (main.note ? ' · ' + main.note : '') }));
     $('hl-prev').disabled = i === 0;
     setActive(main, true);
+    state.hlSeeking = true;
     seek(c.start, true, true);
   }
   function hlTick(t) {
@@ -310,13 +315,17 @@
     if (t >= c.end) gotoClip(hl.i + 1);
     else if (t < c.start - 1.5 && state.video && !state.video.seeking) stopHighlights(); // user scrubbed away
   }
-  function stopHighlights() {
+  function stopHighlights(keepPlaying) {
     if (!state.hl) return;
-    state.hl = null;
+    state.hl = null; state.hlSeeking = false;
     delete document.body.dataset.hlIndex;
     $('hl-bar').classList.remove('on');
-    if (state.video) state.video.pause();
+    $('player-box').parentNode.classList.remove('hl-mode');
+    $('btn-hl').innerHTML = '&#9654; Play highlights';
+    if (state.video && !keepPlaying) state.video.pause();
   }
+  // Leave highlights and carry on watching the full game from the current moment.
+  function exitHighlights() { stopHighlights(true); }
 
   /* ---------------- keyboard ---------------- */
   function setupKeys() {
@@ -325,7 +334,8 @@
       var tg = ev.target && ev.target.tagName;
       if (tg === 'INPUT' || tg === 'TEXTAREA' || tg === 'SELECT' || (ev.target && ev.target.isContentEditable)) return;
       var k = ev.key.toLowerCase();
-      if (k === 'j') { nudge(-10); ev.preventDefault(); }
+      if (k === 'escape' && state.hl) { exitHighlights(); ev.preventDefault(); }
+      else if (k === 'j') { nudge(-10); ev.preventDefault(); }
       else if (k === 'l') { nudge(10); ev.preventDefault(); }
       else if (k === 'k') { togglePlay(); ev.preventDefault(); }
     });
