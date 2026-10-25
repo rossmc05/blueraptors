@@ -2,1696 +2,1654 @@
  "id": "2026-10-24-vs-tw-red",
  "events": [
   {
-   "t": 50,
-   "type": "goal",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Scramble at the white goalie's crease; puck visible over the goal line with #31 sitting in the crease, then celebration (navy #19 arm raised) and cheering behind the boards",
-   "confidence": "medium"
-  },
-  {
-   "t": 60,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "White players crowd our net early on, goalie holds the post",
-   "confidence": "low"
-  },
-  {
-   "t": 104,
-   "type": "chance",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Bodies pile up in front of the white goalie, puck loose in the crease",
-   "confidence": "low"
-  },
-  {
-   "t": 112,
+   "t": 35.7,
    "type": "shot",
    "team": "them",
-   "period": 1,
    "player": null,
-   "note": "Rush to our net, our goalie goes down to block",
-   "confidence": "low"
+   "note": "Shot from the slot, our goalie drops into butterfly and stops it",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
   },
   {
-   "t": 128,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Long spell of pressure in our end, goalie down in the crease during a scramble",
-   "confidence": "medium"
-  },
-  {
-   "t": 128,
-   "type": "save",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our goalie smothers it on the ice during a goal-mouth scramble",
-   "confidence": "low"
-  },
-  {
-   "t": 160,
+   "t": 42.0,
    "type": "chance",
    "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Crowd of white jerseys around our crease",
-   "confidence": "low"
-  },
-  {
-   "t": 168,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Navy attackers drive the net, white goalie goes down to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 196,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
    "player": null,
    "note": "Scramble at the side of our net",
-   "confidence": "low"
-  },
-  {
-   "t": 232,
-   "type": "shot",
-   "team": "them",
+   "confidence": "low",
    "period": 1,
-   "player": null,
-   "note": "Shot on our net, goalie drops to make the stop",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 290,
-   "type": "shot",
+   "t": 49.5,
+   "type": "goal",
    "team": "us",
-   "period": 1,
    "player": null,
-   "note": "Shot from the slot, white goalie sprawls and the puck stays just outside the post; shooter raises stick",
-   "confidence": "medium"
-  },
-  {
-   "t": 290,
-   "type": "save",
-   "team": "them",
+   "note": "Navy skater drives to the net and the puck ends up resting inside the left net behind the white goalie",
+   "confidence": "high",
    "period": 1,
-   "player": "#31",
-   "note": "Sprawling pad save by the white goalie",
-   "confidence": "medium"
+   "key": true
   },
   {
-   "t": 340,
+   "t": 66.0,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "White #9 walks in and shoots in close; our goalie goes down to stop it",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 92.5,
    "type": "chance",
    "team": "them",
-   "period": 1,
    "player": null,
-   "note": "Pile-up in our crease with our goalie down; referee points and play is whistled",
-   "confidence": "medium"
+   "note": "Scramble in front, our goalie down; cleared",
+   "confidence": "low",
+   "period": 1,
+   "key": false
   },
   {
-   "t": 340,
-   "type": "save",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our goalie covers up under a crowd in the crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 360,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Navy players crash the net, white goalie down making stops on a scramble",
-   "confidence": "medium"
-  },
-  {
-   "t": 396,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Pressure at the white net, goalie down on a jam play",
-   "confidence": "medium"
-  },
-  {
-   "t": 437,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Scramble in front of our net, goalie down; referee signals a stoppage",
-   "confidence": "medium"
-  },
-  {
-   "t": 437,
-   "type": "save",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our goalie freezes the puck in a crowded crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 447,
+   "t": 102.5,
    "type": "chance",
    "team": "us",
+   "player": "#15",
+   "note": "#15 crashes the crease in a goalmouth scramble, white goalie down; no clear shot seen",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Puck in tight on the white goalie, who goes down",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 453,
+   "t": 111.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "White forward in tight, our goalie drops; no clear shot seen",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 122.1,
    "type": "shot",
    "team": "them",
-   "period": 1,
    "player": null,
-   "note": "Quick chance at our net, goalie down to stop it",
-   "confidence": "low"
+   "note": "Shot from the left side in close; our goalie drops and stops it",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
   },
   {
-   "t": 459,
+   "t": 137.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Goal-mouth scramble with our goalie down",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 157.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Pile-up in our crease, goalie sprawled; puck cleared",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 168.1,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Low shot from the right side, white goalie drops and stops it with pad/stick",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 194.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Crowd in front of our net; no clear shot",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 226.2,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "Shot from the right side; our goalie dives across and stops it",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 229.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Follow-up scramble with our goalie still down",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 269.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Scramble at our crease, goalie down; cleared",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 309.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "White #3 jams at the crease while our goalie is down; no clear shot",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 327.3,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot on the white goalie; he drops and kicks out a rebound",
+   "confidence": "high",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 339.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Goal-mouth scramble, our goalie down; puck not seen on net",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 357.7,
    "type": "chance",
    "team": "us",
+   "player": null,
+   "note": "White goalie drops and covers in his crease; puck not clearly seen on net",
+   "confidence": "low",
    "period": 1,
+   "key": false
+  },
+  {
+   "t": 381.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Scramble in front with our goalie sprawled; cleared",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 394.2,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Navy skater shoots from close range at the right side; white goalie, already down, blocks it at the post",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 396.8,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Goalmouth scramble, white goalie sprawled on the ice, navy players whacking at it",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 436.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Pile-up in our crease, goalie down; no clear shot seen",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 446.0,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Quick shot from the slot; white goalie drops to his knees to block",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 450.7,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "Shot from the left side; our goalie drops and #19 clears the rebound",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 460.0,
+   "type": "chance",
+   "team": "us",
    "player": "#10",
-   "note": "Navy #10 sets up at the side of the white net",
-   "confidence": "low"
-  },
-  {
-   "t": 491,
-   "type": "chance",
-   "team": "them",
+   "note": "#10 drives hard to the crease, white goalie down; no clear shot seen",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Scramble at our net with players falling in front",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 513,
+   "t": 516.4,
    "type": "shot",
    "team": "them",
+   "player": null,
+   "note": "White #9 fires from in close; our goalie already down makes the stop, #15 nearby",
+   "confidence": "medium",
    "period": 1,
+   "key": true
+  },
+  {
+   "t": 538.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Crowd in front of our net; no clear shot seen",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 569.3,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot slides at the white goalie, he drops to stop it and the rebound pops out",
+   "confidence": "high",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 602.6,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Low shot slides in from the right; white goalie stops it standing at the near post",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 686.0,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "Shot from the slot past our #10; goalie drops and the rebound pops out to the side",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 697.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Scramble in front of our net with our goalie down",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 701.8,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Big pile-up in our crease, goalie knocked flat; play carried on up ice (no goal reaction)",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 725.6,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "White goalie down and out of position after a scramble; loose puck slides along the goal line and is cleared, not in",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 732.2,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "Shot from the left circle; our goalie drops to block, then scramble with our #7",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 735.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Follow-up scramble with our goalie down",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 755.2,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Jam play at the left post; our goalie drops and seals it",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 773.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "White forward cuts to our crease, goalie drops; no clear shot",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 788.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Pile-up in our crease with #29 down; puck never seen in the net and play carried on",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 810.8,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Our goalie caught out at the side; puck slid through the crease past the open net and out the far side",
+   "confidence": "medium",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 819.7,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot on the white goalie, who drops to his knees and stops it out front",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 882.1,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot from the slot, white goalie goes down in a split and kicks the puck out",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 890.2,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "White skater jams at the post, our goalie #29 drops and seals it",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 899.6,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot on the white goalie, who drops to his knees and stops it; rebound loose in front",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 901.6,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Goalie sprawled, loose puck sits on the goal line at the near post; navy players jab at it but it's cleared, no goal",
+   "confidence": "medium",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 926.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Scramble at our crease, goalie down",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 936.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Long goal-mouth scramble, our goalie pulled out of position; puck never seen going in, play continued",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 955.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Pile-up in front of our net with goalie down; cleared",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 961.8,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot along the ice, white goalie drops to his knees and deflects it wide",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
+  },
+  {
+   "t": 983.6,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "White #9 in tight, our goalie drops to cover; scramble cleared",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1009.5,
+   "type": "chance",
+   "team": "them",
+   "player": "#4",
+   "note": "Scramble at our crease; goalie #29 down, loose puck by the near post, no clear shot",
+   "confidence": "medium",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1016.3,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Puck slides across the top of the crease as the white goalie goes down; nobody gets a shot off",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1030.7,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Puck flipped up high around the crossbar / near post; white goalie blocks it and play carries on (no goal, no celebration)",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1038.4,
+   "type": "chance",
+   "team": "them",
+   "player": "#4",
+   "note": "Opponent drives the net and crashes into our goalie; no shot seen",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1048.0,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Long goalmouth scramble with the white goalie down and covering up; puck never seen going in",
+   "confidence": "medium",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1062.0,
+   "type": "shot",
+   "team": "them",
+   "player": "#4",
+   "note": "Close-in shot from #4, our goalie drops and kicks it out to the side",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1098.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Scramble in our crease with goalie down; puck cleared",
+   "confidence": "medium",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1115.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Long goalmouth scramble (several white players incl. #4, #14) with our goalie down; no goal",
+   "confidence": "medium",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1140.0,
+   "type": "chance",
+   "team": "us",
+   "player": "#15",
+   "note": "#15 carries the puck around the back of the net and tries a wraparound; no shot seen on goal",
+   "confidence": "low",
+   "period": 1,
+   "key": false
+  },
+  {
+   "t": 1149.2,
+   "type": "chance",
+   "team": "them",
    "player": "#14",
-   "note": "Sustained pressure from white #14 and #9; our goalie down repeatedly",
-   "confidence": "medium"
-  },
-  {
-   "t": 515,
-   "type": "save",
-   "team": "us",
+   "note": "#14 jams at the crease after a rush by #4; goalie down, pressure continues",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Our goalie makes a string of stops on the ice; play carries on",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 535,
+   "t": 1154.5,
    "type": "chance",
    "team": "them",
-   "period": 1,
    "player": null,
-   "note": "More traffic in front of our net",
-   "confidence": "low"
-  },
-  {
-   "t": 563,
-   "type": "chance",
-   "team": "them",
+   "note": "Crowd in front of our net, goalie down; our players clear it",
+   "confidence": "low",
    "period": 1,
-   "player": null,
-   "note": "White attackers swarm our crease",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 571,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Navy attack at the white net, goalie down and sticks flying",
-   "confidence": "medium"
-  },
-  {
-   "t": 633,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "White goalie does the splits to stop a navy shot",
-   "confidence": "medium"
-  },
-  {
-   "t": 633,
-   "type": "save",
-   "team": "them",
-   "period": 1,
-   "player": "#31",
-   "note": "Splits save by the white goalie",
-   "confidence": "medium"
-  },
-  {
-   "t": 687,
+   "t": 1185.7,
    "type": "shot",
    "team": "them",
+   "player": "#4",
+   "note": "Shot from the left side, our goalie drops to make the pad save",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Heavy pressure on our net, goalie down",
-   "confidence": "medium"
+   "key": true
   },
   {
-   "t": 693,
-   "type": "save",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our goalie down again and holds the fort",
-   "confidence": "low"
-  },
-  {
-   "t": 701,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Another scramble at our net",
-   "confidence": "low"
-  },
-  {
-   "t": 725,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Crash on the white net, goalie knocked down",
-   "confidence": "medium"
-  },
-  {
-   "t": 735,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Shot at our net, goalie down",
-   "confidence": "low"
-  },
-  {
-   "t": 767,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Crowd in front of our net",
-   "confidence": "low"
-  },
-  {
-   "t": 787,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Scramble in front of our net, our goalie goes down and the pile clears",
-   "confidence": "medium"
-  },
-  {
-   "t": 811,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Shot from in close at the post, our goalie drops to block it",
-   "confidence": "medium"
-  },
-  {
-   "t": 811,
-   "type": "save",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our goalie down at the post to stop a close-in shot",
-   "confidence": "low"
-  },
-  {
-   "t": 821,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Red-helmet forward crashes the crease, #31 drops to his knees to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 839,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Shot through traffic, our goalie goes down",
-   "confidence": "low"
-  },
-  {
-   "t": 853,
-   "type": "chance",
-   "team": "us",
-   "period": 1,
-   "player": "#19",
-   "note": "Our #19 carries in on the right side toward the white net",
-   "confidence": "low"
-  },
-  {
-   "t": 883,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Shot from the slot, #31 goes down and the rebound sits in front",
-   "confidence": "medium"
-  },
-  {
-   "t": 891,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Scramble at our net, our goalie down to cover",
-   "confidence": "medium"
-  },
-  {
-   "t": 891,
-   "type": "save",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our goalie sprawls to stop a scramble in the crease",
-   "confidence": "low"
-  },
-  {
-   "t": 901,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Hard crash on the white net, #31 sprawled and stays down through the scramble",
-   "confidence": "medium"
-  },
-  {
-   "t": 901,
-   "type": "save",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "White goalie #31 sprawls across the crease to deny a crash play",
-   "confidence": "medium"
-  },
-  {
-   "t": 938,
+   "t": 1188.0,
    "type": "goal",
    "team": "them",
+   "player": "#4",
+   "note": "Goalmouth scramble at the right post; puck squeezes over the line, our team regroups around the net",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Big pile-up on our goalie; ref points at the net and a white skater raises his stick while two teammates hug. Likely goal against (no centre-ice reset, play restarted near our net)",
-   "confidence": "medium"
+   "key": true
   },
   {
-   "t": 963,
-   "type": "shot",
+   "t": 1206.6,
+   "type": "goal",
    "team": "us",
-   "period": 1,
    "player": null,
-   "note": "Shot from the right side, #31 goes down to make the stop",
-   "confidence": "medium"
+   "note": "Scramble in front while the goalie is down; the puck ends up sitting inside the net",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
   },
   {
-   "t": 1010,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Scramble at our net with players falling at the crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 1018,
-   "type": "chance",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Players crash the white net, #31 stretched out at the post",
-   "confidence": "low"
-  },
-  {
-   "t": 1045,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Start of a long push in their end; #31 goes down on a shot from in tight",
-   "confidence": "medium"
-  },
-  {
-   "t": 1051,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Another jam play at the crease with bodies in the blue paint",
-   "confidence": "medium"
-  },
-  {
-   "t": 1053,
-   "type": "save",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "#31 holds the post through a sustained scramble",
-   "confidence": "low"
-  },
-  {
-   "t": 1063,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Quick chance at our net, our goalie goes down",
-   "confidence": "low"
-  },
-  {
-   "t": 1078,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Shot from close range, #31 drops to his knees",
-   "confidence": "medium"
-  },
-  {
-   "t": 1087,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Another shot on #31, who stays down on one knee",
-   "confidence": "low"
-  },
-  {
-   "t": 1098,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Scramble at our crease, our goalie sprawls",
-   "confidence": "medium"
-  },
-  {
-   "t": 1098,
+   "t": 1223.2,
    "type": "save",
    "team": "us",
-   "period": 1,
    "player": null,
-   "note": "Our goalie down in the crease to smother a scramble",
-   "confidence": "low"
+   "note": "Puck at the post, our goalie drops and smothers/kicks it; white #3 and a red-helmet player whack at rebounds",
+   "confidence": "medium",
+   "period": 1,
+   "key": true
   },
   {
-   "t": 1118,
+   "t": 1225.8,
    "type": "chance",
    "team": "them",
+   "player": "#3",
+   "note": "Rebound scramble with our goalie down; no goal",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Pile in front of our net, goalie down, puck cleared",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 1130,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Shot on our goalie, who goes down to stop it",
-   "confidence": "low"
-  },
-  {
-   "t": 1153,
+   "t": 1259.4,
    "type": "chance",
    "team": "them",
-   "period": 1,
    "player": null,
-   "note": "Long scramble at our net with several players in the crease",
-   "confidence": "medium"
+   "note": "Opponent cuts across the crease behind our goalie; puck slides by the post",
+   "confidence": "low",
+   "period": 1,
+   "key": false
   },
   {
-   "t": 1155,
-   "type": "save",
+   "t": 1301.2,
+   "type": "chance",
    "team": "us",
+   "player": "#15",
+   "note": "#15 tries to stuff it in at the post; the goalie seals it",
+   "confidence": "low",
    "period": 1,
-   "player": null,
-   "note": "Our goalie stays down and covers through a long goalmouth scramble",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 1177,
+   "t": 1327.5,
    "type": "chance",
    "team": "them",
-   "period": 1,
    "player": null,
-   "note": "More pressure at our net, players falling near the crease",
-   "confidence": "low"
+   "note": "Opponent jams at the near post, our goalie down and covers",
+   "confidence": "low",
+   "period": 1,
+   "key": false
   },
   {
-   "t": 1189,
-   "type": "shot",
+   "t": 1337.5,
+   "type": "goal",
    "team": "them",
+   "player": "#4",
+   "note": "#4 drives to the net and our goalie goes down; navy team then gathers around our net while white players skate back to centre and the goalie changes (puck not seen in net)",
+   "confidence": "low",
    "period": 1,
-   "player": null,
-   "note": "Shot through bodies, our goalie down",
-   "confidence": "low"
+   "key": true
   },
   {
-   "t": 1203,
+   "t": 1354.7,
    "type": "shot",
    "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Red-helmet forward cuts across the front, #31 sprawls to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 1203,
-   "type": "save",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "#31 makes a sprawling stop on a cut across the crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 1208,
-   "type": "chance",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Follow-up scramble around the white net, everyone at the crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 1228,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Scramble at our net, our goalie sprawls",
-   "confidence": "medium"
-  },
-  {
-   "t": 1228,
-   "type": "save",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our goalie sprawls to stop a scramble in the crease",
-   "confidence": "low"
-  },
-  {
-   "t": 1245,
-   "type": "chance",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Wraparound try on the white net",
-   "confidence": "low"
-  },
-  {
-   "t": 1260,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Players crowd our crease",
-   "confidence": "low"
-  },
-  {
-   "t": 1269,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Crash on the white net, #31 down with bodies sprawled in front",
-   "confidence": "medium"
-  },
-  {
-   "t": 1302,
-   "type": "chance",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Our #15 and #10 jam at the crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 1304,
-   "type": "shot",
-   "team": "us",
-   "period": 1,
-   "player": null,
-   "note": "Shot from the crease, #31 goes down to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 1328,
-   "type": "shot",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Shot through traffic, our goalie down with players sprawled in front",
-   "confidence": "medium"
-  },
-  {
-   "t": 1339,
-   "type": "chance",
-   "team": "them",
-   "period": 1,
-   "player": null,
-   "note": "Goalmouth scramble at our net; the ref points at the net (could be a goal, but no clear celebration and play restarts nearby)",
-   "confidence": "low"
-  },
-  {
-   "t": 1358,
-   "type": "chance",
-   "team": "us",
-   "period": 1,
    "player": "#10",
-   "note": "Our #10 jams at the white crease",
-   "confidence": "low"
-  },
-  {
-   "t": 1370,
-   "type": "shot",
-   "team": "them",
+   "note": "#10 jams at the post and the goalie's pad stops it",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Shot at our net, goalie down in a scramble",
-   "confidence": "low"
+   "key": true
   },
   {
-   "t": 1386,
-   "type": "shot",
+   "t": 1369.6,
+   "type": "chance",
    "team": "them",
+   "player": "#14",
+   "note": "White #14 crashes the crease, our goalie down in a pile-up; navy players clear it",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Shot from in tight, our goalie sprawls",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 1386,
-   "type": "save",
-   "team": "us",
+   "t": 1384.5,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "Puck at our goalie's pads in a scramble, goalie drops to stop it",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "Our goalie makes a sprawling stop",
-   "confidence": "low"
+   "key": true
   },
   {
-   "t": 1400,
-   "type": "shot",
-   "team": "them",
+   "t": 1385.7,
+   "type": "save",
+   "team": "us",
+   "player": null,
+   "note": "Rebound stop: goalie sprawls on the ice to cover the loose puck",
+   "confidence": "low",
    "period": 1,
-   "player": null,
-   "note": "Shot on our goalie, who goes down",
-   "confidence": "low"
+   "key": true
   },
   {
-   "t": 1420,
+   "t": 1399.2,
    "type": "chance",
    "team": "them",
+   "player": null,
+   "note": "Crowd in front of our net (#14 nearby), goalie down; no goal",
+   "confidence": "low",
    "period": 1,
-   "player": null,
-   "note": "Pile-up in front of our net, our goalie down",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 1449,
-   "type": "chance",
+   "t": 1414.6,
+   "type": "shot",
    "team": "them",
+   "player": "#3",
+   "note": "White #3 cuts in close, our goalie drops and blocks",
+   "confidence": "low",
    "period": 1,
-   "player": null,
-   "note": "Late-period scramble at our net, our goalie down covering",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 1472,
-   "type": "stoppage",
+   "t": 1417.5,
+   "type": "chance",
    "team": "them",
+   "player": "#4",
+   "note": "Big pile-up in our crease, goalie down; puck stays out and navy clears",
+   "confidence": "medium",
    "period": 1,
-   "player": null,
-   "note": "End of 1st period, then intermission; white team swaps goalie #31 for #1. Period 2 faceoff around 1588 s, same ends",
-   "confidence": "high"
+   "key": false
   },
   {
-   "t": 1599,
+   "t": 1435.2,
    "type": "chance",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "Early TW Red rush to our net right after the period 2 opening faceoff, cleared away",
-   "confidence": "low"
+   "note": "Opponents swarm the near post; our goalie drops to seal it",
+   "confidence": "low",
+   "period": 1,
+   "key": false
   },
   {
-   "t": 1604,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue jams at the side of the net, the white goalie drops to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 1604,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie down in the butterfly to seal the post",
-   "confidence": "medium"
-  },
-  {
-   "t": 1615,
+   "t": 1446.6,
    "type": "shot",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "Scramble in front of our net; our goalie goes down to smother it",
-   "confidence": "medium"
+   "note": "Shot from the side, our goalie goes down and makes the stop",
+   "confidence": "low",
+   "period": 1,
+   "key": false
   },
   {
-   "t": 1615,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie stays down through a goalmouth scramble",
-   "confidence": "medium"
-  },
-  {
-   "t": 1640,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue attacker cuts in from the side and the white goalie sprawls to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 1644,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie down and scrambling, kicks the rebound out to the slot",
-   "confidence": "medium"
-  },
-  {
-   "t": 1660,
+   "t": 1451.5,
    "type": "chance",
    "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red crowd our crease, lots of bodies around our goalie",
-   "confidence": "medium"
+   "player": "#3",
+   "note": "Second-chance scramble with our goalie still down; navy players clear it",
+   "confidence": "medium",
+   "period": 1,
+   "key": false
   },
   {
-   "t": 1668,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Close-range shot in traffic, our goalie goes down to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 1668,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie drops and covers in a crowd",
-   "confidence": "medium"
-  },
-  {
-   "t": 1681,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue pressure at the white net, goalie goes down",
-   "confidence": "medium"
-  },
-  {
-   "t": 1686,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Second Blue whack at it, a Blue player tumbles into the crease as the goalie sprawls",
-   "confidence": "medium"
-  },
-  {
-   "t": 1686,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie sprawls to stop back-to-back Blue chances",
-   "confidence": "medium"
-  },
-  {
-   "t": 1711,
+   "t": 1455.5,
    "type": "chance",
    "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red jam at our net with the puck loose in the crease",
-   "confidence": "medium"
+   "player": "#3",
+   "note": "#3 jams at the goalie on the ice; covered/cleared",
+   "confidence": "low",
+   "period": 1,
+   "key": false
   },
   {
-   "t": 1726,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue player drops to a knee to fire from the slot, white goalie goes down",
-   "confidence": "medium"
-  },
-  {
-   "t": 1726,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie butterfly save on the slot shot",
-   "confidence": "medium"
-  },
-  {
-   "t": 1783,
+   "t": 1598.4,
    "type": "chance",
    "team": "them",
+   "player": "#18",
+   "note": "#18 carries the puck to the front of our net; crowd in the crease, goalie holds",
+   "confidence": "low",
    "period": 2,
-   "player": null,
-   "note": "TW Red scramble in our crease",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 1800,
+   "t": 1602.4,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot along the ice; the goalie drops and stops it with the pads",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 1614.8,
    "type": "save",
    "team": "us",
-   "period": 2,
    "player": null,
-   "note": "Our goalie down to stop a shot from the outside",
-   "confidence": "low"
+   "note": "Our goalie drops to stop a puck in a scramble at the left post",
+   "confidence": "low",
+   "period": 2,
+   "key": true
   },
   {
-   "t": 1800,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Outside shot on our goalie",
-   "confidence": "low"
-  },
-  {
-   "t": 1815,
+   "t": 1616.8,
    "type": "chance",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "Pile of players at our net",
-   "confidence": "low"
+   "note": "Goalmouth scramble continues, navy clears",
+   "confidence": "low",
+   "period": 2,
+   "key": false
   },
   {
-   "t": 1830,
+   "t": 1636.4,
    "type": "shot",
    "team": "us",
-   "period": 2,
    "player": null,
-   "note": "Long Blue push in the TW Red zone; wraparound try at the post, goalie down",
-   "confidence": "medium"
+   "note": "Shot from the slot that slides past the goalie's pad as he goes down",
+   "confidence": "low",
+   "period": 2,
+   "key": false
   },
   {
-   "t": 1830,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie hugs the post on the wraparound",
-   "confidence": "medium"
-  },
-  {
-   "t": 1847,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red attacker in tight, our goalie sprawls",
-   "confidence": "medium"
-  },
-  {
-   "t": 1847,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie sprawling stop in close",
-   "confidence": "medium"
-  },
-  {
-   "t": 1886,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Big pile-up in our crease, goalie down under bodies",
-   "confidence": "medium"
-  },
-  {
-   "t": 1886,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie holds the fort in a goalmouth pile-up",
-   "confidence": "medium"
-  },
-  {
-   "t": 1899,
+   "t": 1658.5,
    "type": "chance",
    "team": "them",
+   "player": "#12",
+   "note": "#12 and #5 jam at the crease; our goalie holds his ground",
+   "confidence": "low",
    "period": 2,
-   "player": null,
-   "note": "Another TW Red wave crowds our net",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 1907,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie down again as TW Red keep the pressure on",
-   "confidence": "low"
-  },
-  {
-   "t": 1923,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue crash the white net, goalie goes down at the post",
-   "confidence": "medium"
-  },
-  {
-   "t": 1923,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie down to block the jam play",
-   "confidence": "medium"
-  },
-  {
-   "t": 1945,
-   "type": "chance",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue scramble at the white goalie's crease, puck loose",
-   "confidence": "medium"
-  },
-  {
-   "t": 1962,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red shot from in front, our goalie in the butterfly",
-   "confidence": "medium"
-  },
-  {
-   "t": 1962,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Butterfly save by our goalie in traffic",
-   "confidence": "medium"
-  },
-  {
-   "t": 2008,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue shot, a Blue player crashes into the crease as the white goalie sprawls",
-   "confidence": "medium"
-  },
-  {
-   "t": 2008,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie flat out to stop Blue",
-   "confidence": "medium"
-  },
-  {
-   "t": 2034,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red crowd our net, our goalie drops to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 2034,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie down in the scramble",
-   "confidence": "medium"
-  },
-  {
-   "t": 2059,
+   "t": 1667.2,
    "type": "chance",
    "team": "them",
+   "player": "#18",
+   "note": "Scramble in front with #18 and #12; goalie down, puck cleared, play continues",
+   "confidence": "low",
    "period": 2,
-   "player": null,
-   "note": "Scramble at our net with our goalie down",
-   "confidence": "medium"
+   "key": false
   },
   {
-   "t": 2071,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red attacker tries from the side of our net, goalie down to seal it",
-   "confidence": "medium"
-  },
-  {
-   "t": 2071,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie seals the post",
-   "confidence": "medium"
-  },
-  {
-   "t": 2092,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Shot in close, our goalie sprawls, then a pile-up in the crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 2092,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Sprawling save by our goalie under a pile of bodies",
-   "confidence": "medium"
-  },
-  {
-   "t": 2124,
-   "type": "chance",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue keep pressure around the white net with wraparound tries",
-   "confidence": "medium"
-  },
-  {
-   "t": 2142,
+   "t": 1679.2,
    "type": "shot",
    "team": "us",
-   "period": 2,
    "player": null,
-   "note": "Blue #10 shoots from the slot, scramble in the crease",
-   "confidence": "medium"
+   "note": "Shot on net; the goalie drops and smothers it at the post",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
   },
   {
-   "t": 2158,
+   "t": 1685.0,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot from the slot kicked away by the sprawling goalie, with a crash at the net after",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 1709.4,
    "type": "chance",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "TW Red jam play in front of our net",
-   "confidence": "low"
+   "note": "Opponent wraps around our net from behind; goalie hugs the post, play continues",
+   "confidence": "low",
+   "period": 2,
+   "key": false
   },
   {
-   "t": 2168,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue #10 drives the net, white goalie goes down",
-   "confidence": "medium"
-  },
-  {
-   "t": 2170,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie down to stop the drive to the net",
-   "confidence": "medium"
-  },
-  {
-   "t": 2213,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red attacker at the post, our goalie sprawls across",
-   "confidence": "medium"
-  },
-  {
-   "t": 2213,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie sprawling stop at the post",
-   "confidence": "medium"
-  },
-  {
-   "t": 2243,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Big Blue scramble in the white crease, goalie down under bodies",
-   "confidence": "medium"
-  },
-  {
-   "t": 2243,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie survives a goalmouth scramble",
-   "confidence": "medium"
-  },
-  {
-   "t": 2252,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red shot from the slot, our goalie in the butterfly",
-   "confidence": "medium"
-  },
-  {
-   "t": 2252,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Butterfly save by our goalie",
-   "confidence": "medium"
-  },
-  {
-   "t": 2264,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue shot from the slot, white goalie goes down and stays down",
-   "confidence": "medium"
-  },
-  {
-   "t": 2266,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White goalie down for several seconds to cover it",
-   "confidence": "medium"
-  },
-  {
-   "t": 2290,
-   "type": "chance",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Blue swarm the white net, puck around the crease",
-   "confidence": "low"
-  },
-  {
-   "t": 2323,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "TW Red shot in close, our goalie goes down",
-   "confidence": "low"
-  },
-  {
-   "t": 2347,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White forwards crash our net off the rush, our goalie holds the post",
-   "confidence": "low"
-  },
-  {
-   "t": 2353,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Puck jammed at the near post, their goalie sprawls to block it",
-   "confidence": "medium"
-  },
-  {
-   "t": 2353,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Their goalie stretches out across the crease to keep it out",
-   "confidence": "medium"
-  },
-  {
-   "t": 2379,
-   "type": "chance",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Crowd in front of their net, puck bouncing around the crease",
-   "confidence": "low"
-  },
-  {
-   "t": 2387,
+   "t": 1722.0,
    "type": "chance",
    "team": "them",
+   "player": "#18",
+   "note": "#18 battles in front of our net; goalie stays square",
+   "confidence": "low",
    "period": 2,
-   "player": null,
-   "note": "White players work the puck to our crease",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 2409,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our forward drops to a knee and jams at the post after a loose puck",
-   "confidence": "medium"
-  },
-  {
-   "t": 2409,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Their goalie goes down and seals the post",
-   "confidence": "medium"
-  },
-  {
-   "t": 2431,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Shot from in close, our goalie drops and a scramble follows",
-   "confidence": "medium"
-  },
-  {
-   "t": 2431,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie goes down to stop it, then the crease gets crowded",
-   "confidence": "medium"
-  },
-  {
-   "t": 2469,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Goalmouth scramble at our net with several white players",
-   "confidence": "medium"
-  },
-  {
-   "t": 2469,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie down in the scramble and keeps it out",
-   "confidence": "medium"
-  },
-  {
-   "t": 2493,
+   "t": 1737.6,
    "type": "chance",
    "team": "them",
+   "player": "#18",
+   "note": "#18 and a teammate jam at the crease; goalie covers the post",
+   "confidence": "low",
    "period": 2,
-   "player": null,
-   "note": "Two white forwards right at our crease",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 2531,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Quick chance at our net, our goalie drops to block it",
-   "confidence": "low"
-  },
-  {
-   "t": 2535,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Scramble at their net, puck loose in the blue paint",
-   "confidence": "medium"
-  },
-  {
-   "t": 2535,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Their goalie down, smothering the loose puck",
-   "confidence": "medium"
-  },
-  {
-   "t": 2549,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Low shot, their goalie kicks it out to the slot",
-   "confidence": "medium"
-  },
-  {
-   "t": 2567,
+   "t": 1770.8,
    "type": "chance",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "Long spell of white pressure in our end",
-   "confidence": "low"
+   "note": "Opponent comes out from behind the net and crowds our goalie; puck stays out, play continues",
+   "confidence": "low",
+   "period": 2,
+   "key": false
   },
   {
-   "t": 2591,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Drive to the net, their goalie ends up sprawled on the ice",
-   "confidence": "low"
-  },
-  {
-   "t": 2601,
+   "t": 1782.3,
    "type": "chance",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "White players swarm our crease on the counter",
-   "confidence": "low"
+   "note": "Wraparound attempt at the right post, our goalie seals it",
+   "confidence": "low",
+   "period": 2,
+   "key": false
   },
   {
-   "t": 2633,
+   "t": 1812.6,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Big scramble at our near post with our goalie down; navy #7 helps clear",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 1829.0,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Goalmouth scramble with the goalie down; puck loose at the post, no clear shot seen",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 1846.2,
+   "type": "chance",
+   "team": "them",
+   "player": "#7",
+   "note": "#7 crashes into our goalie who is down at the near post; no shot seen",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 1861.5,
    "type": "shot",
    "team": "them",
+   "player": "#7",
+   "note": "Close-in try in a crowd; our goalie drops and the puck pops out in front",
+   "confidence": "low",
    "period": 2,
-   "player": null,
-   "note": "Shot through traffic, our goalie down with a crowd in front",
-   "confidence": "low"
+   "key": false
   },
   {
-   "t": 2667,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Shot in tight, our goalie goes down with players piled in front",
-   "confidence": "medium"
-  },
-  {
-   "t": 2667,
+   "t": 1863.0,
    "type": "save",
    "team": "us",
-   "period": 2,
    "player": null,
-   "note": "Our goalie stays big in a crowded crease",
-   "confidence": "medium"
+   "note": "Goalie stays down and stops the rebound; navy players clear",
+   "confidence": "low",
+   "period": 2,
+   "key": true
   },
   {
-   "t": 2687,
+   "t": 1884.0,
    "type": "shot",
    "team": "them",
+   "player": "#6",
+   "note": "#6 cuts in from the side and shoots; our goalie drops to make the save",
+   "confidence": "medium",
    "period": 2,
-   "player": null,
-   "note": "Pressure at our net, goalie down through a scramble",
-   "confidence": "medium"
+   "key": true
   },
   {
-   "t": 2711,
+   "t": 1885.6,
+   "type": "chance",
+   "team": "them",
+   "player": "#12",
+   "note": "Rebound scramble with our goalie down and players piled at the crease; cleared",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 1895.2,
+   "type": "chance",
+   "team": "them",
+   "player": "#12",
+   "note": "Puck loose behind/beside our net in a crowd; goalie hugs the post",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 1899.4,
+   "type": "chance",
+   "team": "them",
+   "player": "#18",
+   "note": "#18 and #12 jam at our goalie, who is down; navy clears, play continues",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 1921.6,
    "type": "shot",
    "team": "us",
-   "period": 2,
    "player": null,
-   "note": "Our forward dives at the puck in front, big goalmouth scramble follows",
-   "confidence": "medium"
+   "note": "Shot from the left side; the goalie drops and blocks it at the post",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
   },
   {
-   "t": 2714,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Their goalie covers up under a pile of players",
-   "confidence": "medium"
-  },
-  {
-   "t": 2722,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "White shot from close range, our goalie drops",
-   "confidence": "low"
-  },
-  {
-   "t": 2736,
+   "t": 1935.6,
    "type": "chance",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "White players crowd our net",
-   "confidence": "low"
+   "note": "Opponent wraps around the back of our net and tries a stuff at the near post; goalie seals it",
+   "confidence": "low",
+   "period": 2,
+   "key": false
   },
   {
-   "t": 2762,
-   "type": "chance",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Scramble beside our net",
-   "confidence": "low"
-  },
-  {
-   "t": 2786,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie drops to stop a shot",
-   "confidence": "low"
-  },
-  {
-   "t": 2806,
-   "type": "chance",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Pressure in front of our net",
-   "confidence": "low"
-  },
-  {
-   "t": 2833,
-   "type": "chance",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our player dives for a loose puck at their crease",
-   "confidence": "low"
-  },
-  {
-   "t": 2840,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie goes down on a shot",
-   "confidence": "low"
-  },
-  {
-   "t": 2862,
+   "t": 1941.8,
    "type": "shot",
    "team": "us",
-   "period": 2,
    "player": null,
-   "note": "Chance at the left post, their goalie goes down",
-   "confidence": "low"
+   "note": "Low shot that the goalie stops with a butterfly drop, rebound cleared",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
   },
   {
-   "t": 2874,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Scramble at our net, our goalie down",
-   "confidence": "low"
-  },
-  {
-   "t": 2894,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Shot through a crowd at our net, goalie down",
-   "confidence": "low"
-  },
-  {
-   "t": 2929,
-   "type": "chance",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our forwards in on their crease",
-   "confidence": "low"
-  },
-  {
-   "t": 2964,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Shot in tight, our goalie down with players on top",
-   "confidence": "medium"
-  },
-  {
-   "t": 2964,
+   "t": 1962.4,
    "type": "save",
    "team": "us",
-   "period": 2,
    "player": null,
-   "note": "Our goalie smothers it in the crease",
-   "confidence": "low"
+   "note": "Our goalie down in the butterfly stops a close-in try with players around the crease",
+   "confidence": "low",
+   "period": 2,
+   "key": true
   },
   {
-   "t": 2972,
-   "type": "shot",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our forward shoots from the slot, their goalie drops",
-   "confidence": "medium"
-  },
-  {
-   "t": 2972,
-   "type": "save",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Their goalie down to stop it",
-   "confidence": "medium"
-  },
-  {
-   "t": 2978,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Another shot from close, our goalie down",
-   "confidence": "low"
-  },
-  {
-   "t": 2998,
-   "type": "chance",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Scramble at their net",
-   "confidence": "low"
-  },
-  {
-   "t": 3010,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Late push, white players swarm our crease",
-   "confidence": "medium"
-  },
-  {
-   "t": 3016,
-   "type": "shot",
-   "team": "them",
-   "period": 2,
-   "player": null,
-   "note": "Another shot in the late pressure, our goalie down",
-   "confidence": "medium"
-  },
-  {
-   "t": 3016,
-   "type": "save",
-   "team": "us",
-   "period": 2,
-   "player": null,
-   "note": "Our goalie holds off the late push",
-   "confidence": "medium"
-  },
-  {
-   "t": 3030,
+   "t": 1983.2,
    "type": "chance",
    "team": "them",
-   "period": 2,
    "player": null,
-   "note": "Last white rush at our net",
-   "confidence": "low"
+   "note": "Opponent drives to the front of our net; goalie holds his post",
+   "confidence": "low",
+   "period": 2,
+   "key": false
   },
   {
-   "t": 3037,
-   "type": "stoppage",
-   "team": "us",
-   "period": 2,
+   "t": 1996.4,
+   "type": "chance",
+   "team": "them",
    "player": null,
-   "note": "Final buzzer. Both teams mob their goalies",
-   "confidence": "high"
+   "note": "Crowd of players at our crease (navy #10 defending); goalie holds, puck cleared",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2007.0,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Pressure at the net; white goalie drops and sprawls, puck not clearly seen on net",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2029.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Scramble in front of our net, bodies piling in the crease; puck not seen on net",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2056.9,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "TW Red skater drives the puck to the crease and crashes into our goalie; puck slides behind the net",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2061.4,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Goalmouth scramble with our goalie down; cleared",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2090.8,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Our goalie sprawls; loose puck slides across the crease but nobody gets a stick on it",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2118.0,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot comes in high near the post; goalie drops to stop it",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 2126.8,
+   "type": "chance",
+   "team": "us",
+   "player": "#7",
+   "note": "#7 jams at the side of the net, goalie holds the post",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2141.6,
+   "type": "chance",
+   "team": "us",
+   "player": "#10",
+   "note": "#10 drives at the goalie, puck knocked away by the goalie's stick",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2147.8,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot along the ice from the right, goalie pad save and sprawls",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 2155.6,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "Low shot along the ice into our goalie's pads, he drops and stops it",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 2157.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Crowd in our crease right after the save, our skaters help clear it",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2165.6,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot from the right pops off the goalie's body",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 2167.6,
+   "type": "chance",
+   "team": "us",
+   "player": "#10",
+   "note": "#10 crashes the crease on the rebound; goalie down, scramble cleared",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2211.8,
+   "type": "shot",
+   "team": "them",
+   "player": "#16",
+   "note": "TW Red #16 jams the puck at our goalie from close range and crashes in; goalie down, puck squirts out to the side",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2241.4,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Goalmouth scramble, goalie down on his back, white #18 clears it",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2252.8,
+   "type": "shot",
+   "team": "them",
+   "player": "#12",
+   "note": "Low shot slides in toward our goalie's pads from the left; he drops and then lunges out to clear the rebound",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2264.7,
+   "type": "shot",
+   "team": "us",
+   "player": "#10",
+   "note": "#10 wraps around the net and jams it at the goalie's pad",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2288.1,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Navy forward cuts across the crease and tries to stuff it in from the side; goalie stays on the post",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2292.8,
+   "type": "chance",
+   "team": "us",
+   "player": "#7",
+   "note": "#7 pressure at the net front, white defenders clear",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2309.4,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "TW Red #5 and #4 crash the right post; scramble, our goalie holds",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2323.2,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "TW Red skater cuts across the crease and bumps our goalie; no shot seen",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2351.6,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Puck slides across the slot, goalie drops into butterfly; white #8 clears",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2371.8,
+   "type": "goal",
+   "team": "us",
+   "player": null,
+   "note": "Puck squeaks in past the goalie at the near post; white player fishes it out of the net",
+   "confidence": "high",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 2391.5,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Low shot, goalie kicks out the pad in a split save",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2407.9,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot from the right, goalie drops into a split and the puck pops out front",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2409.2,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Navy forward whacks at the rebound at the post; goalie down and covering",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2425.8,
+   "type": "chance",
+   "team": "us",
+   "player": "#19",
+   "note": "#19 tries a wraparound at the near post",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2430.8,
+   "type": "shot",
+   "team": "them",
+   "player": null,
+   "note": "Low shot from the left; our goalie drops into the butterfly and the puck comes out in front",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2433.8,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Rebound scramble with TW Red #4 and #12 at the crease while our goalie is down; our team clears",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2466.5,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Big pile-up in our crease (TW Red #5, #12) with our goalie down; puck loose at the goal line but our defenders clear it",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2508.0,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Navy forward jabs at the puck at the side of the net, goalie seals the post",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2520.2,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Goalmouth pile-up on our goalie at the left post; puck never seen on net, play carries on up ice",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2534.3,
+   "type": "shot",
+   "team": "us",
+   "player": "#14",
+   "note": "#14 cuts in and shoots, goalie drops to the butterfly and blocks it",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2541.8,
+   "type": "chance",
+   "team": "us",
+   "player": "#14",
+   "note": "Loose puck at the goalie's feet, #14 swoops in but goalie smothers the angle",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2548.4,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot from the slot, goalie drops and the puck rebounds out",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2589.6,
+   "type": "goal",
+   "team": "us",
+   "player": null,
+   "note": "Shot beats the sprawling goalie, puck hits the back of the net and pops back out; navy player raises stick, white team regroups at its net",
+   "confidence": "medium",
+   "period": 2,
+   "key": true
+  },
+  {
+   "t": 2599.2,
+   "type": "chance",
+   "team": "them",
+   "player": "#5",
+   "note": "TW Red #5 drives to the net; our goalie already down, no shot seen",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2631.4,
+   "type": "chance",
+   "team": "them",
+   "player": "#4",
+   "note": "Long scramble at our crease with TW Red #4 jamming at a sprawled goalie; our team eventually clears",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2666.2,
+   "type": "chance",
+   "team": "them",
+   "player": "#5",
+   "note": "TW Red jams at the left post while our goalie is down; no shot seen, our team recovers",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2686.0,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Scramble at the post and behind our net with our goalie sprawled; puck not seen on net",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2709.5,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot from the right, goalie drops and the puck bounces out to the slot",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2712.0,
+   "type": "chance",
+   "team": "us",
+   "player": "#19",
+   "note": "Big pile-up in the crease after a navy player dives at the rebound; #19 waits at the post, goalie smothers it",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2735.8,
+   "type": "chance",
+   "team": "them",
+   "player": "#12",
+   "note": "TW Red #12 and #18 crowd our goalie at the right post; he holds his ground, no clear shot",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2797.1,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "TW Red skater carries the puck across the top of our crease; goalie tracks it, no shot",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2839.1,
+   "type": "chance",
+   "team": "them",
+   "player": "#5",
+   "note": "Our goalie drops into the butterfly as TW Red #5 approaches; puck not visible, likely a long low shot or dump-in",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2860.8,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot along the ice from the slot, goalie drops and covers at the post",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2866.0,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Navy forward drives to the front of the net with the puck, goalie stays big",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2872.8,
+   "type": "shot",
+   "team": "them",
+   "player": "#5",
+   "note": "TW Red #5 shoots from the left side; our goalie drops and stops it, then a scramble in the crease is cleared",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2891.9,
+   "type": "shot",
+   "team": "them",
+   "player": "#8",
+   "note": "TW Red #8 jams a loose puck at our sprawled goalie from the left post; goalie holds, our skaters clear",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2962.3,
+   "type": "chance",
+   "team": "them",
+   "player": "#16",
+   "note": "TW Red #16 pokes at a loose puck in our crease with our goalie down; our #8 helps clear",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2976.3,
+   "type": "shot",
+   "team": "them",
+   "player": "#18",
+   "note": "TW Red #18 rushes in and shoots low along the ice (puck visible sliding in); our goalie drops into the butterfly and stops it",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2997.0,
+   "type": "shot",
+   "team": "us",
+   "player": null,
+   "note": "Shot from out front, goalie comes way out and blocks it; rebound slides toward the empty net but is cleared",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 2998.7,
+   "type": "chance",
+   "team": "us",
+   "player": null,
+   "note": "Navy players swarm the open side of the net while the goalie is down; white defender clears",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 3009.0,
+   "type": "chance",
+   "team": "them",
+   "player": "#18",
+   "note": "TW Red #18 drives to our crease, and our goalie goes down in the scramble; cleared",
+   "confidence": "low",
+   "period": 2,
+   "key": false
+  },
+  {
+   "t": 3017.8,
+   "type": "chance",
+   "team": "them",
+   "player": null,
+   "note": "Late scramble around our net: our goalie #29 is pulled out to the side and a TW Red skater gets behind the net. Play carries on with no celebration, so no goal",
+   "confidence": "medium",
+   "period": 2,
+   "key": false
   }
  ],
  "activity": [
