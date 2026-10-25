@@ -444,3 +444,13 @@ details.data-table summary { cursor: pointer; color: var(--accent); font-size: 1
 
 /* Video-only games: no analytics panels, key plays or highlights. */
 .no-stats .analytics, .no-stats #btn-hl, .no-stats .plays, .no-stats .ctl .kp, .no-stats .ctl .theatre, .no-stats .kbd-hint .kp { display: none; }
+
+/* Parents' tag bar under the player */
+.tagbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0 0; }
+.tagbar .lbl { font: 600 12px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.tagbar .btn.tag { font-size: 13px; padding: 6px 12px; }
+.tagbar .btn.tag.us { border-color: var(--us); }
+.tagbar .btn.tag.them { border-color: var(--them); }
+.tagbar .btn.tag.play { border-color: var(--red); }
+.tagbar .btn.tag:disabled { opacity: .45; cursor: default; }
+.tagbar .hint { flex-basis: 100%; font-size: 12px; color: var(--muted); }

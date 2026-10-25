@@ -21,10 +21,86 @@
     var game = games.filter(function (g) { return g.id === id; })[0] || (!id && games[0]);
     if (!game) throw new Error('No game with id "' + id + '"');
     state.game = game;
-    // A game with no data file yet is shown video-only.
-    return H.loadGame(game.id).then(function (data) { init(game, data); },
-      function () { document.body.classList.add('no-stats'); init(game, { events: [], activity: [] }); });
+    // A game with no data file yet is shown video-only, unless parents have tagged goals in it.
+    var data = H.loadGame(game.id).then(null, function () { return null; });
+    var tags = fetch(tagsUrl(game) + '.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : []; }).then(null, function () { return []; });
+    return Promise.all([data, tags]).then(function (r) {
+      var d = r[0] || { events: [], activity: [] }, crowd = crowdEvents(r[1], d.events || []);
+      d.events = (d.events || []).concat(crowd);
+      if (!r[0] && !crowd.length) document.body.classList.add('no-stats');
+      init(game, d);
+    });
   }).catch(function (e) { H.fail($('game-root'), e.message); });
+
+  /* ---------------- parents' tags (stored on the video server) ---------------- */
+  var CLUSTER = 20; // taps of the same kind within 20 s are one goal / play
+  function tagsUrl(game) { return ((state.index && state.index.videoBase) || '') + 'tags/' + encodeURIComponent(game.id); }
+
+  // Merge every parent's taps into events: one per cluster, skipping goals the game data already has.
+  function crowdEvents(tags, existing) {
+    var out = [], groups = {};
+    (Array.isArray(tags) ? tags : []).forEach(function (x) {
+      if (!x || typeof x.t !== 'number' || (x.type !== 'goal' && x.type !== 'play')) return;
+      var k = x.type + ':' + (x.team || '');
+      (groups[k] = groups[k] || []).push(x);
+    });
+    Object.keys(groups).forEach(function (k) {
+      var g = groups[k].sort(function (a, b) { return a.t - b.t; }), run = [];
+      var flush = function () {
+        if (!run.length) return;
+        var ts = run.map(function (x) { return x.t; }), t = ts[Math.floor(ts.length / 2)], x0 = run[0];
+        var dup = x0.type === 'goal' && existing.some(function (e) { return e.type === 'goal' && e.team === x0.team && Math.abs(e.t - t) < CLUSTER; });
+        if (!dup) out.push({ t: Math.max(0, t - 3), type: x0.type === 'goal' ? 'goal' : 'chance', team: x0.team || 'us', key: true,
+          confidence: 'high', crowd: true,
+          note: (x0.type === 'goal' ? 'Goal' : 'Great play') + ' tagged by parents (' + run.length + (run.length === 1 ? ' tap)' : ' taps)') });
+        run = [];
+      };
+      g.forEach(function (x) { if (run.length && x.t - run[run.length - 1].t > CLUSTER) flush(); run.push(x); });
+      flush();
+    });
+    return out;
+  }
+
+  function renderTagBar(game) {
+    var box = $('tagbar'); if (!box) return; box.textContent = '';
+    var mine = []; try { mine = JSON.parse(load('tags:' + game.id) || '[]'); } catch (e) { mine = []; }
+    var post = function (body) {
+      var code = load('teamcode') || window.prompt('Team code (ask the team manager):');
+      if (!code) return Promise.reject(new Error('cancelled'));
+      body.code = code;
+      return fetch(tagsUrl(game), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+        .then(function (r) {
+          return r.json().then(function (j) {
+            if (r.status === 403) { store('teamcode', null); throw new Error('Wrong team code'); }
+            if (!r.ok) throw new Error(j.error || 'Could not save');
+            store('teamcode', code); return j;
+          });
+        });
+    };
+    var tag = function (type, team, label) {
+      var t = Math.round(curTime() * 10) / 10;
+      post({ action: 'add', t: t, type: type, team: team }).then(function (j) {
+        mine.push({ id: j.id, key: j.key, t: t, label: label }); store('tags:' + game.id, JSON.stringify(mine.slice(-50)));
+        osd(label + ' tagged at ' + H.fmtTime(t) + ' · thanks!'); undo.disabled = false;
+      }, function (e) { if (e.message !== 'cancelled') osd(e.message); });
+    };
+    var btn = function (cls, text, fn) { var b = el('button', { type: 'button', class: 'btn tag ' + cls, text: text }); b.onclick = fn; return b; };
+    var undo = btn('undo', 'Undo my last tag', function () {
+      var last = mine[mine.length - 1]; if (!last) return;
+      post({ action: 'remove', id: last.id, key: last.key }).then(function () {
+        mine.pop(); store('tags:' + game.id, JSON.stringify(mine)); undo.disabled = !mine.length;
+        osd('Removed ' + last.label + ' at ' + H.fmtTime(last.t));
+      }, function (e) { if (e.message !== 'cancelled') osd(e.message); });
+    });
+    undo.disabled = !mine.length;
+    box.appendChild(el('span', { class: 'lbl', text: 'Tag this moment' }));
+    box.appendChild(btn('us', 'Goal · ' + ourName(), function () { tag('goal', 'us', 'Goal ' + ourName()); }));
+    box.appendChild(btn('them', 'Goal · ' + (game.opponent || 'Opponent'), function () { tag('goal', 'them', 'Goal ' + (game.opponent || 'Opponent')); }));
+    box.appendChild(btn('play', 'Great play', function () { tag('play', 'us', 'Great play'); }));
+    box.appendChild(undo);
+    box.appendChild(el('span', { class: 'hint', text: 'Pause where the puck goes in, then tap. Everyone’s taps are combined and show up for all viewers on the next page load.' }));
+  }
 
   function teamName(team) { return team === 'them' ? (state.game.opponent || 'Opponent') : 'Us'; }
   function ourName() { return (state.index && state.index.team && state.index.team.name) || 'Us'; }
@@ -53,6 +129,7 @@
     renderTimeline();
     renderEvents();
     renderJumps();
+    renderTagBar(game);
     renderStats();
     renderZones();
     renderPressureTable();
