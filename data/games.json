@@ -23,7 +23,7 @@
           "end": 3037
         }
       ],
-      "summary": "Right-side half-ice game. Blue won 3\u20132: goals at 0:50, 20:07 and 43:10, with TW Red scoring at 19:48 and 22:18. All goals were confirmed by a parent. Shots were counted frame by frame in close-ups of each net, and a shot only counts if the puck is seen going at the net, so treat the shot totals as close rather than official."
+      "summary": "Right-side half-ice game. Lots of goals (around 15\u201320); only 5 are marked so far, so the score shown is not the final score. Goal detection is being reworked."
     },
     {
       "id": "2026-10-24-vs-tw-red-left",
