@@ -17,6 +17,8 @@
     });
   }
 
+  // ' (RHS)' / ' (LHS)' for half-ice games played at the same time, else ''.
+  function sideTag(g) { return g && g.side ? ' (' + g.side + ')' : ''; }
   function loadIndex() { return fetchJSON('data/games.json'); }
   function loadGame(id) { return fetchJSON('data/games/' + encodeURIComponent(id) + '.json'); }
 
@@ -187,6 +189,7 @@
   }
 
   window.Hockey = {
+    sideTag: sideTag,
     TYPES: TYPES, TYPE_LABEL: TYPE_LABEL, loadIndex: loadIndex, loadGame: loadGame, videoUrl: videoUrl,
     fmtTime: fmtTime, fmtDate: fmtDate, pct: pct, periodOf: periodOf, computeStats: computeStats,
     el: el, svg: svg, icon: icon, showTip: showTip, hideTip: hideTip, setHeader: setHeader, fail: fail

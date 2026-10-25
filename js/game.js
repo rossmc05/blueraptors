@@ -39,8 +39,8 @@
     // Stats count every event; the list, timeline and highlights show only key plays.
     state.stats.events = state.stats.events.filter(function (e) { return e.key; });
     state.duration = game.duration || (state.stats.events.length ? state.stats.events[state.stats.events.length - 1].t + 10 : 60);
-    document.title = 'vs ' + (game.opponent || 'Opponent') + ' · ' + H.fmtDate(game.date, { month: 'short', day: 'numeric' }) + ' · ' + ourName();
-    $('game-title').textContent = ourName() + ' vs ' + (game.opponent || 'Opponent');
+    document.title = 'vs ' + (game.opponent || 'Opponent') + H.sideTag(game) + ' · ' + H.fmtDate(game.date, { month: 'short', day: 'numeric' }) + ' · ' + ourName();
+    $('game-title').textContent = ourName() + ' vs ' + (game.opponent || 'Opponent') + H.sideTag(game);
     $('game-sub').textContent = noStats() ?
       H.fmtDate(game.date) + ' · Video only: key plays and stats are not available yet.' + (game.summary ? ' ' + game.summary : '') :
       H.fmtDate(game.date) + '. ' + (game.summary || '');
@@ -89,12 +89,12 @@
     var box = $('scorebug'); box.textContent = '';
     var g = state.stats.total.goals, ns = noStats();
     var us = ns ? '–' : String(g.us), them = ns ? '–' : String(g.them);
-    box.setAttribute('aria-label', ns ? ourName() + ' vs ' + (game.opponent || 'Opponent') + ', video only' :
+    box.setAttribute('aria-label', ns ? ourName() + ' vs ' + (game.opponent || 'Opponent') + H.sideTag(game) + ', video only' :
       'Score: ' + ourName() + ' ' + g.us + ', ' + (game.opponent || 'Opponent') + ' ' + g.them);
     box.appendChild(el('div', { class: 'sb-team us' }, [el('i', { class: 'sw' }), el('span', { class: 'sb-name' }, [el('span', { class: 'full', text: ourName() }), el('span', { class: 'short', text: ourName().split(' ').pop() })]),
       el('b', { class: 'sb-score' + (!ns && g.us > g.them ? ' win' : ''), text: us })]));
     box.appendChild(el('div', { class: 'sb-mid' }, [el('b', { text: ns ? 'Video' : 'Final' }),
-      el('span', { text: H.fmtDate(game.date, { month: 'short', day: 'numeric' }) })]));
+      el('span', { text: H.fmtDate(game.date, { month: 'short', day: 'numeric' }) + (game.side ? ' · ' + game.side : '') })]));
     box.appendChild(el('div', { class: 'sb-team them' }, [el('b', { class: 'sb-score' + (!ns && g.them > g.us ? ' win' : ''), text: them }),
       el('span', { class: 'sb-name', text: game.opponent || 'Opponent', title: game.opponent || '' }), el('i', { class: 'sw' })]));
   }
@@ -102,7 +102,7 @@
   function renderPicker(game) {
     var sel = $('game-pick'); sel.textContent = '';
     (state.index.games || []).slice().sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; }).forEach(function (g) {
-      var o = el('option', { value: g.id, text: H.fmtDate(g.date, { month: 'short', day: 'numeric' }) + ' · vs ' + (g.opponent || 'Opponent') });
+      var o = el('option', { value: g.id, text: H.fmtDate(g.date, { month: 'short', day: 'numeric' }) + ' · vs ' + (g.opponent || 'Opponent') + H.sideTag(g) });
       if (g.id === game.id) o.selected = true;
       sel.appendChild(o);
     });

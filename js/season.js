@@ -25,7 +25,7 @@
       var t = r.stats.total, z = r.stats.zones.total;
       tbody.appendChild(el('tr', null, [
         el('td', null, [el('a', { href: 'game.html?id=' + encodeURIComponent(r.game.id), text: short(r.game) })]),
-        el('td', { text: r.game.opponent || '' }),
+        el('td', { text: (r.game.opponent || '') + H.sideTag(r.game) }),
         el('td', { text: t.goals.us + '–' + t.goals.them }),
         el('td', { text: t.shots.us + '–' + t.shots.them }),
         el('td', { text: t.saves.us + '–' + t.saves.them }),

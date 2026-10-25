@@ -23,12 +23,13 @@
           "end": 3037
         }
       ],
-      "summary": "Right-side half-ice game, a high-scoring 8\u20137 win for Blue. All 15 goals were found from the referee's whistle and checked by a parent; which team scored is judged from which net the play was at. Shot counts are rough."
+      "summary": "Right-side half-ice game, a high-scoring 8\u20137 win for Blue. All 15 goals were found from the referee's whistle and checked by a parent; which team scored is judged from which net the play was at. Shot counts are rough.",
+      "side": "RHS"
     },
     {
       "id": "2026-10-24-vs-tw-red-left",
       "date": "2026-10-24",
-      "opponent": "TW Red (left side)",
+      "opponent": "TW Red",
       "video": "2026-10-24-vs-tw-red-left.mp4",
       "duration": 3300,
       "periods": [
@@ -43,7 +44,8 @@
           "end": 3300
         }
       ],
-      "summary": "Left-side half-ice game from the same session. Warm-up runs for about the first 5 minutes."
+      "summary": "Left-side half-ice game from the same session. Warm-up runs for about the first 5 minutes.",
+      "side": "LHS"
     }
   ]
 }

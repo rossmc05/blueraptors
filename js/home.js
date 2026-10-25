@@ -45,9 +45,9 @@
           el('span', { class: 'name', text: name, title: name }), el('b', { class: 'num tnum' + (s ? '' : ' dim'), text: s ? String(n) : '–' })]);
       };
       var card = el('a', { class: 'card game-card', href: 'game.html?id=' + encodeURIComponent(g.id),
-        'aria-label': 'Watch ' + us + ' vs ' + (g.opponent || 'Opponent') + ', ' + H.fmtDate(g.date) + (s ? ', score ' + gl.us + ' to ' + gl.them : ', video only') }, [
+        'aria-label': 'Watch ' + us + ' vs ' + (g.opponent || 'Opponent') + H.sideTag(g) + ', ' + H.fmtDate(g.date) + (s ? ', score ' + gl.us + ' to ' + gl.them : ', video only') }, [
         el('div', { class: 'gc-top' }, [
-          el('span', { text: H.fmtDate(g.date) }),
+          el('span', { text: H.fmtDate(g.date) + (g.side ? ' · ' + g.side : '') }),
           el('span', { class: 'status' + (s ? '' : ' video'), text: s ? 'Final' : 'Video only' })
         ]),
         el('div', { class: 'gc-board' }, [
