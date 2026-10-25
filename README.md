@@ -87,6 +87,7 @@ Refresh the page to see the new game. Nothing needs to be rebuilt.
 - `player`: for example `"#9"`, or `null`.
 - `note`: short text.
 - `confidence`: `high` | `medium` | `low`.
+- `key` (optional, default `true`): set `false` to count an event in the stats but leave it out of the event list, timeline and highlights. Aim for 40 or fewer key plays per game.
 
 **activity**: one entry per 10-second bin. `t` is the start of the bin.
 - `ourEnd`, `neutral` and `theirEnd` are the shares of on-ice action in each zone. `ourEnd` is the end we defend. The page normalises them to sum to 1.

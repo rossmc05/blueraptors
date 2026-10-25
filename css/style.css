@@ -250,3 +250,10 @@ table.stats td, table.stats thead th { white-space: nowrap; }
   table.stats th, table.stats td { padding: 6px 4px; }
   table.stats thead th { letter-spacing: 0; font-size: 11px; }
 }
+
+/* Video stage: the video is the star, so it breaks out wider than the page column. */
+body { overflow-x: clip; }
+.stage { width: min(1760px, calc(100vw - 2 * var(--gutter))); margin-left: 50%; transform: translateX(-50%); margin-bottom: 20px; }
+.stage .player { aspect-ratio: 1920 / 932; max-height: 84vh; margin: 0 auto; }
+.stage .player video { object-fit: contain; }
+.stage .video-missing { aspect-ratio: 1920 / 932; }

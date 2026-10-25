@@ -61,7 +61,7 @@
         return {
           i: i, t: +e.t, type: e.type, team: e.team === 'them' ? 'them' : 'us',
           period: e.period || periodOf(game, +e.t), player: e.player || null,
-          note: e.note || '', confidence: e.confidence || 'medium'
+          note: e.note || '', confidence: e.confidence || 'medium', key: e.key !== false
         };
       })
       .sort(function (a, b) { return a.t - b.t; });

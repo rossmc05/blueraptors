@@ -26,24 +26,26 @@
   <h1 id="game-title">Game</h1>
   <p class="lede" id="game-sub"></p>
   <div id="game-root">
+    <div class="stage">
+      <div id="player-box"></div>
+      <div class="controls" id="controls">
+        <button class="btn primary" id="btn-hl" type="button">&#9654; Play highlights</button>
+        <button class="btn" id="btn-back" type="button" aria-label="Back 10 seconds">&minus;10s</button>
+        <button class="btn" id="btn-play" type="button" aria-label="Play or pause">Play</button>
+        <button class="btn" id="btn-fwd" type="button" aria-label="Forward 10 seconds">+10s</button>
+        <span class="now tnum" id="now" aria-live="off">0:00</span>
+      </div>
+      <div class="hl-bar" id="hl-bar" role="region" aria-label="Highlights">
+        <div class="hl-text" id="hl-text" aria-live="polite"></div>
+        <button class="btn" id="hl-prev" type="button">&lsaquo; Prev</button>
+        <button class="btn" id="hl-next" type="button">Next &rsaquo;</button>
+        <button class="btn" id="hl-stop" type="button">Stop</button>
+        <div class="hl-progress"><i id="hl-prog"></i></div>
+      </div>
+      <p class="kbd-hint">Keys: <kbd>J</kbd> back 10s &middot; <kbd>K</kbd> play/pause &middot; <kbd>L</kbd> forward 10s</p>
+    </div>
     <div class="game-layout">
       <div class="primary">
-        <div id="player-box"></div>
-        <div class="controls" id="controls">
-          <button class="btn primary" id="btn-hl" type="button">&#9654; Play highlights</button>
-          <button class="btn" id="btn-back" type="button" aria-label="Back 10 seconds">&minus;10s</button>
-          <button class="btn" id="btn-play" type="button" aria-label="Play or pause">Play</button>
-          <button class="btn" id="btn-fwd" type="button" aria-label="Forward 10 seconds">+10s</button>
-          <span class="now tnum" id="now" aria-live="off">0:00</span>
-        </div>
-        <div class="hl-bar" id="hl-bar" role="region" aria-label="Highlights">
-          <div class="hl-text" id="hl-text" aria-live="polite"></div>
-          <button class="btn" id="hl-prev" type="button">&lsaquo; Prev</button>
-          <button class="btn" id="hl-next" type="button">Next &rsaquo;</button>
-          <button class="btn" id="hl-stop" type="button">Stop</button>
-          <div class="hl-progress"><i id="hl-prog"></i></div>
-        </div>
-        <p class="kbd-hint">Keys: <kbd>J</kbd> back 10s &middot; <kbd>K</kbd> play/pause &middot; <kbd>L</kbd> forward 10s</p>
 
         <section class="card section" aria-labelledby="tl-h">
           <h2 id="tl-h">Timeline</h2>

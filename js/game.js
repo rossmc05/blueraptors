@@ -26,6 +26,8 @@
 
   function init(game, data) {
     state.stats = H.computeStats(game, data);
+    // Stats count every event; the list, timeline and highlights show only key plays.
+    state.stats.events = state.stats.events.filter(function (e) { return e.key; });
     state.duration = game.duration || (state.stats.events.length ? state.stats.events[state.stats.events.length - 1].t + 10 : 60);
     document.title = 'vs ' + (game.opponent || 'Opponent') + ' · ' + H.fmtDate(game.date, { month: 'short', day: 'numeric' });
     $('game-title').textContent = 'vs ' + (game.opponent || 'Opponent');
