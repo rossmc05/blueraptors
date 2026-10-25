@@ -111,6 +111,7 @@
   function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 
   function init(game, data) {
+    if (!(data.activity || []).length) document.body.classList.add('no-activity');
     state.stats = H.computeStats(game, data);
     // Stats count every event; the list, timeline and highlights show only key plays.
     state.stats.events = state.stats.events.filter(function (e) { return e.key; });
@@ -130,7 +131,6 @@
     renderEvents();
     renderJumps();
     renderTagBar(game);
-    renderStats();
     renderZones();
     renderPressureTable();
     var pr = $('pressure'), lastW = 0;
@@ -164,15 +164,12 @@
   /* ---------------- header: score bug, game picker, summary ---------------- */
   function renderScorebug(game) {
     var box = $('scorebug'); box.textContent = '';
-    var g = state.stats.total.goals, ns = noStats();
-    var us = ns ? '–' : String(g.us), them = ns ? '–' : String(g.them);
-    box.setAttribute('aria-label', ns ? ourName() + ' vs ' + (game.opponent || 'Opponent') + H.sideTag(game) + ', video only' :
-      'Score: ' + ourName() + ' ' + g.us + ', ' + (game.opponent || 'Opponent') + ' ' + g.them);
-    box.appendChild(el('div', { class: 'sb-team us' }, [el('i', { class: 'sw' }), el('span', { class: 'sb-name' }, [el('span', { class: 'full', text: ourName() }), el('span', { class: 'short', text: ourName().split(' ').pop() })]),
-      el('b', { class: 'sb-score' + (!ns && g.us > g.them ? ' win' : ''), text: us })]));
-    box.appendChild(el('div', { class: 'sb-mid' }, [el('b', { text: ns ? 'Video' : 'Final' }),
+    // Teams only, no score: goals are just marked in the video.
+    box.setAttribute('aria-label', ourName() + ' vs ' + (game.opponent || 'Opponent') + H.sideTag(game));
+    box.appendChild(el('div', { class: 'sb-team us' }, [el('i', { class: 'sw' }), el('span', { class: 'sb-name' }, [el('span', { class: 'full', text: ourName() }), el('span', { class: 'short', text: ourName().split(' ').pop() })])]));
+    box.appendChild(el('div', { class: 'sb-mid' }, [el('b', { text: 'vs' }),
       el('span', { text: H.fmtDate(game.date, { month: 'short', day: 'numeric' }) + (game.side ? ' · ' + game.side : '') })]));
-    box.appendChild(el('div', { class: 'sb-team them' }, [el('b', { class: 'sb-score' + (!ns && g.them > g.us ? ' win' : ''), text: them }),
+    box.appendChild(el('div', { class: 'sb-team them' }, [
       el('span', { class: 'sb-name', text: game.opponent || 'Opponent', title: game.opponent || '' }), el('i', { class: 'sw' })]));
   }
 
@@ -188,14 +185,11 @@
 
   function renderSummaryTiles() {
     var box = $('sum-tiles'); box.textContent = '';
-    var t = state.stats.total, z = state.stats.zones.total;
+    var z = state.stats.zones.total;
     var tile = function (label, value, sub) {
       return el('div', { class: 'tile' }, [el('div', { class: 'label', text: label }), el('div', { class: 'value tnum', text: value }),
         sub ? el('div', { class: 'sub', text: sub }) : null]);
     };
-    box.appendChild(tile('Goals', t.goals.us + '–' + t.goals.them, 'us – them'));
-    box.appendChild(tile('Shots on goal', t.shots.us + '–' + t.shots.them, 'including goals'));
-    box.appendChild(tile('Saves', t.saves.us + '–' + t.saves.them, 'our goalie – theirs'));
     box.appendChild(tile('In their end', z ? H.pct(z.theirEnd) : '-', 'share of the game'));
   }
 
@@ -756,24 +750,6 @@
   }
 
   /* ---------------- stats ---------------- */
-  function renderStats() {
-    var s = state.stats, ps = state.game.periods || [];
-    var head = el('tr', null, [el('th', { scope: 'col', text: '' })].concat(
-      ps.map(function (p) { return el('th', { scope: 'col', text: 'P' + p.n }); }), [el('th', { scope: 'col', text: 'Game' })]));
-    var body = el('tbody');
-    [['goals', 'Goals'], ['shots', 'Shots on goal'], ['saves', 'Saves']].forEach(function (row) {
-      body.appendChild(el('tr', { class: 'group' }, [el('th', { scope: 'rowgroup', colspan: ps.length + 2, text: row[1] })]));
-      ['us', 'them'].forEach(function (tm) {
-        var cells = [el('th', { scope: 'row' }, [el('i', { class: 'key ' + tm }), teamName(tm)])];
-        ps.forEach(function (p) { cells.push(el('td', { class: tm, text: String((s.byPeriod[p.n] || {})[row[0]] ? s.byPeriod[p.n][row[0]][tm] : 0) })); });
-        cells.push(el('td', { class: tm, text: String(s.total[row[0]][tm]) }));
-        body.appendChild(el('tr', null, cells));
-      });
-    });
-    var box = $('stats'); box.textContent = '';
-    box.appendChild(el('table', { class: 'stats' }, [el('thead', null, [head]), body]));
-  }
-
   function zoneBar(z) {
     var segs = [['z-their', z.theirEnd, 'Their end'], ['z-neu', z.neutral, 'Neutral'], ['z-our', z.ourEnd, 'Our end']];
     var bar = el('div', { class: 'zone-bar', role: 'img',
