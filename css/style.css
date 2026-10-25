@@ -456,4 +456,4 @@ details.data-table summary { cursor: pointer; color: var(--accent); font-size: 1
 .tagbar .hint { flex-basis: 100%; font-size: 12px; color: var(--muted); }
 
 /* Games without pixel-movement data: no pressure / zone panels or zone tile. */
-.no-activity .game-layout, .no-activity #sum-tiles { display: none; }
+.no-activity .game-layout { display: none; }

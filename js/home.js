@@ -22,19 +22,14 @@
 
   function render(rows, index) {
     // No scores or shot counts on the site: goals are only marked in the video.
-    var att = 0, attN = 0;
-    rows.forEach(function (r) {
-      if (r.stats && r.stats.zones.total) { att += r.stats.zones.total.theirEnd; attN++; }
-    });
     totalsBox.textContent = '';
     totalsBox.appendChild(tile('Games', [String(rows.length)], rows.length === 1 ? 'game recorded' : 'games recorded'));
-    if (attN) totalsBox.appendChild(tile('Time in attacking end', [H.pct(att / attN)], 'average per game'));
 
     gamesBox.textContent = '';
     if (!rows.length) { gamesBox.appendChild(el('p', { class: 'empty', text: 'No games yet.' })); return; }
     var us = (index.team && index.team.name) || 'Us';
     rows.forEach(function (r) {
-      var g = r.game, s = r.stats;
+      var g = r.game;
       var row = function (team, name) {
         return el('div', { class: 'gc-row ' + team }, [el('i', { class: 'bar', 'aria-hidden': 'true' }),
           el('span', { class: 'name', text: name, title: name })]);
@@ -50,7 +45,6 @@
           row('them', g.opponent || 'Opponent')
         ]),
         el('div', { class: 'gc-meta' }, [
-          s && s.zones.total ? el('span', { class: 'pill', text: H.pct(s.zones.total.theirEnd) + ' in their end' }) : null,
           el('span', { class: 'pill', text: (g.periods || []).length + ' periods · ' + H.fmtTime(g.duration) })
         ]),
         g.summary ? el('p', { class: 'gc-sum', text: g.summary }) : null,

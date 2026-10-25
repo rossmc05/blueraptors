@@ -125,7 +125,6 @@
 
     renderScorebug(game);
     renderPicker(game);
-    renderSummaryTiles();
     setupPlayer(game);
     renderFilters();
     renderTimeline();
@@ -182,16 +181,6 @@
       sel.appendChild(o);
     });
     sel.onchange = function () { location.href = 'game.html?id=' + encodeURIComponent(sel.value); };
-  }
-
-  function renderSummaryTiles() {
-    var box = $('sum-tiles'); box.textContent = '';
-    var z = state.stats.zones.total;
-    var tile = function (label, value, sub) {
-      return el('div', { class: 'tile' }, [el('div', { class: 'label', text: label }), el('div', { class: 'value tnum', text: value }),
-        sub ? el('div', { class: 'sub', text: sub }) : null]);
-    };
-    box.appendChild(tile('In their end', z ? H.pct(z.theirEnd) : '-', 'share of the game'));
   }
 
   /* ---------------- player ---------------- */
