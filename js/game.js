@@ -47,6 +47,12 @@
     draw();
     if (window.ResizeObserver) new ResizeObserver(draw).observe(pr); else window.addEventListener('resize', draw);
     setupKeys();
+    // Deep link: game.html?id=...&t=930 opens the video at 15:30.
+    var t0 = parseFloat(params.get('t'));
+    if (isFinite(t0) && state.video) {
+      var go = function () { seek(t0, false); };
+      if (state.video.readyState >= 1) go(); else state.video.addEventListener('loadedmetadata', go, { once: true });
+    }
     tick();
   }
 
