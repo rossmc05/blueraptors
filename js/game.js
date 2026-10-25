@@ -19,7 +19,9 @@
     var game = games.filter(function (g) { return g.id === id; })[0] || (!id && games[0]);
     if (!game) throw new Error('No game with id "' + id + '"');
     state.game = game;
-    return H.loadGame(game.id).then(function (data) { init(game, data); });
+    // A game with no data file yet is shown video-only.
+    return H.loadGame(game.id).then(function (data) { init(game, data); },
+      function () { document.body.classList.add('no-stats'); init(game, { events: [], activity: [] }); });
   }).catch(function (e) { H.fail($('game-root'), e.message); });
 
   function teamName(team) { return team === 'them' ? (state.game.opponent || 'Opponent') : 'Us'; }
@@ -32,7 +34,9 @@
     document.title = 'vs ' + (game.opponent || 'Opponent') + ' · ' + H.fmtDate(game.date, { month: 'short', day: 'numeric' });
     $('game-title').textContent = 'vs ' + (game.opponent || 'Opponent');
     var t = state.stats.total;
-    $('game-sub').textContent = H.fmtDate(game.date) + ' · Goals ' + t.goals.us + '–' + t.goals.them +
+    $('game-sub').textContent = document.body.classList.contains('no-stats') ?
+      H.fmtDate(game.date) + ' · Video only, stats not available yet' + (game.summary ? ' · ' + game.summary : '') :
+      H.fmtDate(game.date) + ' · Goals ' + t.goals.us + '–' + t.goals.them +
       ' · Shots ' + t.shots.us + '–' + t.shots.them + (game.summary ? ' · ' + game.summary : '');
 
     setupPlayer(game);

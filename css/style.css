@@ -274,3 +274,6 @@ body { overflow-x: clip; }
 .scrub::-moz-range-progress { height: 6px; border-radius: 3px; background: var(--us); }
 .scrub::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; margin-top: -5px; border-radius: 50%; background: #fff; border: 0; }
 .scrub::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: #fff; border: 0; }
+
+/* Video-only games: no analytics panels or highlights. */
+.no-stats .game-layout, .no-stats #btn-hl { display: none; }
