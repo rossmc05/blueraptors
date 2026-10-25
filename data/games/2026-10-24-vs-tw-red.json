@@ -26,7 +26,7 @@
    "type": "goal",
    "team": "us",
    "player": null,
-   "note": "Navy skater drives to the net and the puck ends up resting inside the left net behind the white goalie",
+   "note": "Navy skater drives to the net and the puck ends up resting inside the left net behind the white goalie (confirmed)",
    "confidence": "high",
    "period": 1,
    "key": true
@@ -626,8 +626,8 @@
    "type": "goal",
    "team": "them",
    "player": "#4",
-   "note": "Goalmouth scramble at the right post; puck squeezes over the line, our team regroups around the net",
-   "confidence": "medium",
+   "note": "Goalmouth scramble at the right post; puck squeezes over the line, our team regroups around the net (confirmed)",
+   "confidence": "high",
    "period": 1,
    "key": true
   },
@@ -636,8 +636,8 @@
    "type": "goal",
    "team": "us",
    "player": null,
-   "note": "Scramble in front while the goalie is down; the puck ends up sitting inside the net",
-   "confidence": "medium",
+   "note": "Scramble in front while the goalie is down; the puck ends up sitting inside the net (confirmed)",
+   "confidence": "high",
    "period": 1,
    "key": true
   },
@@ -696,8 +696,8 @@
    "type": "goal",
    "team": "them",
    "player": "#4",
-   "note": "#4 drives to the net and our goalie goes down; navy team then gathers around our net while white players skate back to centre and the goalie changes (puck not seen in net)",
-   "confidence": "low",
+   "note": "#4 drives to the net and our goalie goes down; navy team then gathers around our net while white players skate back to centre and the goalie changes (puck not seen in net) (confirmed)",
+   "confidence": "high",
    "period": 1,
    "key": true
   },
@@ -1323,10 +1323,10 @@
   },
   {
    "t": 2371.8,
-   "type": "goal",
+   "type": "shot",
    "team": "us",
    "player": null,
-   "note": "Puck squeaks in past the goalie at the near post; white player fishes it out of the net",
+   "note": "Close in, not a goal (confirmed by Ross)",
    "confidence": "high",
    "period": 2,
    "key": true
@@ -1456,8 +1456,8 @@
    "type": "goal",
    "team": "us",
    "player": null,
-   "note": "Shot beats the sprawling goalie, puck hits the back of the net and pops back out; navy player raises stick, white team regroups at its net",
-   "confidence": "medium",
+   "note": "Shot beats the sprawling goalie, puck hits the back of the net and pops back out; navy player raises stick, white team regroups at its net (confirmed)",
+   "confidence": "high",
    "period": 2,
    "key": true
   },
