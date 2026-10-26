@@ -1,51 +1,93 @@
 {
-  "team": {
-    "name": "Blue Raptors",
-    "color": "blue"
-  },
-  "videoBase": "https://rosss-macbook-pro.tailb92e7e.ts.net/",
-  "games": [
+ "team": {
+  "name": "Blue Raptors",
+  "color": "blue"
+ },
+ "videoBase": "https://rosss-macbook-pro.tailb92e7e.ts.net/",
+ "games": [
+  {
+   "id": "2026-10-24-vs-tw-red",
+   "date": "2026-10-24",
+   "opponent": "TW Red",
+   "video": "2026-10-24-vs-tw-red.mp4",
+   "duration": 3097,
+   "periods": [
     {
-      "id": "2026-10-24-vs-tw-red",
-      "date": "2026-10-24",
-      "opponent": "TW Red",
-      "video": "2026-10-24-vs-tw-red.mp4",
-      "duration": 3097,
-      "periods": [
-        {
-          "n": 1,
-          "start": 0,
-          "end": 1472
-        },
-        {
-          "n": 2,
-          "start": 1586,
-          "end": 3037
-        }
-      ],
-      "summary": "Right-side half-ice game. Goals are marked in the video so you can jump straight to them.",
-      "side": "RHS"
+     "n": 1,
+     "start": 0,
+     "end": 1472
     },
     {
-      "id": "2026-10-24-vs-tw-red-left",
-      "date": "2026-10-24",
-      "opponent": "TW Red",
-      "video": "2026-10-24-vs-tw-red-left.mp4",
-      "duration": 3300,
-      "periods": [
-        {
-          "n": 1,
-          "start": 300,
-          "end": 1800
-        },
-        {
-          "n": 2,
-          "start": 1860,
-          "end": 3300
-        }
-      ],
-      "summary": "Left-side half-ice game. Warm-up runs for about the first 5 minutes.",
-      "side": "LHS"
+     "n": 2,
+     "start": 1586,
+     "end": 3037
     }
-  ]
+   ],
+   "summary": "Right-side half-ice game. Goals are marked in the video so you can jump straight to them.",
+   "side": "RHS"
+  },
+  {
+   "id": "2026-10-24-vs-tw-red-left",
+   "date": "2026-10-24",
+   "opponent": "TW Red",
+   "video": "2026-10-24-vs-tw-red-left.mp4",
+   "duration": 3300,
+   "periods": [
+    {
+     "n": 1,
+     "start": 300,
+     "end": 1800
+    },
+    {
+     "n": 2,
+     "start": 1860,
+     "end": 3300
+    }
+   ],
+   "summary": "Left-side half-ice game. Warm-up runs for about the first 5 minutes.",
+   "side": "LHS"
+  },
+  {
+   "id": "2026-10-18-vs-springbank-blue",
+   "date": "2026-10-18",
+   "opponent": "Springbank Blue",
+   "video": "2026-10-18-vs-springbank-blue.mp4",
+   "duration": 3300,
+   "periods": [
+    {
+     "n": 1,
+     "start": 185,
+     "end": 1645
+    },
+    {
+     "n": 2,
+     "start": 1715,
+     "end": 3185
+    }
+   ],
+   "summary": "Right-side half-ice game. Warm-up runs for about the first 3 minutes.",
+   "side": "RHS"
+  },
+  {
+   "id": "2026-10-18-vs-springbank-blue-left",
+   "date": "2026-10-18",
+   "opponent": "Springbank Blue",
+   "video": "2026-10-18-vs-springbank-blue-left.mp4",
+   "duration": 3600,
+   "periods": [
+    {
+     "n": 1,
+     "start": 512,
+     "end": 1972
+    },
+    {
+     "n": 2,
+     "start": 2042,
+     "end": 3512
+    }
+   ],
+   "summary": "Left-side half-ice game. Warm-up runs for about the first 8 minutes.",
+   "side": "LHS"
+  }
+ ]
 }
