@@ -98,16 +98,16 @@
    "periods": [
     {
      "n": 1,
-     "start": 262,
-     "end": 1702
+     "start": 264,
+     "end": 1704
     },
     {
      "n": 2,
-     "start": 1822,
-     "end": 3262
+     "start": 1824,
+     "end": 3264
     }
    ],
-   "summary": "Right-side half-ice game. Play starts at about 4:20.",
+   "summary": "Right-side half-ice game. Play starts at about 4:25.",
    "side": "RHS"
   },
   {
@@ -119,16 +119,16 @@
    "periods": [
     {
      "n": 1,
-     "start": 0,
-     "end": 1435
+     "start": 140,
+     "end": 1580
     },
     {
      "n": 2,
-     "start": 1554,
-     "end": 2994
+     "start": 1700,
+     "end": 3140
     }
    ],
-   "summary": "Left-side half-ice game.",
+   "summary": "Left-side half-ice game. Play starts at about 2:20.",
    "side": "LHS"
   }
  ]
