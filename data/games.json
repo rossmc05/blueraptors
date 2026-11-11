@@ -130,6 +130,48 @@
    ],
    "summary": "Left-side half-ice game. Play starts at about 2:20.",
    "side": "LHS"
+  },
+  {
+   "id": "2026-11-07-vs-tw-white",
+   "date": "2026-11-07",
+   "opponent": "TW White",
+   "video": "2026-11-07-vs-tw-white.mp4",
+   "duration": 3600,
+   "periods": [
+    {
+     "n": 1,
+     "start": 226,
+     "end": 1673
+    },
+    {
+     "n": 2,
+     "start": 1768,
+     "end": 3213
+    }
+   ],
+   "summary": "Right-side half-ice game. Play starts at about 3:45.",
+   "side": "RHS"
+  },
+  {
+   "id": "2026-11-07-vs-tw-white-left",
+   "date": "2026-11-07",
+   "opponent": "TW White",
+   "video": "2026-11-07-vs-tw-white-left.mp4",
+   "duration": 3334,
+   "periods": [
+    {
+     "n": 1,
+     "start": 281,
+     "end": 1724
+    },
+    {
+     "n": 2,
+     "start": 1819,
+     "end": 3264
+    }
+   ],
+   "summary": "Left-side half-ice game. Play starts at about 4:40.",
+   "side": "LHS"
   }
  ]
 }
