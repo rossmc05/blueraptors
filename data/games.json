@@ -191,8 +191,29 @@
      "end": 3058
     }
    ],
-   "summary": "Right-side half-ice game.",
+   "summary": "Right-side half-ice game. Play starts at about 1:00.",
    "side": "RHS"
+  },
+  {
+   "id": "2026-11-08-vs-nww-white-left",
+   "date": "2026-11-08",
+   "opponent": "NWW White",
+   "video": "2026-11-08-vs-nww-white-left.mp4",
+   "duration": 3111,
+   "periods": [
+    {
+     "n": 1,
+     "start": 69,
+     "end": 1519
+    },
+    {
+     "n": 2,
+     "start": 1749,
+     "end": 3071
+    }
+   ],
+   "summary": "Left-side half-ice game. Play starts at about 1:10.",
+   "side": "LHS"
   }
  ]
 }
